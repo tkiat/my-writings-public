@@ -1,6 +1,6 @@
 [
   {
-    "category": "softwareTemp",
+    "category": "software",
     "children": [
       {
         "subcategory": "functional-programming",
@@ -300,7 +300,8 @@
     ]
   },
   {
-    "category": "Worldview",
+    "category": "rational-worldview",
+    "description": "want to close to phislophy not opnion",
     "children": [
       {
         "subcategory": "Tech",
