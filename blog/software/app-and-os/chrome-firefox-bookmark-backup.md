@@ -1,4 +1,4 @@
-# How to Automate Bookmarks Backup from Chromium and Firefox
+# Chrome and Firefox: Let's Automate Bookmarks Backup
 
 Bookmark is a collection of your saved web pages that can make your life more convenient. Unfortunately, the number of bookmarks can go up to 50 or even more so it would be wise to back it up somewhere.
 
@@ -6,7 +6,7 @@ Bookmark is a collection of your saved web pages that can make your life more co
 
 All bookmarks will be synced with your accounts automatically as long as you have access to the internet. It is very simple but the downside is that you hand over control of your data to somebody else. All of your browsing activities will be linked to your accounts, this can cause privacy issues.
 
-## Option 2: Write Scripts and Use Cron Services
+## Option 2: Write Scripts
 
 This guide is based on Linux.
 
@@ -26,7 +26,7 @@ The script is already considered "automation" but it is even better to automate 
 
 ### Firefox
 
-Your bookmark is stored in `~/.mozilla/firefox/xxxxxx/bookmarkbackups/*.jsonlz4`. It is hard to know exactly what the aforementioned `xxxxxx` is so I hardcode the exact path in my script and let it immediately exits if not found. Note that the Firefox bookmark is stored in the `*.jsonlz4` format, which can be decoded by using a utility like `dejsonlz4` (I installed it using nix). You can use the JSON equivalent to restore your bookmarks from Firefox settings.
+Your bookmark is stored in `~/.mozilla/firefox/xxxxxx/bookmarkbackups/*.jsonlz4`. It is hard to know exactly what the aforementioned `xxxxxx` is so I hardcode the exact path in my script and let it immediately exit if not found. Note that the Firefox bookmark is stored in the `*.jsonlz4` format, which can be decoded by using a utility like `dejsonlz4` (I installed it using nix). You can use the JSON equivalent to restore your bookmarks on the settings menu.
 
 ```sh
 #!/usr/bin/env dash

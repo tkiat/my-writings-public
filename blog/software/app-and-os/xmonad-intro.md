@@ -1,6 +1,6 @@
-# xmonad: How to Install and Configure this Minimal Window Manager
+# xmonad: An Excellent Window Manager
 
-xmonad is a dynamic window manager for X window system inspired by dwm but it is written in Haskell instead of C. It is similar to dwm, though I prefer xmonad because the window fits the screen just perfectly on my X200 unlike some noticeable gaps in my dwm. I would recommend anyone to look at a [Distrotube video](https://www.youtube.com/watch?v=3noK4GTmyMw) for the introduction.
+xmonad is a dynamic window manager for X window system inspired by dwm but it is written in Haskell instead of C. It is similar to dwm, though I prefer xmonad because I prefer Haskell. I would recommend anyone to look at a [Distrotube video](https://www.youtube.com/watch?v=3noK4GTmyMw) for the introduction.
 
 ## Do You Need to Know Haskell to Use xmonad?
 
@@ -13,13 +13,7 @@ DLog.ppOrder = \(ws : l : t : ex) -> ws : concat ex : [t]
 
 ## Installation
 
-Better look at their doc. Note that, unlike dwm, it is not required to build it from source in order to configure xmonad. You can just modify `xmonad.hs` and recompile it. I would recommend anyone to use package manager first. xmonad is popular so you can expect that most popular package managers offer it. I prefer to install it using nix.
-
-```
-nix-env -i xmonad
-```
-
-Note that I needed `libghc-xmonad-dev` on my Debian to build it from source.
+Better look at their doc. Unlike dwm, it is not required to build it from source in order to configure xmonad. You can just modify `xmonad.hs` and recompile it. xmonad is popular so you can expect that most popular package managers offer it. I prefer to install it using nix. Note that I needed `libghc-xmonad-dev` on my Debian in order to build it from source.
 
 ## Configuration
 

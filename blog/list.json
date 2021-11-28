@@ -22,22 +22,22 @@
           },
           {
             "date": "2021-08-05",
-            "title": "Lineageos: Installation on Tab 2 P3100 And P5100 and My Take on It",
+            "title": "LineageOS: Installation on Tab 2 P3100 And P5100 and My Take on It",
             "slug": "lineageos-install-tab2"
           },
           {
             "date": "2021-07-27",
-            "title": "How to Automate (Encrypted) Cloud Backup on Google Drive",
-            "slug": "automate-cloud-backup-gdrive"
+            "title": "Google Drive: Let's Automate (Encrypted) Cloud Backup to It",
+            "slug": "gdrive-automate-backup"
           },
           {
             "date": "2021-07-26",
-            "title": "How to Automate Bookmarks Backup from Chrome and Firefox",
-            "slug": "automate-bookmark-chrome-firefox"
+            "title": "Chrome and Firefox: Let's Automate Bookmarks Backup",
+            "slug": "chrome-firefox-bookmark-backup"
           },
           {
             "date": "2021-07-18",
-            "title": "xmonad: How to Install and Configure this Minimal Window Manager",
+            "title": "xmonad: An Excellent Window Manager",
             "slug": "xmonad-intro"
           },
           {
@@ -84,11 +84,6 @@
             "date": "2021-01-11",
             "title": "Replicant: Install It on My Phones and Tablets",
             "slug": "replicant-install"
-          },
-          {
-            "date": "2020-12-31",
-            "title": "Linux: Basic Tips",
-            "slug": "linux-tips"
           },
           {
             "date": "2020-12-23",

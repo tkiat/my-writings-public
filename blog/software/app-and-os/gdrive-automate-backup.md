@@ -1,6 +1,6 @@
-# How to Automate (Encrypted) Cloud Backup on Google Drive
+# Google Drive: Let's Automate (Encrypted) Cloud Backup to It
 
-There is an open-source utility to interact with Google Drive called [gdrive](https://github.com/prasmussen/gdrive). You can compile from source or download it using a package manager like nix. On the first start, it will output a URL from which you can paste it into the browser to authenticate your identity. You can keep continuing until you get the code and paste it into the terminal.
+There is an open-source utility to interact with Google Drive called [gdrive](https://github.com/prasmussen/gdrive). On the first start, it will output a URL from which you can paste it into the browser to authenticate your identity.
 
 To find what is in your drive
 
@@ -8,13 +8,14 @@ To find what is in your drive
 gdrive list
 ```
 
-Since everything is on their server, I don't like to leave any of my personal information unencrypted. The encryption using [gpg](https://gnupg.org/) is widely used so I would recommend it. It is more convenient to archive them into one single file then encrypt it once rather than encrypting them one by one. You might want to compress it also if your internet is slow.
+Since everything is on their server, I don't like to leave any of my personal information unencrypted. The encryption using [gpg](https://gnupg.org/) is widely used so I would recommend it. I also put the check that forces exit in the case of the encryption error. You might want to compress it also if your internet is slow.
 
 ```bash
 gdrive delete "my-gdrive-backup-old"
 
 tar czf "my-gdrive-backup" --directory=Cloud .
 gpg --encrypt --recipient my@email.addr "my-gdrive-backup"
+if [[ $? -ne 0 ]]; then echo gpg encryption failed. exiting ...; exit 1; fi;
 gdrive upload "my-gdrive-backup.gpg"
 ```
 
@@ -60,6 +61,7 @@ filename="$(date '+%Y_%m_%d')-Sync-Cloud.tar.gz"
 echo "Archiving and Compressing ..."
 tar czf $filename --directory=$MY_CLOUD_DIR .
 gpg --encrypt --recipient tkiat@tutanota.com $filename
+if [[ $? -ne 0 ]]; then echo gpg encryption failed. exiting ...; exit 1; fi;
 rm $filename
 gdrive upload "$filename.gpg"
 rm "$filename.gpg"
