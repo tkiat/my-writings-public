@@ -54,21 +54,11 @@
             "date": "2021-01-26",
             "title": "How to Use CDN with Local JS And CSS Fallbacks",
             "slug": "cdn-with-fallback"
-          },
-          {
-            "date": "2021-01-21",
-            "title": "I Switch from Custom-Built Github Pages to Pelican",
-            "slug": "custom-to-pelican"
-          },
-          {
-            "date": "2021-01-21",
-            "title": "Markdown: Why I Prefer it over Asciidoctor for Blog Posts",
-            "slug": "why-markdown-not-asciidoctor"
           }
         ]
       },
       {
-        "subcategory": "App-and-OS",
+        "subcategory": "App & OS",
         "children": [
           {
             "date": "2021-09-01",

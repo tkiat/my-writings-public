@@ -1,4 +1,4 @@
-# How to Run npm Packages Locally
+# Node: Run npm Packages Locally
 
 You can install an npm package globally
 
