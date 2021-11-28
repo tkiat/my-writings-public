@@ -71,16 +71,6 @@
             "slug": "nixos-encrypt-except-boot"
           },
           {
-            "date": "2021-01-16",
-            "title": "Guix System: My Experience",
-            "slug": "guix-system-experience"
-          },
-          {
-            "date": "2021-01-14",
-            "title": "dwm: A Minimal Window Manager",
-            "slug": "dwm-intro"
-          },
-          {
             "date": "2021-08-12",
             "title": "Fedora: Minimal and Libre Installation",
             "slug": "fedora-minimal-foss"
@@ -106,14 +96,29 @@
             "slug": "recover-btrfs"
           },
           {
+            "date": "2021-04-10",
+            "title": "Ungoogled Chromium: Introduction and Some Tips",
+            "slug": "ungoogled-chromium-intro"
+          },
+          {
+            "date": "2021-01-16",
+            "title": "Guix System: My Experience",
+            "slug": "guix-system-experience"
+          },
+          {
+            "date": "2021-01-14",
+            "title": "dwm: A Minimal Window Manager",
+            "slug": "dwm-intro"
+          },
+          {
+            "date": "2021-01-12",
+            "title": "GNU IceCat: A Browser that Respects Your Freedom",
+            "slug": "icecat-intro"
+          },
+          {
             "date": "2020-12-31",
             "title": "Linux: Basic Tips",
             "slug": "linux-tips"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
-            "slug": "void-revive-vaio"
           },
           {
             "date": "2020-12-23",
@@ -121,9 +126,16 @@
             "slug": "newsboat-intro"
           },
           {
-            "date": "2021-07-26",
-            "title": "How to Automate Bookmarks Backup from Chrome and Firefox",
-            "slug": "automate-bookmark-chrome-firefox"
+            "date": "2020-09-22",
+            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
+            "slug": "void-revive-vaio"
+          },
+
+
+          {
+            "date": "2021-08-05",
+            "title": "Lineageos: How Did I Install It on My Tab 2 P3100 And P5100 and My Take on It",
+            "slug": "lineageos-install-tab2"
           },
           {
             "date": "2021-07-27",
@@ -131,9 +143,9 @@
             "slug": "automate-cloud-backup-gdrive"
           },
           {
-            "date": "2021-08-05",
-            "title": "Lineageos: How Did I Install It on My Tab 2 P3100 And P5100 and My Take on It",
-            "slug": "lineageos-install-tab2"
+            "date": "2021-07-26",
+            "title": "How to Automate Bookmarks Backup from Chrome and Firefox",
+            "slug": "automate-bookmark-chrome-firefox"
           },
           {
             "date": "2021-02-11",
@@ -146,19 +158,9 @@
             "slug": "replicant-install"
           },
           {
-            "date": "2021-04-10",
-            "title": "Ungoogled Chromium: Introduction and Some Tips",
-            "slug": "ungoogled-chromium-intro"
-          },
-          {
             "date": "2021-01-24",
             "title": "GNU Recutils: A Short Introduction",
             "slug": "gnu-recutils-intro"
-          },
-          {
-            "date": "2021-01-12",
-            "title": "GNU IceCat: A Browser that Respects Your Freedom",
-            "slug": "icecat-intro"
           }
         ]
       },
