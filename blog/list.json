@@ -163,7 +163,7 @@
         ]
       },
       {
-        "subcategory": "firmware",
+        "subcategory": "Firmware",
         "children": [
           {
             "date": "2021-08-25",
@@ -195,10 +195,10 @@
     ]
   },
   {
-    "category": "lifestyle",
+    "category": "Lifestyle",
     "children": [
       {
-        "subcategory": "free-yourself",
+        "subcategory": "Free Yourself",
         "children": [
           {
             "date": "2021-07-13",
@@ -223,7 +223,7 @@
         ]
       },
       {
-        "subcategory": "protect-yourself",
+        "subcategory": "Protect Yourself",
         "children": [
           {
             "date": "2021-08-07",
@@ -253,7 +253,7 @@
         ]
       },
       {
-        "subcategory": "sustainability",
+        "subcategory": "Sustainability",
         "children": [
           {
             "date": "2021-07-28",
@@ -278,24 +278,24 @@
         ]
       },
       {
-        "subcategory": "respect-other-beings",
+        "subcategory": "Respect Others",
         "children": [
-          {
-            "date": "2021-01-16",
-            "title": "On the Inconsistent Definitions of Veganism",
-            "slug": "inconsistent-def-vegan"
-          }
         ]
       }
     ]
   },
   {
-    "category": "rational-worldview",
+    "category": "Rational Worldview",
     "description": "want to close to phislophy not opnion",
     "children": [
       {
-        "subcategory": "Tech",
+        "subcategory": "General",
         "children": [
+          {
+            "date": "2021-01-16",
+            "title": "On the Inconsistent Definitions of Veganism",
+            "slug": "inconsistent-def-vegan"
+          },
           {
             "date": "2020-09-22",
             "title": "Not All DRMs are Bad for Users' Freedom. We Need Them for a Better Society",
