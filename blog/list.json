@@ -7,13 +7,13 @@
         "children": [
           {
             "date": "2021-09-01",
-            "title": "NixOS: Make it Free (as in Freedom)",
-            "slug": "nixos-liberate"
+            "title": "NixOS: Make It Free (as in Freedom)",
+            "slug": "nixos-make-it-free"
           },
           {
             "date": "2021-08-28",
-            "title": "NixOS: Encrypt Except Boot",
-            "slug": "nixos-encrypt-except-boot"
+            "title": "NixOS: Encrypt Without Boot Partition",
+            "slug": "nixos-encrypt-without-boot"
           },
           {
             "date": "2021-08-12",

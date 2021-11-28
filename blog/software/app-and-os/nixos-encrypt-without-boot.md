@@ -1,10 +1,10 @@
 # NixOS: Encrypt Everything Except Boot
 
-## Why Not Full Disk Encryption?
+## Why Not Full Disk Encryption (FDE)?
 
 A non-FDE disk is considerably more prone to an [evil-maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack) but I don't think I need it considering my threat model. FDE sometimes doesn't work with SeaBIOS. Of course, some might be able to make it work but I don't think the benefits of FDE outweigh its inconvenience. Your needs might be different.
 
-I came across an excellent guide at [https://ethulhu.co.uk/nixos](https://ethulhu.co.uk/nixos). The guide over there is general so that you can apply this to other distros as well. This post is based on that guide. I rewrite it again just in case that guide is gone.
+I came across an excellent [guide](https://ethulhu.co.uk/nixos) that you can apply the same method to other distros as well. I rewrite that guide again for my own reference just in case it is gone.
 
 ## Steps
 
