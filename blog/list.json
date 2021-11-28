@@ -1,54 +1,94 @@
 [
   {
-    "category": "softwareDev",
+    "category": "softwareTemp",
     "children": [
       {
-        "subcategory": "devops",
+        "subcategory": "functional-programming",
         "children": [
           {
-            "date": "2021-07-19",
-            "title": "Git: Transfer Build from Main to Deployment Branch",
-            "slug": "git-main-to-deployment"
-          },
-          {
-            "date": "2021-07-15",
-            "title": "My Script to Limit Paragraph Length",
-            "slug": "cli-paragraph-length"
-          },
-          {
-            "date": "2021-07-13",
-            "title": "Remove Files from a Repository with Git filter-branch",
-            "slug": "remove-file-from-repo-with-git-filter-branch"
-          },
-          {
-            "date": "2021-01-31",
-            "title": "Shell Script: Demystify du command",
-            "slug": "shell-du-intro"
-          },
-          {
-            "date": "2020-12-26",
-            "title": "Shell Script: dd Command is the Best Tool to Flash OS",
-            "slug": "shell-dd-best"
-          },
-          {
-            "date": "2020-10-09",
-            "title": "My First Ever Accepted Pull Request",
-            "slug": "my-first-pr"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Coursera Course Review: Cloud Computing Basics",
-            "slug": "cloud-basics-course-review"
-          },
-          {
-            "date": "2020-09-08",
-            "title": "How to Clone a Remote Repository, Modify it, and Keep Them Synced: suckless dwm Example",
-            "slug": "clone-modify-sync-repo"
+            "date": "2021-07-01",
+            "title": "Purescript Proof: lift2 f x y = f <$> x <*> y",
+            "slug": "purescript-lift2-proof"
           }
         ]
       },
       {
-        "subcategory": "web",
+        "subcategory": "dev-environment",
+        "children": [
+          {
+            "date": "2021-09-01",
+            "title": "Liberate Your NixOS",
+            "slug": "nixos-liberate"
+          },
+          {
+            "date": "2021-08-28",
+            "title": "NixOS: Encrypt Except Boot",
+            "slug": "nixos-encrypt-except-boot"
+          },
+          {
+            "date": "2020-07-21",
+            "title": "Write a Simple Vim ftplugin",
+            "slug": "write-simple-vim-ftplugin"
+          },
+          {
+            "date": "2021-01-16",
+            "title": "Guix System: My Experience",
+            "slug": "guix-system-experience"
+          },
+          {
+            "date": "2021-01-14",
+            "title": "Guix: A Functional Package Manager",
+            "slug": "guix-pkg-manager"
+          },
+          {
+            "date": "2021-01-14",
+            "title": "dwm: A Minimal Window Manager",
+            "slug": "dwm-intro"
+          },
+          {
+            "date": "2021-08-12",
+            "title": "Fedora: Minimal and Libre Installation",
+            "slug": "fedora-minimal-foss"
+          },
+          {
+            "date": "2021-07-18",
+            "title": "xmonad: How to Install and Configure this Minimal Window Manager",
+            "slug": "xmonad-intro"
+          },
+          {
+            "date": "2021-07-09",
+            "title": "My Journey and Guide to Linux Distro Hopping",
+            "slug": "guide-linux-hopping"
+          },
+          {
+            "date": "2021-06-24",
+            "title": "Debian: Minimal Installation (With and Without Full Disk Encryption)",
+            "slug": "debian-minimal-installation"
+          },
+          {
+            "date": "2021-06-08",
+            "title": "Recover My Files from the Unbootable Btrfs Filesystem",
+            "slug": "recover-btrfs"
+          },
+          {
+            "date": "2020-12-31",
+            "title": "Linux: Basic Tips",
+            "slug": "linux-tips"
+          },
+          {
+            "date": "2020-11-27",
+            "title": "Guix: Build Your Own Channel",
+            "slug": "guix-channel-intro"
+          },
+          {
+            "date": "2020-09-22",
+            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
+            "slug": "void-revive-vaio"
+          }
+        ]
+      },
+      {
+        "subcategory": "web-dev",
         "children": [
           {
             "date": "2021-07-20",
@@ -83,38 +123,13 @@
         ]
       },
       {
-        "subcategory": "tools",
+        "subcategory": "App-and-OS",
         "children": [
           {
-            "date": "2020-07-21",
-            "title": "Write a Simple Vim ftplugin",
-            "slug": "write-simple-vim-ftplugin"
-          }
-        ]
-      },
-      {
-        "subcategory": "theory",
-        "children": [
-          {
-            "date": "2021-07-01",
-            "title": "Purescript Proof: lift2 f x y = f <$> x <*> y",
-            "slug": "purescript-lift2-proof"
+            "date": "2020-12-23",
+            "title": "Newsboat: A Terminal-Based Feed Reader",
+            "slug": "newsboat-intro"
           },
-          {
-            "date": "2020-07-12",
-            "title": "Comparison of Two Coursera Algorithm Specializations",
-            "slug": "compare-coursera-alg-specialization"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "software",
-    "children": [
-      {
-        "subcategory": "automation",
-        "children": [
           {
             "date": "2021-07-26",
             "title": "How to Automate Bookmarks Backup from Chrome and Firefox",
@@ -124,127 +139,7 @@
             "date": "2021-07-27",
             "title": "How to Automate (Encrypted) Cloud Backup on Google Drive",
             "slug": "automate-cloud-backup-gdrive"
-          }
-        ]
-      },
-      {
-        "subcategory": "desktop",
-        "children": [
-          {
-            "date": "2021-09-01",
-            "title": "Liberate Your NixOS",
-            "slug": "nixos-liberate"
           },
-          {
-            "date": "2021-08-28",
-            "title": "NixOS: Encrypt Except Boot",
-            "slug": "nixos-encrypt-except-boot"
-          },
-          {
-            "date": "2021-08-25",
-            "title": "coreboot: Boot from Minimal GRUB",
-            "slug": "coreboot-boot-minimal-grub"
-          },
-          {
-            "date": "2021-08-24",
-            "title": "Libreboot: Build from Source",
-            "slug": "libreboot-from-source"
-          },
-          {
-            "date": "2021-08-12",
-            "title": "Fedora: Minimal and Libre Installation",
-            "slug": "fedora-minimal-foss"
-          },
-          {
-            "date": "2021-07-31",
-            "title": "coreboot: How to Flash It on Top of Libreboot Thinkpad X200",
-            "slug": "coreboot-from-libreboot"
-          },
-          {
-            "date": "2021-07-18",
-            "title": "xmonad: How to Install and Configure this Minimal Window Manager",
-            "slug": "xmonad-intro"
-          },
-          {
-            "date": "2021-07-17",
-            "title": "Libreboot: How to Upgrade",
-            "slug": "libreboot-upgrade"
-          },
-          {
-            "date": "2021-07-09",
-            "title": "My Journey and Guide to Linux Distro Hopping",
-            "slug": "guide-linux-hopping"
-          },
-          {
-            "date": "2021-06-24",
-            "title": "Debian: Minimal Installation (With and Without Full Disk Encryption)",
-            "slug": "debian-minimal-installation"
-          },
-          {
-            "date": "2021-06-08",
-            "title": "Recover My Files from the Unbootable Btrfs Filesystem",
-            "slug": "recover-btrfs"
-          },
-          {
-            "date": "2021-04-10",
-            "title": "Ungoogled Chromium: Introduction and Some Tips",
-            "slug": "ungoogled-chromium-intro"
-          },
-          {
-            "date": "2021-01-24",
-            "title": "GNU Recutils: A Short Introduction",
-            "slug": "gnu-recutils-intro"
-          },
-          {
-            "date": "2021-01-16",
-            "title": "Guix System: My Experience",
-            "slug": "guix-system-experience"
-          },
-          {
-            "date": "2021-01-14",
-            "title": "dwm: A Minimal Window Manager",
-            "slug": "dwm-intro"
-          },
-          {
-            "date": "2021-01-14",
-            "title": "Guix: A Functional Package Manager",
-            "slug": "guix-pkg-manager"
-          },
-          {
-            "date": "2021-01-12",
-            "title": "GNU IceCat: A Browser that Respects Your Freedom",
-            "slug": "icecat-intro"
-          },
-          {
-            "date": "2020-12-31",
-            "title": "Linux: Basic Tips",
-            "slug": "linux-tips"
-          },
-          {
-            "date": "2020-12-23",
-            "title": "Newsboat: A Terminal-Based Feed Reader",
-            "slug": "newsboat-intro"
-          },
-          {
-            "date": "2020-12-20",
-            "title": "Libreboot: How Did I Liberate My Thinkpad X200",
-            "slug": "libreboot-how"
-          },
-          {
-            "date": "2020-11-27",
-            "title": "Guix: Build Your Own Channel",
-            "slug": "guix-channel-intro"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
-            "slug": "void-revive-vaio"
-          }
-        ]
-      },
-      {
-        "subcategory": "mobile",
-        "children": [
           {
             "date": "2021-08-05",
             "title": "Lineageos: How Did I Install It on My Tab 2 P3100 And P5100 and My Take on It",
@@ -259,26 +154,111 @@
             "date": "2021-01-11",
             "title": "Replicant: Install It on My Phones and Tablets",
             "slug": "replicant-install"
+          },
+          {
+            "date": "2021-04-10",
+            "title": "Ungoogled Chromium: Introduction and Some Tips",
+            "slug": "ungoogled-chromium-intro"
+          },
+          {
+            "date": "2021-01-24",
+            "title": "GNU Recutils: A Short Introduction",
+            "slug": "gnu-recutils-intro"
+          },
+          {
+            "date": "2021-01-12",
+            "title": "GNU IceCat: A Browser that Respects Your Freedom",
+            "slug": "icecat-intro"
+          }
+        ]
+      },
+      {
+        "subcategory": "firmware",
+        "children": [
+          {
+            "date": "2021-08-25",
+            "title": "coreboot: Boot from Minimal GRUB",
+            "slug": "coreboot-boot-minimal-grub"
+          },
+          {
+            "date": "2021-08-24",
+            "title": "Libreboot: Build from Source",
+            "slug": "libreboot-from-source"
+          },
+          {
+            "date": "2021-07-31",
+            "title": "coreboot: How to Flash It on Top of Libreboot Thinkpad X200",
+            "slug": "coreboot-from-libreboot"
+          },
+          {
+            "date": "2021-07-17",
+            "title": "Libreboot: How to Upgrade",
+            "slug": "libreboot-upgrade"
+          },
+          {
+            "date": "2020-12-20",
+            "title": "Libreboot: How Did I Liberate My Thinkpad X200",
+            "slug": "libreboot-how"
           }
         ]
       }
     ]
   },
   {
-    "category": "personal",
+    "category": "lifestyle",
     "children": [
       {
-        "subcategory": "lifestyle",
+        "subcategory": "free-yourself",
         "children": [
+          {
+            "date": "2021-07-13",
+            "title": "Why is Philosophy Very Important in Life?",
+            "slug": "why-philosophy-important"
+          },
+          {
+            "date": "2021-01-14",
+            "title": "My Way to Name Files for Easier Search",
+            "slug": "name-file-easier-search"
+          },
           {
             "date": "2020-11-15",
             "title": "How I Escaped Video Game Addiction and My Take on It",
             "slug": "escape-videogame-addiction"
           },
           {
-            "date": "2020-07-16",
-            "title": "Better Alternatives to Cartridge Razors",
-            "slug": "better-alt-cartridge-razor"
+            "date": "2020-09-22",
+            "title": "Miminize My Bill with Two Feature Phones and a Smartphone",
+            "slug": "feature-and-smart-phone-together"
+          }
+        ]
+      },
+      {
+        "subcategory": "protect-yourself",
+        "children": [
+          {
+            "date": "2021-08-07",
+            "title": "You Should Use Multiple SSH Keys",
+            "slug": "ssh-multiple-keys"
+          },
+          {
+            "date": "2021-01-24",
+            "title": "Why I Use DuckDuckGo as a Default Search Engine",
+            "slug": "why-duckduckgo"
+          },
+          {
+            "date": "2021-01-07",
+            "title": "Password Manager: Why I Switch from Bitwarden to Pass",
+            "slug": "pwd-mgr-bitwarden-to-pass"
+          },
+          {
+            "date": "2020-12-31",
+            "title": "Email Aliases and Scam Potential",
+            "slug": "email-alias-and-scam"
+          },
+          {
+            "date": "2020-09-22",
+            "title": "Use Passphrase and Password Manager",
+            "slug": "use-pwd-mgr"
           }
         ]
       },
@@ -299,76 +279,16 @@
             "date": "2020-12-04",
             "title": "HTC One M7 Battery Replacement: My Experience",
             "slug": "htconem7-battery-replace"
+          },
+          {
+            "date": "2020-07-16",
+            "title": "Better Alternatives to Cartridge Razors",
+            "slug": "better-alt-cartridge-razor"
           }
         ]
       },
       {
-        "subcategory": "philosophy",
-        "children": [
-          {
-            "date": "2021-07-13",
-            "title": "Why is Philosophy Very Important in Life?",
-            "slug": "why-philosophy-important"
-          }
-        ]
-      },
-      {
-        "subcategory": "management",
-        "children": [
-          {
-            "date": "2021-08-07",
-            "title": "You Should Use Multiple SSH Keys",
-            "slug": "ssh-multiple-keys"
-          },
-          {
-            "date": "2021-01-24",
-            "title": "Why I Use DuckDuckGo as a Default Search Engine",
-            "slug": "why-duckduckgo"
-          },
-          {
-            "date": "2021-01-14",
-            "title": "My Way to Name Files for Easier Search",
-            "slug": "name-file-easier-search"
-          },
-          {
-            "date": "2021-01-07",
-            "title": "Password Manager: Why I Switch from Bitwarden to Pass",
-            "slug": "pwd-mgr-bitwarden-to-pass"
-          },
-          {
-            "date": "2020-12-31",
-            "title": "Email Aliases and Scam Potential",
-            "slug": "email-alias-and-scam"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Miminize My Bill with Two Feature Phones and a Smartphone",
-            "slug": "feature-and-smart-phone-together"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Use Passphrase and Password Manager",
-            "slug": "use-pwd-mgr"
-          }
-        ]
-      },
-      {
-        "subcategory": "society",
-        "children": [
-          {
-            "date": "2020-09-22",
-            "title": "Coursera Course Review: Introduction to Personal Branding",
-            "slug": "personal-branding-course-review"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "society",
-    "children": [
-      {
-        "subcategory": "environment",
+        "subcategory": "vegan",
         "children": [
           {
             "date": "2021-01-16",
@@ -376,9 +296,14 @@
             "slug": "inconsistent-def-vegan"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "category": "Worldview",
+    "children": [
       {
-        "subcategory": "technology",
+        "subcategory": "Tech",
         "children": [
           {
             "date": "2020-09-22",
