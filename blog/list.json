@@ -1,67 +1,7 @@
 [
   {
-    "category": "software",
+    "category": "Software",
     "children": [
-      {
-        "subcategory": "Functional Programming",
-        "children": [
-          {
-            "date": "2021-07-01",
-            "title": "Purescript Proof: lift2 f x y = f <$> x <*> y",
-            "slug": "purescript-lift2-proof"
-          }
-        ]
-      },
-      {
-        "subcategory": "Dev Tools",
-        "children": [
-          {
-            "date": "2020-07-21",
-            "title": "Write a Simple Vim ftplugin",
-            "slug": "write-simple-vim-ftplugin"
-          },
-          {
-            "date": "2021-01-24",
-            "title": "GNU Recutils: A Short Introduction",
-            "slug": "gnu-recutils-intro"
-          },
-          {
-            "date": "2021-01-14",
-            "title": "Guix: A Functional Package Manager",
-            "slug": "guix-pkg-manager"
-          },
-          {
-            "date": "2020-11-27",
-            "title": "Guix: Build Your Own Channel",
-            "slug": "guix-channel-intro"
-          }
-        ]
-      },
-      {
-        "subcategory": "Web Dev",
-        "children": [
-          {
-            "date": "2021-07-20",
-            "title": "SPA Routing on Netlify, Vercel, and GitHub",
-            "slug": "spa-routing-provider"
-          },
-          {
-            "date": "2021-07-12",
-            "title": "How I Decouple Articles from My Blog",
-            "slug": "decouple-articles-from-blog"
-          },
-          {
-            "date": "2021-06-29",
-            "title": "Node: Run npm Packages Locally",
-            "slug": "node-run-npm-locally"
-          },
-          {
-            "date": "2021-01-26",
-            "title": "How to Use CDN with Local JS And CSS Fallbacks",
-            "slug": "cdn-with-fallback"
-          }
-        ]
-      },
       {
         "subcategory": "App & OS",
         "children": [
@@ -159,6 +99,56 @@
             "date": "2020-09-22",
             "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
             "slug": "void-revive-vaio"
+          }
+        ]
+      },
+      {
+        "subcategory": "Dev Tools",
+        "children": [
+          {
+            "date": "2020-07-21",
+            "title": "Write a Simple Vim ftplugin",
+            "slug": "write-simple-vim-ftplugin"
+          },
+          {
+            "date": "2021-01-24",
+            "title": "GNU Recutils: A Short Introduction",
+            "slug": "gnu-recutils-intro"
+          },
+          {
+            "date": "2021-01-14",
+            "title": "Guix: A Functional Package Manager",
+            "slug": "guix-pkg-manager"
+          },
+          {
+            "date": "2020-11-27",
+            "title": "Guix: Build Your Own Channel",
+            "slug": "guix-channel-intro"
+          }
+        ]
+      },
+      {
+        "subcategory": "Web Dev",
+        "children": [
+          {
+            "date": "2021-07-20",
+            "title": "SPA Routing on Netlify, Vercel, and GitHub",
+            "slug": "spa-routing-provider"
+          },
+          {
+            "date": "2021-07-12",
+            "title": "How I Decouple Articles from My Blog",
+            "slug": "decouple-articles-from-blog"
+          },
+          {
+            "date": "2021-06-29",
+            "title": "Node: Run npm Packages Locally",
+            "slug": "node-run-npm-locally"
+          },
+          {
+            "date": "2021-01-26",
+            "title": "How to Use CDN with Local JS And CSS Fallbacks",
+            "slug": "cdn-with-fallback"
           }
         ]
       },
