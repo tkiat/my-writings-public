@@ -3,7 +3,7 @@
     "category": "software",
     "children": [
       {
-        "subcategory": "functional-programming",
+        "subcategory": "Functional Programming",
         "children": [
           {
             "date": "2021-07-01",
@@ -13,12 +13,17 @@
         ]
       },
       {
-        "subcategory": "dev-tools",
+        "subcategory": "Dev Tools",
         "children": [
           {
             "date": "2020-07-21",
             "title": "Write a Simple Vim ftplugin",
             "slug": "write-simple-vim-ftplugin"
+          },
+          {
+            "date": "2021-01-24",
+            "title": "GNU Recutils: A Short Introduction",
+            "slug": "gnu-recutils-intro"
           },
           {
             "date": "2021-01-14",
@@ -76,6 +81,21 @@
             "slug": "fedora-minimal-foss"
           },
           {
+            "date": "2021-08-05",
+            "title": "Lineageos: How Did I Install It on My Tab 2 P3100 And P5100 and My Take on It",
+            "slug": "lineageos-install-tab2"
+          },
+          {
+            "date": "2021-07-27",
+            "title": "How to Automate (Encrypted) Cloud Backup on Google Drive",
+            "slug": "automate-cloud-backup-gdrive"
+          },
+          {
+            "date": "2021-07-26",
+            "title": "How to Automate Bookmarks Backup from Chrome and Firefox",
+            "slug": "automate-bookmark-chrome-firefox"
+          },
+          {
             "date": "2021-07-18",
             "title": "xmonad: How to Install and Configure this Minimal Window Manager",
             "slug": "xmonad-intro"
@@ -101,6 +121,11 @@
             "slug": "ungoogled-chromium-intro"
           },
           {
+            "date": "2021-02-11",
+            "title": "Replicant: My Experience and My Take on It",
+            "slug": "replicant-experience-opinion"
+          },
+          {
             "date": "2021-01-16",
             "title": "Guix System: My Experience",
             "slug": "guix-system-experience"
@@ -116,6 +141,11 @@
             "slug": "icecat-intro"
           },
           {
+            "date": "2021-01-11",
+            "title": "Replicant: Install It on My Phones and Tablets",
+            "slug": "replicant-install"
+          },
+          {
             "date": "2020-12-31",
             "title": "Linux: Basic Tips",
             "slug": "linux-tips"
@@ -129,38 +159,6 @@
             "date": "2020-09-22",
             "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
             "slug": "void-revive-vaio"
-          },
-
-
-          {
-            "date": "2021-08-05",
-            "title": "Lineageos: How Did I Install It on My Tab 2 P3100 And P5100 and My Take on It",
-            "slug": "lineageos-install-tab2"
-          },
-          {
-            "date": "2021-07-27",
-            "title": "How to Automate (Encrypted) Cloud Backup on Google Drive",
-            "slug": "automate-cloud-backup-gdrive"
-          },
-          {
-            "date": "2021-07-26",
-            "title": "How to Automate Bookmarks Backup from Chrome and Firefox",
-            "slug": "automate-bookmark-chrome-firefox"
-          },
-          {
-            "date": "2021-02-11",
-            "title": "Replicant: My Experience and My Take on It",
-            "slug": "replicant-experience-opinion"
-          },
-          {
-            "date": "2021-01-11",
-            "title": "Replicant: Install It on My Phones and Tablets",
-            "slug": "replicant-install"
-          },
-          {
-            "date": "2021-01-24",
-            "title": "GNU Recutils: A Short Introduction",
-            "slug": "gnu-recutils-intro"
           }
         ]
       },
