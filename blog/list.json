@@ -13,7 +13,62 @@
         ]
       },
       {
-        "subcategory": "dev-environment",
+        "subcategory": "dev-tools",
+        "children": [
+          {
+            "date": "2020-07-21",
+            "title": "Write a Simple Vim ftplugin",
+            "slug": "write-simple-vim-ftplugin"
+          },
+          {
+            "date": "2021-01-14",
+            "title": "Guix: A Functional Package Manager",
+            "slug": "guix-pkg-manager"
+          },
+          {
+            "date": "2020-11-27",
+            "title": "Guix: Build Your Own Channel",
+            "slug": "guix-channel-intro"
+          }
+        ]
+      },
+      {
+        "subcategory": "Web Dev",
+        "children": [
+          {
+            "date": "2021-07-20",
+            "title": "SPA Routing on Netlify, Vercel, and GitHub",
+            "slug": "spa-routing-provider"
+          },
+          {
+            "date": "2021-07-12",
+            "title": "How I Decouple Articles from My Blog",
+            "slug": "decouple-articles-from-blog"
+          },
+          {
+            "date": "2021-06-29",
+            "title": "Node: Run npm Packages Locally",
+            "slug": "node-run-npm-locally"
+          },
+          {
+            "date": "2021-01-26",
+            "title": "How to Use CDN with Local JS And CSS Fallbacks",
+            "slug": "cdn-with-fallback"
+          },
+          {
+            "date": "2021-01-21",
+            "title": "I Switch from Custom-Built Github Pages to Pelican",
+            "slug": "custom-to-pelican"
+          },
+          {
+            "date": "2021-01-21",
+            "title": "Markdown: Why I Prefer it over Asciidoctor for Blog Posts",
+            "slug": "why-markdown-not-asciidoctor"
+          }
+        ]
+      },
+      {
+        "subcategory": "App-and-OS",
         "children": [
           {
             "date": "2021-09-01",
@@ -26,19 +81,9 @@
             "slug": "nixos-encrypt-except-boot"
           },
           {
-            "date": "2020-07-21",
-            "title": "Write a Simple Vim ftplugin",
-            "slug": "write-simple-vim-ftplugin"
-          },
-          {
             "date": "2021-01-16",
             "title": "Guix System: My Experience",
             "slug": "guix-system-experience"
-          },
-          {
-            "date": "2021-01-14",
-            "title": "Guix: A Functional Package Manager",
-            "slug": "guix-pkg-manager"
           },
           {
             "date": "2021-01-14",
@@ -76,55 +121,10 @@
             "slug": "linux-tips"
           },
           {
-            "date": "2020-11-27",
-            "title": "Guix: Build Your Own Channel",
-            "slug": "guix-channel-intro"
-          },
-          {
             "date": "2020-09-22",
             "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
             "slug": "void-revive-vaio"
-          }
-        ]
-      },
-      {
-        "subcategory": "web-dev",
-        "children": [
-          {
-            "date": "2021-07-20",
-            "title": "SPA Routing on Netlify, Vercel, and GitHub",
-            "slug": "spa-routing-provider"
           },
-          {
-            "date": "2021-07-12",
-            "title": "How I Decouple Articles from My Blog",
-            "slug": "decouple-articles-from-blog"
-          },
-          {
-            "date": "2021-06-29",
-            "title": "How to Run npm Packages Locally",
-            "slug": "npm-run-locally"
-          },
-          {
-            "date": "2021-01-26",
-            "title": "How to Use CDN with Local JS And CSS Fallbacks",
-            "slug": "cdn-with-fallback"
-          },
-          {
-            "date": "2021-01-21",
-            "title": "I Switch from Custom-Built Github Pages to Pelican",
-            "slug": "custom-to-pelican"
-          },
-          {
-            "date": "2021-01-21",
-            "title": "Markdown: Why I Prefer it over Asciidoctor for Blog Posts",
-            "slug": "why-markdown-not-asciidoctor"
-          }
-        ]
-      },
-      {
-        "subcategory": "App-and-OS",
-        "children": [
           {
             "date": "2020-12-23",
             "title": "Newsboat: A Terminal-Based Feed Reader",
@@ -288,7 +288,7 @@
         ]
       },
       {
-        "subcategory": "vegan",
+        "subcategory": "respect-other-beings",
         "children": [
           {
             "date": "2021-01-16",
