@@ -1,14 +1,14 @@
 # Google Drive: Let's Automate (Encrypted) Cloud Backup to It
 
-There is an open-source utility to interact with Google Drive called [gdrive](https://github.com/prasmussen/gdrive). On the first start, it will output a URL from which you can paste it into the browser to authenticate your identity.
+I strongly discourage anyone from storing data on someone else's server as they can exploit your (private) data. The situation is different if you encrypt your data before uploading e.g. with the widely used [gpg](https://gnupg.org/) enryption. However, if you write a script, you should put the check that forces exit in the case of the encryption error.
 
-To find what is in your drive
+Google Drive is generous enough to give a free 15GB storage for free of charge. There is an open-source utility to interact with Google Drive called [gdrive](https://github.com/prasmussen/gdrive) which I installed using nix. On the first start, it will output a URL from which you can paste it into the browser to authenticate your identity. Then, type this to find what is in your drive
 
 ```bash
 gdrive list
 ```
 
-Since everything is on their server, I don't like to leave any of my personal information unencrypted. The encryption using [gpg](https://gnupg.org/) is widely used so I would recommend it. I also put the check that forces exit in the case of the encryption error. You might want to compress it also if your internet is slow.
+Try to write a simple script to replace the old file.
 
 ```bash
 gdrive delete "my-gdrive-backup-old"
@@ -19,7 +19,7 @@ if [[ $? -ne 0 ]]; then echo gpg encryption failed. exiting ...; exit 1; fi;
 gdrive upload "my-gdrive-backup.gpg"
 ```
 
-It is not convenient to manually delete old files every time but luckily we can use their API query parameters to get the list of old files.
+Instead of typing the exact file names, we can use their API query parameters to get the list of old files. In this case, any file ending with `-Cloud.tar.gz.gpg`.
 
 ```bash
 gdrive list -q "name contains '-Cloud.tar.gz.gpg'" | awk 'NR > 1 {print $1}'
