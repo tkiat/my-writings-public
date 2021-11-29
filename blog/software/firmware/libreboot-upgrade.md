@@ -6,7 +6,7 @@ I upgraded my Libreboot to a new release: 20210522. Once installed, it is easy t
 flashrom -p internal
 ```
 
-## IF Not Yet Ready
+## If Not Yet Ready
 
 It should output something like this if your system is not ready.
 

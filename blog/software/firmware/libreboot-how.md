@@ -10,7 +10,7 @@ Currently, a fully-free system is impossible since at least there is blob firmwa
 
 ## General
 
-You generally need an external flsaher that connected directly to the BIOS chip on the mainboard except a few Thinkpad models such as X60. For Thinkpad X200, the official website has a how-to manual for Beaglebone Black only but a much cheaper flasher like CH341A is also possible. I use two guides: [the official one](https://libreboot.org/docs/hardware/x200.html) and [Wolfgang's Channel](https://www.youtube.com/watch?v=ktcvWkEVBE0). The latter uses CH341A so I mainly follow that and compare the PIN numbers with the official guide to double-check.
+You generally need an external flasher that connected directly to the BIOS chip on the mainboard except a few Thinkpad models such as X60. For Thinkpad X200, the official website has a how-to manual for Beaglebone Black only but a much cheaper flasher like CH341A is also possible. I use two guides: [the official one](https://libreboot.org/docs/hardware/x200.html) and [Wolfgang's Channel](https://www.youtube.com/watch?v=ktcvWkEVBE0). The latter uses CH341A so I mainly follow that and compare the PIN numbers with the official guide to double-check.
 
 ![libreboot-chip.jpg](https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/libreboot-chip.jpg)
 
