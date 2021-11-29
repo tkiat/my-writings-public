@@ -42,7 +42,7 @@ A simple Git hook is sufficient for local automation. Removing `.sample` part fr
 
 <figure>
 <img src="https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/guix-channel-git_hook.png" alt="git hook flow" style="background-color: black">
-<figcaption align = "center">The Flow</figcaption>
+<figcaption>The Flow</figcaption>
 </figure>
 
 ```bash
