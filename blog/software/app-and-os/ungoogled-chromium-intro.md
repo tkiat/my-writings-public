@@ -4,11 +4,11 @@ Chromium, an open-source web browser alternative from Google Chrome, still conta
 
 ## Extensions
 
-You cannot download extensions from the Chrome Web Store out of the box but there are some options I am aware of.
+You cannot download extensions from the Chrome Web Store directly at first but there are some options I am aware of.
 
 ### Option 1: Use chromium-web-store extension
 
-This extension is [mentioned](https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq) in the official Ungoogled Chromium Doc. It allows you to install the extension directly instead of manually download the .crx files. Head over to their [repository](https://github.com/NeverDecaf/chromium-web-store), install it, then you can download extensions directly from the Chrome Web Store.
+This extension is [mentioned](https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq) in the official Ungoogled Chromium Doc. It allows you to install the extension directly instead of manually download the .crx files. Head over to their [repository](https://github.com/NeverDecaf/chromium-web-store) and install it. You can then download extensions directly from the Chrome Web Store.
 
 ### Option 2: Manually download and install .crx file
 
@@ -36,6 +36,4 @@ All cookies are disabled by default but you can enable it for some websites (I e
 
 ## Problems
 
-### The "make Chrome a default browser" prompt persists.
-
-Use the command `chromium --no-default-browser-check` to run Chromium instead.
+- **The "make Chrome a default browser" prompt persists**: Use the command alias `chromium --no-default-browser-check`.

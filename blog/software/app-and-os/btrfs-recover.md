@@ -16,4 +16,4 @@ This will back up all files from `/dev/sda1` to `/mnt/restore`. The problem was 
 ./btrfs restore /dev/sda1 /mnt/restore --path-regex '^/(|home(|/tkiat(|/Sync-Important(|/.\*))))$'
 ```
 
-And it was fast! After that, I removed Guix and installed Debian.
+And it was fast! After that, I removed Guix System from the disk and installed Debian.

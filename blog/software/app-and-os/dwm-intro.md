@@ -1,8 +1,8 @@
 # dwm: A Minimal Window Manager
 
-dwm is a window manager for X window system developed by suckless.org. After the first try, I never look back to a desktop environment again. Seriously, all you need are a simple terminal and probably a simple search bar (I am using dmenu) to open an installed app. You can flexibly add or remove the default 9 tabs provided which is very powerful and liberating. I would also like to add that this window manager is very lightweight with only around 2500 lines of code! (using cloc utility).
+dwm is a window manager for X window system developed by suckless.org. After the first try, I never look back to a desktop environment again. Seriously, all you need are a simple terminal and probably a simple search bar (like dmenu) to open an app. You can flexibly add or remove the default 9 tabs provided which is very powerful and liberating. I would also like to add that this window manager is very lightweight with only around 2500 lines of code! (using `cloc` utility).
 
-dwm makes me doubt the need for a second monitor at all. I can imagine if you do jobs like animations you probably want two monitors because you might want to compare the flow and the result in real-time but I don't think I will ever need 2nd monitor. The switch from one window to another window is very easy. Other configs, for example, colors, time, etc. can be entirely configured and be shared with other people. This is a prime benefit of Free and Open Source Software.
+dwm makes me doubt the need for a second monitor at all. I can imagine if you do jobs like animations you probably want two monitors because you might want to compare the flow in the bezier curve and the result in real-time but I don't think I will ever need 2nd monitor. The switch from one window to another window is very easy. Other configs like colors and time can be entirely configured for yoyr own need.
 
 dwm also makes me doubt the need for the pointing device like a mouse at all. The application is sized and located automatically upon open, unlike many desktop environments that require the need of a mouse dragging the application to a particular size and position.
 
@@ -44,4 +44,4 @@ while xsetroot -name " $(date +'%a, %d %b %I:%M:%S%p') | This is my dwm "; do
 done &
 ```
 
-- Sometimes a file chooser is too big and you need to resize it. You can use float mode to resize. If that doesn't work (as it was to me), you can install dconf-editor and then navigate to org.gtk.settings.file-chooser to adjust the window-size. The last resort you can rely on is to install another WM/DE and resize it from there. It will remember the size.
+- Sometimes a file chooser is too big and you need to resize it. You can use float mode to resize. If that doesn't work (as it was to me), you can install dconf-editor and then navigate to org.gtk.settings.file-chooser to adjust the window-size. The last resort you can rely on is to install another lightweight WM like Openbox and resize it from there. It will remember the size.
