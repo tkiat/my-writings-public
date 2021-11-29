@@ -4,7 +4,7 @@ CDN can offer a great cut in delay perceived by a web user by distributing conte
 
 ## JavaScript
 
-A JavaScript file usually has variable and function declarations, so you check if one, or a few, of those variables, exists. I got the idea below of how to make a fallback script for jQuery from Stack Overflow. It really makes sense to me since 'jQuery' is quite a unique name for a function. Why jQuery in 2021? It comes with my chosen Pelican theme, not my choice, and I am lazy to remove it.
+A JavaScript file usually has variable and function declarations, so you check if one, or a few, of those variables, exists. I got the idea below of how to make a fallback script for jQuery from Stack Overflow. It really makes sense to me since 'jQuery' is quite a unique name for a function. Why jQuery in 2021? It comes with my chosen Pelican theme and I am lazy to remove it.
 
 ```html
 <!--jQuery-->

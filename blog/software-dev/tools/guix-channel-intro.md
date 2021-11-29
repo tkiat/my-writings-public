@@ -41,8 +41,8 @@ It might be tiresome to change both Guix hash and commit hash manually on the Gu
 A simple Git hook is sufficient for local automation. Removing `.sample` part from a filename in .git/hooks will enable a particular Git hook. We want to update the Guix channel after pushing to the current package remote; however, Git hook has no post-push hook so we will use a pre-push hook instead.
 
 <figure>
-<img src="https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/guix-channel-git_hook.png" alt="git hook flow" style="background-color: black">
-<figcaption>The Flow</figcaption>
+  <img src="https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/guix-channel-git_hook.png" alt="git hook flow" style="background-color: black">
+  <figcaption>The Flow</figcaption>
 </figure>
 
 ```bash

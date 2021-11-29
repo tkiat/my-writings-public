@@ -35,9 +35,9 @@ Now it is recognized. One interesting is that running
 $(npm bin)/spago init
 ```
 
-will output an error since it cannot find command `purs`. It is from the `purescript` package that we just installed along with the `spago` package. So, what can we do?
+will output an error since it cannot find command `purs` (its dependency). It is from the `purescript` package that we just installed along with the `spago` package. So, what can we do?
 
-We can simply modify the `package.json`
+We can simply modify `package.json`
 
 ```json
 {
