@@ -3,7 +3,7 @@
     "category": "Software",
     "children": [
       {
-        "subcategory": "App & OS",
+        "subcategory": "OS",
         "children": [
           {
             "date": "2021-09-01",
@@ -26,21 +26,6 @@
             "slug": "lineageos-install-tab2"
           },
           {
-            "date": "2021-07-27",
-            "title": "Google Drive: Let's Automate (Encrypted) Cloud Backup to It",
-            "slug": "gdrive-automate-backup"
-          },
-          {
-            "date": "2021-07-26",
-            "title": "Chrome and Firefox: Let's Automate Bookmarks Backup",
-            "slug": "chrome-firefox-bookmark-backup"
-          },
-          {
-            "date": "2021-07-18",
-            "title": "xmonad: An Excellent Window Manager",
-            "slug": "xmonad-intro"
-          },
-          {
             "date": "2021-07-09",
             "title": "Linux Distro Hopping: My Journey and Guides",
             "slug": "linux-hopping-guide"
@@ -56,11 +41,6 @@
             "slug": "btrfs-recover"
           },
           {
-            "date": "2021-04-10",
-            "title": "Ungoogled Chromium: Introduction and Some Tips",
-            "slug": "ungoogled-chromium-intro"
-          },
-          {
             "date": "2021-02-11",
             "title": "Replicant: My Experience and My Take on It",
             "slug": "replicant-experience-opinion"
@@ -69,6 +49,41 @@
             "date": "2021-01-16",
             "title": "Guix System: My Experience",
             "slug": "guix-system-experience"
+          },
+          {
+            "date": "2021-01-11",
+            "title": "Replicant: Install It on My Phones and Tablets",
+            "slug": "replicant-install"
+          },
+          {
+            "date": "2020-09-22",
+            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
+            "slug": "void-revive-vaio"
+          }
+        ]
+      },
+      {
+        "subcategory": "App",
+        "children": [
+          {
+            "date": "2021-07-27",
+            "title": "Google Drive: Let's Automate (Encrypted) Cloud Backup to It",
+            "slug": "gdrive-automate-backup"
+          },
+          {
+            "date": "2021-07-26",
+            "title": "Chrome and Firefox: Let's Automate Bookmarks Backup",
+            "slug": "chrome-firefox-bookmark-backup"
+          },
+          {
+            "date": "2021-07-18",
+            "title": "xmonad: An Excellent Window Manager",
+            "slug": "xmonad-intro"
+          },
+          {
+            "date": "2021-04-10",
+            "title": "Ungoogled Chromium: Introduction and Some Tips",
+            "slug": "ungoogled-chromium-intro"
           },
           {
             "date": "2021-01-14",
@@ -81,19 +96,9 @@
             "slug": "icecat-intro"
           },
           {
-            "date": "2021-01-11",
-            "title": "Replicant: Install It on My Phones and Tablets",
-            "slug": "replicant-install"
-          },
-          {
             "date": "2020-12-23",
             "title": "Newsboat: A Terminal-Based Feed Reader",
             "slug": "newsboat-intro"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
-            "slug": "void-revive-vaio"
           }
         ]
       },
