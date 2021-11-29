@@ -2,7 +2,7 @@
 
 The default NixOS installation with a vanilla kernel includes a lot of non-free firmware, you can inspect these using `ls /run/current-system/firmware`. Fortunately, with some configurations, it can be made libre similar to [those](https://www.gnu.org/distros/free-distros.html).
 
-This post is meant as a guide on how to liberate NixOS like this nice [post](https://pure-hack.com/posts/2017-09-25-libre-rate-your-nixos/) with some of my additional inputs. NixOS seems to lack the utility to detect non-free programs like `vrms` in Debian or `vrms-rpm` in Fedora so if I miss something please contact me.
+This post is meant to be a guide on how to liberate NixOS like this nice [post](https://pure-hack.com/posts/2017-09-25-libre-rate-your-nixos/) with some of my additional inputs. NixOS seems to lack the utility to detect non-free programs like `vrms` in Debian or `vrms-rpm` in Fedora so if I miss something please contact me.
 
 Let's digress a bit. I actually prefer NixOS software distribution policy over FSF endorsed distributions mainly because it has Firefox. Unlike an operating system, Firefox is not that critical so I am fine with a restricted redistribution policy as long as it is open-source. Your need might be different though.
 

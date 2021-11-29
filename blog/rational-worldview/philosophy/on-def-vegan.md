@@ -1,4 +1,6 @@
-# On the Inconsistent Definitions of Veganism.
+# On the True Definition of Veganism
+
+TODO add more
 
 It could go very long, but at least these two definitions conflict:
 
