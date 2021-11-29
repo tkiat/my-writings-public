@@ -1,4 +1,4 @@
-# Void Linux: I Used It to Revive My old VAIO Laptop from 2009
+# Void Linux: How I Revived My Old 2009 VAIO Laptop With It
 
 I got Vaio VGN-CS16S when I was a university student (in late 2018) because it was one of the most beautiful laptops to me at that time! It came with Windows Vista which was horrendously slow but I didn't remove it because I was very proud of my `Microsoft Vista` logo. The boot time of more than one minute was a "feature" to me. It was a relatively inexpensive Vaio model (around 800$).
 

@@ -47,7 +47,7 @@
           },
           {
             "date": "2021-01-26",
-            "title": "How to Use CDN with Local JS And CSS Fallbacks",
+            "title": "How to Use CDN With Local JS And CSS Fallbacks",
             "slug": "cdn-with-fallback"
           }
         ]
@@ -112,7 +112,7 @@
           },
           {
             "date": "2020-09-22",
-            "title": "Void Linux: I Revived My Old 2009 VAIO Laptop with It",
+            "title": "Void Linux: How I Revived My Old 2009 VAIO Laptop With It",
             "slug": "void-revive-vaio"
           }
         ]
@@ -196,11 +196,6 @@
         "subcategory": "Free Yourself",
         "children": [
           {
-            "date": "2021-07-13",
-            "title": "Why is Philosophy Very Important in Life?",
-            "slug": "why-philosophy-important"
-          },
-          {
             "date": "2021-01-14",
             "title": "My Way to Name Files for Easier Search",
             "slug": "name-file-easier-search"
@@ -212,8 +207,8 @@
           },
           {
             "date": "2020-09-22",
-            "title": "Miminize My Bill with Two Feature Phones and a Smartphone",
-            "slug": "feature-and-smart-phone-together"
+            "title": "Minimize My Bill With Both Feature Phone and Smartphone",
+            "slug": "min-bill-feature-and-smart-phone"
           }
         ]
       },
@@ -284,13 +279,23 @@
     "description": "want to close to phislophy not opnion",
     "children": [
       {
-        "subcategory": "General",
+        "subcategory": "Philosophy",
         "children": [
+          {
+            "date": "2021-07-13",
+            "title": "Why is Philosophy Very Important in Life?",
+            "slug": "why-philosophy-important"
+          },
           {
             "date": "2021-01-16",
             "title": "On the True Definition of Veganism",
             "slug": "on-def-vegan"
-          },
+          }
+        ]
+      },
+      {
+        "subcategory": "General",
+        "children": [
           {
             "date": "2020-09-22",
             "title": "Not All DRMs are Bad for Users' Freedom. We Need Them for a Better Society",

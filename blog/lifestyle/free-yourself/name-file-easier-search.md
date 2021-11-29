@@ -1,6 +1,6 @@
 # My Way to Name Files for Easier Search
 
-There are excellent CLI programs like fzf to do a fuzzy search, however, we don't always have that luxury. Think of when you navigate through a file manager on a Samsung tablet or accessing a file on some cloud web clients, they might not provide sufficient search functionalities. Therefore, it is always helpful to name files in an organized manner. It lessens your search time and you will have more time to do other stuff. This is my opinion so take it with a grain of salt.
+There are excellent CLI programs like fzf to do a fuzzy search, however, we don't always have that luxury. You will sometimes navigate through a file manager on a Samsung tablet or access a file on some cloud web clients. Therefore, it is always helpful to name files in an organized manner. It lessens your search time and you will have more time to do other stuff. This is my opinion so take it with a grain of salt.
 
 ## How I Name My Files
 
@@ -10,4 +10,4 @@ There are excellent CLI programs like fzf to do a fuzzy search, however, we don'
 4. **Music**. I name a music folder containing tracks Artist-Year-Album inside the same folder, i.e. from the most general attribute to the most specific. Inside the folder I name each track `01-Track1.ogg`, `02-Track2.ogg`, and so on, I reserve 00 for `00-Playlist.m3u`.
 5. **Movie**. I once tried to name by genre but it was very confusing, a movie can have multiple sub-genres like comedy and horror so I don't find it possible to do so. I just sort it by name.  
    This doen't mean that you cannot sort by genre. You can just create hard links to the main folder. Beware that the usual copy operation to another HDD may not preserve hard links, a Linux user might use the commands `cp` and `rsync` with some options to preserve them.  
-   By the way, I don't think you should put an article in front of a movie name as you might end up not remembering it. A practice that I have seen on some websites is to move an article to the back from "The man in the wood" to "Man in the Wood, The".
+   By the way, I don't think you should put an article in front of a movie name as you might end up not remembering it. A practice that I have seen on some websites is to move an article to the back like "Man in the Wood, The", not "The man in the wood".

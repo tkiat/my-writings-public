@@ -1,4 +1,4 @@
-# How to Use CDN with Local JS and CSS Fallbacks
+# How to Use CDN With Local JS and CSS Fallbacks
 
 CDN can offer a great cut in delay perceived by a web user by distributing content in many servers across the globe and connects a user to the nearest one. However, the downtime of a CDN server might cost a company a fortune. It's therefore wise to have a fallback on a CDN asset just in case.
 

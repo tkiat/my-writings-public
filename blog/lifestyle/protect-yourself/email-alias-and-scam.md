@@ -12,13 +12,13 @@ jo.hn.sm.ith@gmail.com
 j.o.h.n.s.m.i.t.h@gmail.com
 ```
 
-<center>Taken from https://support.google.com/mail/answer/7436150?hl=en</center>
+<center>Taken from [Google support](https://support.google.com/mail/answer/7436150?hl=en)</center>
 
 ## How Email Aliases Can Create an Attack Vector
 
 Consider this scenario of attack (adapted from [here](https://jameshfisher.com/2018/04/07/the-dots-do-matter-how-to-scam-a-gmail-user/)),
 
-1. Try entering a random Gmail address on a signup form until you find a registered one. Let's say johndoe<span>@</span>gmail.com.
+1. Try to enter a random Gmail address on a signup form until you find a registered one. Let's say johndoe<span>@</span>gmail.com.
 2. Create a Netflix account with john.doe<span>@</span>gmail.com and sign up for a free trial with a throwaway card number
 3. Hope Netflix will someday send an email to john.doe<span>@</span>gmail.com asking for a valid card and he also uses Netflix.
 4. After a real john.doe<span>@</span>gmail.com owner enters his card number, change Netflix account email address. This will prevent him to access this account.
