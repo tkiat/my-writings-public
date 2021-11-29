@@ -2,9 +2,9 @@
 
 I found myself with the prompt beyond my grasp when I was a total Linux noob who tried to install it the first time, something like "nonfree firmware needed". I swore off Debian that time. Anyway, Linus also said Debian is hard to install so I didn't feel very stupid back then (haha, we are in the same league!). A year later, I considerably upgraded my Linux suit and my penguin-shaped spectacles found the installation guide easy to read!
 
-I went with KDE installation the first time but I reinstalled with the base minimum quickly because I never used a desktop environment anyway. I had unsuccessful attempts to load my open-source Atheros firmware during the installation, since then I have always download an unofficial Debian image with non-free firmware. I will remove the non-free firmware later with the help of the vmrs package.
+I went with the KDE installation the first time but I reinstalled with the base minimum quickly because I never used a desktop environment anyway. I had unsuccessful attempts to load my open-source Atheros firmware during the installation, since then I have always download an unofficial Debian image with non-free firmware. I will remove the non-free firmware later with the help of the vmrs package.
 
-I use MBR instead of GPT because it is more supported by SeaBIOS payload on my Coreboot system. GPT is recommended for UEFI based systems.
+I use MBR instead of GPT because it is more supported by SeaBIOS payload on my coreboot system. GPT is recommended for UEFI based systems.
 
 ## With Encryption (Except /boot)
 
@@ -12,7 +12,7 @@ I use MBR instead of GPT because it is more supported by SeaBIOS payload on my C
 
 You can just select the guided partitioning with encrypted LVM option during the GUI installation. With this option, the default swap volume is only 1G so you might want to leave some space to extend this logical group later (via lvextend). Or you can do manual partitioning instead (if you dare!).
 
-You can optionally skip system utilities (and all others) during the GUI installation. They are just some utility packages that Debian dev thinks an average user should have but you can always use apt to install them later.
+You can optionally skip system utilities (and all others) during the GUI installation. They are just some utility packages that Debian devs think an average user should have but you can always use apt to install them later.
 
 ### Comment Unwanted Lines from /etc/apt/sources.list
 
@@ -48,17 +48,13 @@ apt install sudo
 
 ### (Optional) Install nix
 
-Install `curl` and `rsync` using apt first before installing nix otherwise you have to remove all leftovers and start again.
+Install `curl` and `rsync` using apt first before installing nix otherwise nix will complain and you have to start again.
 
 ### Once you have the internet, the rest is easy.
 
 ## With Full-Disk Encryption (on Libreboot)
 
-I noticed a new Libreboot release (20210522) so I did a fresh Debian install to find out if LUKS2 now works (up to that time only LUKS1 worked).
-
-## Installation and Downgrade LUKS
-
-I just followed this [guide](https://libreboot.org/docs/gnulinux/encrypted_debian.html). **But LUKS2 was still not working**. The Libreboot doc said this new version (20210522) supports LUKS2 but it didn't seem to be the case to me. `cryptsetup luksDump /dev/sdX` revealed that the resulting Debian installation uses LUKS2 so I needed to downgrade to LUKS1.
+I noticed a new Libreboot release (20210522) so I did a fresh Debian install to find out if LUKS2 now works (up to that time only LUKS1 worked). I just followed this [guide](https://libreboot.org/docs/gnulinux/encrypted_debian.html). **But LUKS2 was still not working**. The Libreboot doc said this new version (20210522) supports LUKS2 but it didn't seem to be the case to me. `cryptsetup luksDump /dev/sdX` revealed that the resulting Debian installation uses LUKS2 so I needed to downgrade to LUKS1.
 
 ```bash
 cryptsetup luksConvertKey --pbkdf pbkdf2 /dev/sdX

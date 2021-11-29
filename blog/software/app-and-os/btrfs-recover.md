@@ -1,10 +1,10 @@
-# Recover My Files from the Unbootable Btrfs Filesystem
+# Btrfs Filesystem: Recover My Files from the Unbootable Disk
 
 My Btrfs Guix System couldn't boot, and it happened the second time! I considered migrating to another hard disk but I would use a more boring filesystem like ext4 this time.
 
 ## Recover My Files
 
-Common sense told me to use the first non-destructive method like `btrfs restore` before something dangerous like `btrfs check --repair`. The guide from [https://btrfs.wiki.kernel.org/index.php/Restore](https://btrfs.wiki.kernel.org/index.php/Restore) suggested the recovery command.
+Common sense told me to use the first non-destructive method like `btrfs restore` before something dangerous like `btrfs check --repair`. I refer to the guide from [Btrfs wiki](https://btrfs.wiki.kernel.org/index.php/Restore).
 
 ```bash
 btrfs restore /dev/sda1 /mnt/restore
@@ -16,4 +16,4 @@ This will back up all files from `/dev/sda1` to `/mnt/restore`. The problem was 
 ./btrfs restore /dev/sda1 /mnt/restore --path-regex '^/(|home(|/tkiat(|/Sync-Important(|/.\*))))$'
 ```
 
-And it was fast! Luckily, I could recover from this command only.
+And it was fast! After that, I removed Guix and installed Debian.

@@ -52,8 +52,8 @@
           },
           {
             "date": "2021-06-08",
-            "title": "Recover My Files from the Unbootable Btrfs Filesystem",
-            "slug": "recover-btrfs"
+            "title": "Btrfs Filesystem: Recover My Files from the Unbootable Disk",
+            "slug": "btrfs-recover"
           },
           {
             "date": "2021-04-10",
