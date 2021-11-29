@@ -1,12 +1,12 @@
 # Guix: Build Your Own Channel
 
-A Guix channel is a cool feature from Guix System in which anyone can define his/her packages in a Guile format and aggregate them into one channel, hosted on a Git repository. An optional signature can be added so that a user of your channel can verify that they actually download from your valid channel.
+A Guix channel is a cool feature from Guix System in which anyone can define his/her packages in a Guile format and aggregate them into one channel and host it on a Git repository. An optional signature can be added so that a user of your channel can verify that they actually download from the actual channel.
 
-I create my channel because I have some packages that I forked from suckless. I can then define this custom channel in ~/.config/guix/channels.scm and whenever I do `guix pull`, the operating system will synchronize all packages from the Git repository where the channel is hosted to the local machine. You can add as many channels as you like. The official documentation covers most details of how to create a Guix channel. I would like to cover a bit more here.
+I create my channel because I have some packages that I forked from suckless. I can then define this custom channel in ~/.config/guix/channels.scm and whenever I do `guix pull`, the operating system will synchronize all packages from the Git repository where the channel is hosted to the local machine. You can add as many channels as you like. The official documentation covers sufficient details of how to create a Guix channel. I would like to cover a bit more here.
 
 ## Channel with Signature
 
-A signature grants a downloader the ability to verify the source. It is optional but once you do, you need to sign a Git commit every time after a certain commit you choose. Here is how you set up Git signing in a repository (in your case the last line might be gpg.program gpg2 if your package manager names it as such).
+A signature grants a downloader the ability to verify the source. It is optional but once you do, you need to sign a Git commit every time after a certain commit you choose. Here is how you set up Git signing in a repository (in your case the last line might be `gpg.program gpg2` if your package manager names it as such).
 
 ```bash
 git config commit.gpgsign true
@@ -40,9 +40,10 @@ It might be tiresome to change both Guix hash and commit hash manually on the Gu
 
 A simple Git hook is sufficient for local automation. Removing `.sample` part from a filename in .git/hooks will enable a particular Git hook. We want to update the Guix channel after pushing to the current package remote; however, Git hook has no post-push hook so we will use a pre-push hook instead.
 
+<figure>
 <img src="https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/guix-channel-git_hook.png" alt="git hook flow" style="background-color: black">
-
-<center>The flow</center>
+<figcaption align = "center">The Flow</figcaption>
+</figure>
 
 ```bash
 #!/usr/bin/env dash

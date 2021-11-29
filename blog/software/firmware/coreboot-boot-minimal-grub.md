@@ -1,8 +1,8 @@
 # coreboot: Boot from Minimal GRUB
 
-Out of my ignorance, I selected GRUB payload in `make menuconfig` in the coreboot source directory without `grub.cfg`. This **just** built minimal GRUB payload with only minimal BASH-like CLI interface instead of a nice-looking boot menu. I was shocked at the time because this was an entirely different problem than before. I could at least boot from another disk and chroot to this disk to fix the problem if GRUB was installed in the disk. But GRUB was installed on the mainboard chip in my case.
+Out of my ignorance, I selected GRUB payload in `make menuconfig` in the coreboot source directory without `grub.cfg`. This **just** built minimal GRUB payload with only minimal BASH-like CLI interface instead of a nice-looking boot menu. I was shocked at the time because GRUB was installed in the BIOS chip and there was no way to bypass it. If GRUB is installed in the disk, I could at least boot from another disk and chroot to this disk to fix the problem.
 
-So, I had only two options: 1. flash again externally 2. try to boot from minimal CLI. The second option was way simpler and more adventurous as I hadn't done that before so I tried that option first :). I was not familiar with GRUB at all but fortunately, I had some experience at following the Libreboot Debian installation manual. It involves GRUB CLI a bit and does not directly relate to my problem but I could make use of it. This post describes how I boot from GRUB minimal.
+So, I had only two options: 1. flash again externally 2. try to boot from minimal CLI. The second option was way simpler and more adventurous as I hadn't done that before so I tried that option first :). I was not familiar with GRUB at all but fortunately I once followed the Libreboot Debian installation manual. It involves GRUB CLI a bit and does not directly relate to my problem but I could make use of it. This post describes how I boot from GRUB minimal.
 
 Note: I tried to boot from Debian LUKS with LVM. It was encrypted without /boot.
 

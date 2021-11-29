@@ -1,14 +1,14 @@
 # Write a Simple Vim ftplugin
 
-Being one of the most popular editors among software developers, there are a plethora of [Vim plugins](https://vimawesome.com/) available. Nevertheless, I prefer to use only as much as I need. I need NERDTree because netrw had too many bugs and the keymaps are not intuitive, coc.nvim because I need an all-in-one solution for linting and completion supports, and Emmet.vim because closing the HTML tag manually is a pain. I also have some more syntax highlighting plugins like toml and dhall.
+Being one of the most popular editors among software developers, there are a plethora of [Vim plugins](https://vimawesome.com/) available. Nevertheless, I prefer to use only as much as I need. I need NERDTree because netrw had too many bugs and the keymaps are not intuitive, coc.nvim because I need an all-in-one solution for linting and completion supports, and emmet.vim because closing the HTML tag manually is a pain. I also have some more syntax highlighting plugins like TOML and Dhall.
 
-So why do I still want to write my own plugin? Of course, I want to do it for the sake of self-development (insert another BS here ...) but frankly, there are many real cases I need my own plugins (or at least have some basic knowledge).
+So why do I still want to write my own plugin? Of course, I want to do it for the sake of self-development (insert another BS here ...) but frankly, there are many real cases I need to write my own plugins.
 
 - Customize a plugin to my need. Some plugins are based on a CLI tool and they generally don't put all the options available for that tool.
 - Plugin for a less popular tool that no one has written it before.
 - Organize my related scripts to a single plugin. This can be more organized than having many abbreviations, many templates, and many more in the same .vimrc file.
 
-I will focus on a ftplugin in this post. You may suggest improvements if you find any. An ftplugin, unlike a global plugin, is only applied when the file type match. You can set one single Haskell plugin at `~/.vim/ftplugin/haskell.vim` or create a haskell folder and put plugin(s) inside it like `~/.vim/ftplugin/haskell/brittany.vim`. An ftplugin will be executed whenever you open a Haskell (\*.hs) file. To check if Vim supports a particular language, type this
+I will focus on a ftplugin in this post. An ftplugin, unlike a global plugin, is only applied when the file type match. You can set one single Haskell plugin at `~/.vim/ftplugin/haskell.vim` or create a haskell folder and put plugin(s) inside it like `~/.vim/ftplugin/haskell/brittany.vim`. An ftplugin will be executed whenever you open a Haskell (\*.hs) file. To check if Vim supports a particular language, type this
 
 ```vim
 :setfiletype
@@ -141,4 +141,4 @@ endfunction
 
 ## Final Words
 
-The next ftplugin I write has exactly the same format as this one. This means it is very easy for me to understand all plugins of this kind I write myself. Note that this kind of plugin is one of the easiest to write because it depends on an already polished 3rd-party tool (in this case: brittany). I still have a lot to learn to write a more complex plugin.
+The next ftplugin I write has exactly the same format as this one. This means it is very easy for me to understand all plugins of this kind I write myself. Note that this kind of plugin is one of the easiest to write because it depends on an already polished 3rd-party tool (brittany in this case). I still have a lot to learn to write a more complex plugin.

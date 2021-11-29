@@ -44,4 +44,4 @@ humble bundle:
       - 2018: 'Accelerating Development Velocity Using Docker'
 ```
 
-On the other hand, the recfile equivalent will require a lot of duplicated fields like 'humble bundle', which is a field shared by all books.
+On the other hand, the recfile equivalent creates a lot of duplicate fields like 'humble bundle' because it is shared by all books.
