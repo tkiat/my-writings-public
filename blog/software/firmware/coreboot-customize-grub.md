@@ -1,6 +1,6 @@
 # coreboot: Customize GRUB Message
 
-One benefit of coreboot is the ability to customize grub messages. I write my contact information like this.
+I can include my contact information in the footer of the GRUB menu like this.
 
 ```
 If found, please contact john.doe@whatever.com or +6612345678
@@ -24,7 +24,7 @@ Adjust message as you want and store the diff file.
 git diff > my-grub-conf
 ```
 
-Now go to the coreboot repository. Select GRUB as payload and compile coreboot. This will create the GRUB folder. Move the diff file to that folder and apply it.
+Now go to the coreboot repository. Select GRUB as payload and compile coreboot. This will create the GRUB-related folder. Move the diff file to that folder and apply it.
 
 ```
 git apply my-grub-conf
