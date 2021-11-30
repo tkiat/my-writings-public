@@ -1,11 +1,5 @@
 # On the Proper Definition of Veganism
 
-<!-- Like many other terms, the definitions of veganism can be conflicting. Some might  -->
-<!--  -->
-<!-- ## Rulebook vs Ethics -->
-
-I 
-
 ## Something Doesn't Make Sense from The Ethical Perspective
 
 [The Vegan Society](https://www.vegansociety.com/go-vegan/definition-veganismhttps://www.vegansociety.com/go-vegan/definition-veganism) defines veganism as
@@ -14,36 +8,49 @@ I
 
 In shorter terms, vegan does **two actions**.
 
-- exclude all forms of animal exploitation
+- exclude all forms of animal exploitation as much as possible
 - promote animal-free alternatives
 
-I find the frst action sensible but not the second one. Let's say a wild pig fell off the cliff to death because it was very windy. A person found that pig and share the meat with his neighbors, saying it is not unethical meat. How does it apply to the definitions above?
+I find the first action sensible but not the second one. Let's say a wild pig fell off the cliff to death because it was very windy. A person found that pig and shared the meat with his neighbors, saying he just saw it fall off the cliff. How does it apply to the definitions above? The meat is an animal product yet it fits the first action as there is no animal exploitation from humans here. According to the second action, that person shouldn't distribute his meat.
 
-The meat is an animal product yet it fits the first action as there is no animal exploitation from humans here. According to the second action, that person shouldn't distribute his meat. This doesn't make sense from the ethical perspective as a dead animal is, just like plants, not anymore a sentient being and eating it in this case doesn't promote the meat industry. Eating the meat, while not unethical, is even more ethical than wasting it away because that is more efficient use of resources.
+This doesn't make sense from the ethical perspective as a dead animal is, just like plants, not anymore a sentient being, and eating it, in this case, doesn't promote the meat industry. Eating the meat, while not unethical, is even more ethical than wasting it away because that is a more efficient use of resources.
 
 Another example here is that it is not unethical to use animal parts that may cause harm to them.
 <!-- - Wear a second-hand leather suit from a previous non-vegan person and live in the cabin alone without anyone realizing the existence of that leather (i.e. not advertising it). -->
 
-## A More Proper Definition Should Stem from Some Basis
-Many vegans just follow rules and abstaining from using animal products no matter what and this is an excellent practice. But, I fail to find the supported basis here of why we should do that. The elimination of animal exploitation is certainly not a basis as I proved otherwise earlier in the wild pig example.
+## A Proper Definition Should Have a Clear Link to Its Basis
+Many vegans just follow rules and abstain from using animal products no matter what and this is an excellent practice. But, I fail to find the supported basis here of why we should do that. The elimination of animal exploitation is certainly not a basis for not eating meat like the earlier wild pig example.
 
-## The Definition of Veganism
-We all know that vegans concern about the animal welfare. But, what is the basis that supports the animal welfare? Is it a good home, good food, no human intervention, or organic? There are many couterarguments for those but I fail to find one for "no animal exploitation". Therefore, here is my definition.
+## My Definition of Veganism
+We all know that vegans are concerned about animal welfare. But, what is the basis that supports animal welfare? Is it a good home, good food, no human intervention, or organic? The most fundamental prerequisite for vegan I can think of is "no animal exploitation". It is therefore reasonable to use this most fundamental value as the initial definition.
 
-> Veganism is a way of living of excluding as much as possible animal exploitation.
+> **Veganism is a way of living without animal exploitation.**
 
-This is very similar to the beginning part of the definition from the vegan society except that I don't satte clearly how not to exploit the animals. This is sensible as the real logic is not always straightforwards. I can draw many logical statements from my definition of veganism.
+I am going through the statements below and then adjusting them if I find a loophole in my definition.
 
+### Statement 1
 > It is still vegan to eat a dead animal as long as you don't directly exploit it or support, in any way, someone who exploited that animal.
 
-This statement is also sensible as it conforms the my definition above. There is no reason at all not to eat a dead wild animal. This doesn't apply, of course, to a farm animal.
+This statement is sensible as there is no reason at all not to eat a dead wild animal. This doesn't apply, of course, to a farm animal where money given to the supplier will result in further exploitation. This statement conforms to my definition so there is no need to change it.
 
-> It is still vegan to eat plants with pesticide used in the process.
+### Statement 2
+> It is still vegan to eat plants with a pesticide used in the process.
 
+This statement is sensible in most cases. Typically, a person doesn't grow his food and relies on a food supplier. There is no way he can know what happened in the process. All he can do is to exclude as much as possible animal exploitation. Even if he knows that there is a pesticide used, he is still a vegan as long as he has no other better choices.
 
+But, this doesn't conform to my definition of veganism. I should change it to
 
+> **Veganism is a way of living excluding as much as possible animal exploitation.**
 
+### Statement 3
+> It is still vegan to kill a pig on the islands, given that you will starve to death otherwise.
 
-There are more subtle 
+This is debatable and I don't think there is a clear winner. I would prioritize myself because the fundamental selfishness resonates with me: any being wants to survive. The "as much as possible" in my definition is still pretty vague here. Your definition might be different now but I now have to adjust my definition.
 
-Some people might argue that they don't kill animals themselves, and since they are already dead, it is not unethical to eat them. But that is the big fallacy - they still support the continuation of killing and suffering of animals by giving money to the meat industry.
+> **Veganism is a way to keep living excluding as much as possible animal exploitation.**
+
+I will add more statements later.
+
+## Final Word
+
+Veganism should not be about following some rules blindly but rather aligns with your values and motivation.
