@@ -9,7 +9,7 @@ Cartridge razors, also known as multi-blade razors, are the most popular of all 
 - **Its current design is bad for the environment**. If you think about it, it uses slightly less amount of metal than a double-edged razor. However, the blades in the market currently come with non-removable plastic.
 - **Some handles are disposable**. Obviously, this really harms the environment.
 - **It is very expensive in a long run**. A cheap Gillette razor blade costs around 20 THB while a cheap double-edged blade costs 1.2 THB. A double-edged handle can be expensive (> 1000 THB) but I use a 40 THB one exclusively for about a year, and it still works great. Being very cheap, I have to dry it every time to prevent rust.
-- **The quality is subpar and inconsistent**. While the first-time experience can be blissful, most multi-blade shavers often shave as many times as possible until the blade is in a terrible state. The worse experience at the end can offset the initial good feeling. A double-edged razor; however, is very cheap that you can replace it at least every week for a truly consistent shave.
+- **The quality is subpar and inconsistent**. While the first-time experience can be blissful, most multi-blade shavers often shave as many times as possible until the blade is in a terrible state. The worse experience at the end can offset the initial good feeling. A double-edged razor; however, is very cheap that you can replace it often without worry for a truly consistent shave.
 
 ![Gillette handle](https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/gillette-disposable-handle.jpg)
 

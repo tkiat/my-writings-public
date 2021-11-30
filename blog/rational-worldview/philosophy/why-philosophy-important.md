@@ -10,4 +10,4 @@ This means you live your life by chasing anything that is deemed good by society
 
 But our personalities can change. How can we know our true selves? This is when philosophy comes into play. A person engaged in philosophical thinking examines his fundamental values uninfluenced by external factors such as emotions. This will eventually make him aware of his values. He can then use those as starting points and adjust everything he does to become aligned with his values. This results in harmony and happiness.
 
-On the other hand, a person who doesn't know his true values will chase shallow or frivolous stuff, all of which he might later not want anymore. Things will go up and down frequently for he still doesn't have any ideal or purpose to hold on to.
+On the other hand, a person who doesn't know his true values will chase shallow or frivolous stuff, all of which he might later not want anymore. His life will go up and down like a rollercoaster without the destination since he still doesn't have any ideal or purpose to hold on to.
