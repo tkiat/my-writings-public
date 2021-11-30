@@ -1,4 +1,4 @@
-# Repair: iPhone 6 Plus Battery Replacement
+# iPhone 6 Plus Battery Replacement
 
 My cousin wanted me to replace the battery for her 7-year old phone. The official repair was around 1600 THB while it cost only almost 300 THB including shipping if ordered from Shopee so I suggested her the later. The battery itself was from China but it had good ratings so I ordered it. The model got the [repairability score](https://www.ifixit.com/Device/iPhone_6_Plus) of 7 from iFixit unlike HTC one (score 1) that I repaired before so I thought it would be much easier. Turned out, it was not the case.
 

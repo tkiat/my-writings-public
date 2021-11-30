@@ -1,4 +1,4 @@
-# Repair: HTC One M7 Battery Replacement
+# HTC One M7 Battery Replacement
 
 I bought a flagship smartphone (HTC One M7) in 2013 because I was about to go study in Germany and I wanted to take beautiful photos but I refused to buy a proper camera.
 
