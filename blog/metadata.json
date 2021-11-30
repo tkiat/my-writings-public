@@ -161,6 +161,11 @@
         "subcategory": "Firmware",
         "children": [
           {
+            "date": "2021-11-30",
+            "title": "coreboot: Customize GRUB Message",
+            "slug": "coreboot-customize-grub"
+          },
+          {
             "date": "2021-08-25",
             "title": "coreboot: Boot from Minimal GRUB",
             "slug": "coreboot-boot-minimal-grub"
