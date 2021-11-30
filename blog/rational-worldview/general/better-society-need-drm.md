@@ -1,8 +1,8 @@
-# Not All DRMs are Bad for Users' Freedom. We (Currently) Need Them for a Better Society.
+# Not All DRMs are Bad for Users' Freedom. We Need Them for a Better Society.
 
-DRM stands for Digital Rights Management. It is a technology that puts some restrictions on the usage of digital content. A DRMed book bought from Amazon prevents a user from reading a book without an Amazon client. A DRMed game bought from Ubisoft must be started using its client. These DRM adders intend to prevent illegal distributed copies. By contrast, DRM-free media allow you to put it into any device you like given that it supports the media format.
+DRM stands for Digital Rights Management. It is a technology that puts some restrictions on the usage of digital content. A DRMed ebook bought from Amazon prevents a user from reading an ebook without an Amazon client. A DRMed game bought from Ubisoft must be started using its client. These DRM adders intend to prevent illegal distributed copies. By contrast, DRM-free media allow you to put it into any device you like given that it supports the media format.
 
-The distributor/publishers all have the right to add DRM to their products, made with their blood, sweat, and tear! However, not every DRM makes sense. There are websites like [Defective by Design](https://www.defectivebydesign.org/) that oppose all DRMs but I disagree with them since I find some benefits of DRMs to users. This article elaborates that.
+The distributor/publishers all have the right to add DRM to their products, made with their blood, sweat, and tear! However, not every DRM makes sense. There are websites like [Defective by Design](https://www.defectivebydesign.org/) that seem to oppose all DRMs but I disagree with them a bit since I find some benefits of DRMs to users. This article elaborates that.
 
 ## How DRMs Undermine Users' Freedom
 
@@ -26,4 +26,4 @@ It might sound counter-intuitive because the subscription is subjected to mass s
 
 This can be compared to the most bottom section of Maslow's hierarchy of needs (having food). The subscription-based media is cheaper than the DRM-free counterpart when users consume a lot of data in a month. In this case, it can satisfy low-income users the need. This need is at the bottom of the aforementioned hierarchy but at least it is a midway towards better freedom.
 
-The ideal world has both DRM subscriptions and equivalent DRM-free products. This is simply because having two choices is better than having only one choice, given that users are well-aware of all options. Some users prefer paying cheaper at the cost of some freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.
+The ideal world has both DRM subscriptions and equivalent DRM-free products. This is simply because having two choices is better than having only one choice, given that users are well aware of all options. Some users prefer paying cheaper at the cost of some freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.
