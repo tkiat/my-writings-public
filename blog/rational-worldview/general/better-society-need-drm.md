@@ -20,7 +20,7 @@ The validation of these two axioms is sufficient to state that DRMs can sometime
 This sounds logical because users would download everything they want in the first month and stop thereafter if there is no DRM.
 
 ### Axiom 2
-> Subscription services can enhance users' freedom.
+> Subscription services can enhance users' freedom
 
 It might sound counter-intuitive because the subscription is subjected to mass surveillance and dependency on the proprietary platform/product. User has to log in with his/her credentials to watch a Netflix movie and the company can record all user activities. However, this is more of a first-world problem and is not applicable to people from underdeveloped countries. All they want is the ability to access the media.
 

@@ -10,4 +10,4 @@ You should separate your personal SSH keys from your work SSH keys if they are s
 
 SSH agent forwarding is the process in which you grant server A that you are connecting to the ability to connect to server B directly with the same key. The problem is that the SSH client on server A will have access to your local ssh-agent to perform authentication on its behalf. This means, if you have only one key, the rogue user on server A can impersonate you and connect to many other websites.
 
-In reality, it is hard to have control of who is the admin of server A so it is advisable to have multiple SSH keys, one for each server.
+In reality, it is hard to have control of who is the admin of server A so it is advisable to have multiple SSH keys.
