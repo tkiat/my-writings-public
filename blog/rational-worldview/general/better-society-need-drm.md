@@ -1,44 +1,29 @@
-# Not All DRMs are Bad for Users' Freedom. We Need Them for a Better Society.
+# Not All DRMs are Bad for Users' Freedom. We (Currently) Need Them for a Better Society.
 
-DRM stands for Digital Rights Management. It is a technology that puts some restrictions on the usage of digital content. A DRMed book bought from Amazon prevents a user from reading a book without an Amazon's client. A DRMed game bought from Ubisoft must be started using its client. These DRM adders intend to prevent illegal distributed copies. By contrast, DRM-free media allow you to put it into any device you like given that it supports the media format.
+DRM stands for Digital Rights Management. It is a technology that puts some restrictions on the usage of digital content. A DRMed book bought from Amazon prevents a user from reading a book without an Amazon client. A DRMed game bought from Ubisoft must be started using its client. These DRM adders intend to prevent illegal distributed copies. By contrast, DRM-free media allow you to put it into any device you like given that it supports the media format.
 
-The distributor/publishers all have the right to add DRM to their products, made with their blood, sweat, and tear! However, not every DRM makes sense. This article explores the relationship between DRM and users' freedom.
+The distributor/publishers all have the right to add DRM to their products, made with their blood, sweat, and tear! However, not every DRM makes sense. There are websites like [Defective by Design](https://www.defectivebydesign.org/) that oppose all DRMs but I disagree with them since I find some benefits of DRMs to users. This article elaborates that.
 
 ## How DRMs Undermine Users' Freedom
 
-I consider DRM in any single-purchased product to be always bad for users. Let's divide it into two cases.
+The DRMs on single-purchased recordable media such as music, movies, and ebooks are ineffective since they cannot prevent everybody from recording it. Everybody can at least use a camera to record a movie, an image to text to record an ebook, or a song recorder to copy a music track. As a result, it cannot at all prevent piracy while punishing the paying customers e.g. restricting them within an app. A DRM-free product with a unique watermark in it is a much more reasonable choice.
 
-- **Crackable DRM**. Usually, DRM in this case is found in media such as music, movies, and books. There is no point in implementing DRM in such products because it can always be circumvented by using tools such as a recorder, a camera, or a text processor. As a result, a pirater can enjoy that media without any restrictions, unlike the paying customers. A DRM-free product with a unique watermark in it is a much more reasonable choice.
-- **Uncrackable DRM**. For example, many online games. A game serves players some data from its server so unless the game source code is leaked people have to code themselves to emulate the server. Unlike crackable DRMs, I give more respect to these products because it at least fulfills its intention well. It provides many benefits including anti-cheating but that also means all users' hope depends on the existence of the game servers. Everything is gone when the game company is gone.
+To my knowledge, the only effective DRM is the one that serves critical bits from the server like what online games like Diablo 3 do. This always-on DRM has benefits including anti-cheating but it also makes users dependent on the server. Some users may pay a lot of money for nothing when the company is gone.
 
 ## How DRMs Enhance Users' Freedom
 
-It might sound counter-intuitive but I do consider DRM in a subscription service, in some cases, can enhance users' freedom. Let me elaborate. First of all, we need two axioms.
+The validation of these two axioms is sufficient to state that DRMs can sometimes enhance users' freedom.
 
-- **Axiom #1: Subscription services can lower the barrier to entry as compared to a single-purchased product**. If they cost the same as single-purchased products, everyone would rather buy those instead because of no time limit.
-- **Axiom #2: Subscription services need DRMs to survive**. Without DRMs, users would download everything they want in the first month and stop thereafter.
+### Axiom 1
+> DRM is essential for subscription services
 
-Now let's consider a simple users' freedom ranking in some scenarios.
+This sounds logical because users would download everything they want in the first month and stop thereafter if there is no DRM.
 
-For any particular product,
+### Axiom 2
+> Subscription services can enhance users' freedom.
 
-- **Level 2**: Users also have access to a DRM-free offering.
-- **Level 1**: Users only have access to an offering with DRM.
-- **Level 0**: Users have no access at all.
+It might sound counter-intuitive because the subscription is subjected to mass surveillance and dependency on the proprietary platform/product. User has to log in with his/her credentials to watch a Netflix movie and the company can record all user activities. However, this is more of a first-world problem and is not applicable to people from underdeveloped countries. All they want is the ability to access the media.
 
-DRMs help users, especially poor ones, transition from level 0 to level 1 here (because of lower barrier to entry as in axiom #1, which needs DRMs as in axiom #2). DRMs alone do help enhance users' freedom, only until level 1.
+This can be compared to the most bottom section of Maslow's hierarchy of needs (having food). The subscription-based media is cheaper than the DRM-free counterpart when users consume a lot of data in a month. In this case, it can satisfy low-income users the need. This need is at the bottom of the aforementioned hierarchy but at least it is a midway towards better freedom.
 
-## A Better Society Needs DRMs
-
-Well, let's modify the previous ranking. For any particular product,
-
-- **Level 2**: Users are aware of and have access to both DRM and DRM-free offerings.
-- **Level 1**: Users only have access to a DRM-free offering.
-- **Level 1**: Users only have access to an offering with DRM.
-- **Level 0**: Users have no access at all.
-
-Does this make sense? The reason why DRM-free products also have the same level as DRM products (level 1) is that the higher price nature of DRM-free products can sometimes prevent some users to access the products at all (i.e. remain at level 0). For an analogy lover, you cannot say that tasty fruit that is placed too high can fulfill our need more than or less than a typical one placed below. This depends on the height of each individual, or in our case here: finance.
-
-Level 2 is strictly better than having only DRM-free products available (level 1) due to more choices and users' awareness of choices. A product with DRM, particularly in a subscription service, can be cheaper than its DRM-free counterpart and that's why someone still chooses it.
-
-This brings us to the question of whether 'more choices' leads to compromised users' freedom. I would say no. Why? A user at level 2 might choose products with DRM and if we focus only on that product, it seems he undermines his freedom. But if we step back and put things into a wider perspective, he had all choices in the first place, it is just that he doesn't exercise his right to choose DRM-free products, and that's OK.
+The ideal world has both DRM subscriptions and equivalent DRM-free products. This is simply because having two choices is better than having only one choice, given that users are well-aware of all options. Some users prefer paying cheaper at the cost of some freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.
