@@ -11,7 +11,7 @@ Therefore, I would like to write a tool to catch all the lines with more than X 
 I prefer ripgrep, a modern replacement of grep, over grep in this context because it tells me the line number out of the box which helps me to locate the exact spot. It supports RegEx input like
 
 ```bash
-rg '.{500,}'
+$ rg '.{500,}'
 ```
 
 This will catch all the lines of every file in the current directory with at least 500 characters long. Isn't this what we need. OK! This is the end of the post thank you very much for your attention.
@@ -37,7 +37,7 @@ because this is what a user actually sees.
 We can use the sed command to filter it out.
 
 ```bash
-sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g'
+$ sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g'
 ```
 
 ### HTML Tags Removal
@@ -45,7 +45,7 @@ sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g'
 Again, we can use the sed command to filter it out.
 
 ```bash
-sed -E 's/<[^>]*>//g'
+$ sed -E 's/<[^>]*>//g'
 ```
 
 This tag removal is not perfect because there might be some '<' or '>' symbols before the tag closing, like
@@ -59,7 +59,7 @@ This is a pretty contrived example but it can happen nevertheless. Anyway, no on
 ### Combine Everything
 
 ```bash
-rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{500,}" -r 'filename: $1, line number: $2';
+$ rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{500,}" -r 'filename: $1, line number: $2';
 ```
 
 The -r option at the end is to reformat the output so we get only what is important: file name and line number, instead of getting all contents of every line in stdout.
@@ -67,7 +67,7 @@ The -r option at the end is to reformat the output so we get only what is import
 Version with fallback (500 columns),
 
 ```bash
-2grep-width-nolink() { rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{${1:-500},}" -r 'filename: $1, line number: $2'; }
+2grep-morethan() { rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{${1:-500},}" -r 'filename: $1, line number: $2'; }
 ```
 
 ## What are Still Missing?
