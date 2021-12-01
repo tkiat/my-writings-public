@@ -1,4 +1,4 @@
-# My Script to Limit Paragraph Length
+# Shell: Command to Limit Number of Markdown Columns
 
 There are many properties of how to make a blog post more readable and engaging. They are line height, font size, font color, the content quality just to name a few. One thing that stands out and is very important is the paragraph length. Too long paragraph length makes it boring for the reader and also harder to skim through the content.
 
@@ -64,7 +64,7 @@ rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg 
 
 The -r option at the end is to reformat the output so we get only what is important: file name and line number, instead of getting all contents of every line in stdout.
 
-Bash alias version with fallback,
+Version with fallback (500 columns),
 
 ```bash
 2grep-width-nolink() { rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{${1:-500},}" -r 'filename: $1, line number: $2'; }

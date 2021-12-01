@@ -12,8 +12,13 @@
           },
           {
             "date": "2021-07-21",
-            "title": "Write a Simple Vim ftplugin",
-            "slug": "write-simple-vim-ftplugin"
+            "title": "Vim: Write a Simple ftplugin",
+            "slug": "vim-write-simple-ftplugin"
+          },
+          {
+            "date": "2021-07-15",
+            "title": "Shell: Command to Limit Number of Markdown Columns",
+            "slug": "shell-limit-md-cols"
           },
           {
             "date": "2021-01-31",

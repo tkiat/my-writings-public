@@ -1,4 +1,4 @@
-# Write a Simple Vim ftplugin
+# Vim: Write a Simple ftplugin
 
 Being one of the most popular editors among software developers, there are a plethora of [Vim plugins](https://vimawesome.com/) available. Nevertheless, I prefer to use only as much as I need. I need NERDTree because netrw had too many bugs and the keymaps are not intuitive, coc.nvim because I need an all-in-one solution for linting and completion supports, and emmet.vim because closing the HTML tag manually is a pain. I also have some more syntax highlighting plugins like TOML and Dhall.
 
