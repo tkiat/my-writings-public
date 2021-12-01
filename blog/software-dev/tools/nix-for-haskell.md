@@ -173,7 +173,7 @@ You can then build the project using `nix-build --attr exe`. You can use Makefil
 
 ### Add Docker (Optional)
 
-This will build a docker image. The coworkers can therefore execute in the same environment as yours. Why Docker if we already have Nix? Someone might be more familiar with Docker I guess.
+This will build a docker image. The coworkers can therefore execute in the same environment as yours. Some companies use Docker for deployment and some devs only know Docker so having this option is sometimes crucial.
 
 ```nix
 ...

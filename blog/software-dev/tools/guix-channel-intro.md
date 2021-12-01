@@ -38,7 +38,7 @@ Sometimes you might forget to sign a Git commit and this will break your Guix ch
 
 It might be tiresome to change both Guix hash and commit hash manually on the Guix channel whenever you update a package in the channel. That's where automation comes in. Without a local copy of the repository, we need to depend on other Git platform CI. I like to focus on local automation only, which means I need a local copy of a package that I want to update and a local copy of my Guix channel.
 
-A simple Git hook is sufficient for local automation. Removing `.sample` part from a filename in .git/hooks will enable a particular Git hook. We want to update the Guix channel after pushing to the current package remote; however, Git hook has no post-push hook so we will use a pre-push hook instead.
+A simple Git hook is sufficient for local automation. Removing `.sample` part from a file name in .git/hooks will enable a particular Git hook. We want to update the Guix channel after pushing to the current package remote; however, Git hook has no post-push hook so we will use a pre-push hook instead.
 
 <figure>
   <img src="https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/guix-channel-git_hook.png" alt="git hook flow" style="background-color: black">

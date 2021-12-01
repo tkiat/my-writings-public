@@ -1,0 +1,17 @@
+[
+  {
+    "category": "Software Dev",
+    "children": [
+      {
+        "subcategory": "Functional Programming",
+        "children": [
+          {
+            "date": "2021-12-01",
+            "title": "My Testing Philosophy",
+            "slug": "my-testing-philosophy"
+          }
+        ]
+      }
+    ]
+  }
+]
