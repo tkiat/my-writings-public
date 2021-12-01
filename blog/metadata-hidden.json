@@ -9,6 +9,11 @@
             "date": "2021-12-01",
             "title": "My Testing Philosophy",
             "slug": "my-testing-philosophy"
+          },
+          {
+            "date": "2021-07-01",
+            "title": "Purescript Proof: lift2 f x y = f <$> x <*> y",
+            "slug": "purescript-lift2-proof"
           }
         ]
       }

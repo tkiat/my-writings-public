@@ -16,6 +16,11 @@
             "slug": "write-simple-vim-ftplugin"
           },
           {
+            "date": "2021-01-31",
+            "title": "Shell Script: Demystify du command",
+            "slug": "shell-du-intro"
+          },
+          {
             "date": "2021-01-24",
             "title": "GNU Recutils: A Short Introduction",
             "slug": "gnu-recutils-intro"

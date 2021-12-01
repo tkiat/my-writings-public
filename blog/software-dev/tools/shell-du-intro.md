@@ -1,6 +1,6 @@
 # Shell Script: Demystify du command
 
-du command in Linux estimates file and directory space usage. I used it lately and was confused about the format of the outputs (why it is different than using ls -l) so I did some research and hence this post.
+`du` command in Linux estimates file and directory space usage. I used it lately and was confused about the format of the outputs (why it is different than using `ls -l`) so I did some research and hence this post.
 
 1. Create an empty folder and cd to it
 
