@@ -1,6 +1,6 @@
 # Shell: Command to Limit Number of Markdown Paragraph Columns
 
-In addition to line-height, font size, the content itself, and so on, paragraph length is one of the most important factors for a readable and engaging blog post. Too long paragraph length makes it boring for the reader and also harder to skim through the content. Too short paragraph length will make the reader's eyeballs roll too quickly like [rick roll](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+In addition to line-height, font size, the content itself, and so on, paragraph length is one of the most important factors for a readable and engaging blog post. Too long paragraph length makes it boring for the reader and also harder to skim through the content. Too short paragraph length will make the reader's eyeballs roll too quickly like [this guy](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 Therefore, I would like to write a tool to catch all the lines with more than X characters recursively in a certain directory. You can skip to the end for the final solution or suggest a better solution if any.
 
@@ -52,7 +52,7 @@ This tag removal is not perfect because there might be some '<' or '>' symbols b
 <img onload="console.log('5 + 6 < 5 ha> ha>')" />
 ```
 
-This is a pretty contrived example but it can happen nevertheless. Anyway, no one would write a complex HTML tag or script in a simple markdown post so this solution should be generally good enough.
+This is a pretty contrived example but it can happen nevertheless. Anyway, people usually don't write a complex HTML tag in a simple markdown post so this solution should be generally good enough.
 
 ### Combine Everything
 
@@ -62,10 +62,10 @@ $ rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | r
 
 The -r option at the end is to reformat the output so we get only what is important: file name and line number, without the file content.
 
-### Add Fallback Value (500 Columns)
+### Add a Fallback Value (500 Columns)
 
 ```bash
-2grep-morethan() { rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{${1:-500},}" -r 'filename: $1, line number: $2'; }
+$ rg --line-number '.' | sed -E 's/\[([^]]*)\]\([^\)]*\)/\1/g; s/<[^>]*>//g' | rg "(.*?):(.*?):.{${1:-500},}" -r 'filename: $1, line number: $2'
 ```
 
 ## What are Still Missing?
