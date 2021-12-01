@@ -1,0 +1,15 @@
+digraph G {
+  bgcolor = transparent;
+  class = "graphviz";
+  rankdir="TB";
+
+  push [class = "graphviz__text"; label = "git push"; shape = rect;]
+  hook [class = "graphviz__text"; label = "Update?"; shape = diamond;]
+  update [class = "graphviz__text"; label = "Update channel"; shape = rect;]
+  pushed [class = "graphviz__text"; label = "Push to remote"; shape = rect; style = rounded;]
+
+  push -> hook [class = "graphviz__arrow"; label = "pre-push hook"]
+  hook -> update [class = "graphviz__arrow"; label = "Yes";]
+  hook -> pushed [class = "graphviz__arrow"; label = "No";]
+  update -> pushed [class = "graphviz__arrow"]
+}
