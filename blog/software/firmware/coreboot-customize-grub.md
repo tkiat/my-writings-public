@@ -24,7 +24,7 @@ Adjust message as you want and store the diff file.
 git diff > my-grub-conf
 ```
 
-Now go to the coreboot repository. Select GRUB as payload and compile coreboot. This will create the GRUB-related folder. Move the diff file to that folder and apply it.
+Now go to the coreboot repository. Select GRUB as payload and compile coreboot. coreboot will fetch the GRUB repository somewhere inside its root directory in the process. At the end of the compilation, move the diff file to the fetched GRUB folder and apply it.
 
 ```
 git apply my-grub-conf
