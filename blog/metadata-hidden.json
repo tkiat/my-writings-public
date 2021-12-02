@@ -3,7 +3,7 @@
     "category": "Software Dev",
     "children": [
       {
-        "subcategory": "Functional Programming",
+        "subcategory": "FP",
         "children": [
           {
             "date": "2021-12-01",
