@@ -18,7 +18,7 @@ cd grub/
 git checkout grub-2.04
 ```
 
-Adjust message as you want and store the diff file.
+Adjust the message as you want and store the diff file.
 
 ```
 git diff > my-grub-conf

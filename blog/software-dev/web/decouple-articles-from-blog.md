@@ -17,7 +17,7 @@ Summary: Short version for index and feeds
 This is the content of my super blog post.
 ```
 
-<center>Took from [Pelican website](https://docs.getpelican.com/en/4.6.0/content.html)</center>
+<center>Taken from <a href="https://docs.getpelican.com/en/4.6.0/content.html">Pelican website</a></center>
 
 This has a reusability issue. What if I want to publish this Markdown also on another website using different technologies? What if I have 500 Markdown files and cannot change them manually? I can at least use `sed` command to remove specific metadata in all articles, but what about I want to add it again in a different format?
 

@@ -12,7 +12,7 @@ jo.hn.sm.ith@gmail.com
 j.o.h.n.s.m.i.t.h@gmail.com
 ```
 
-<center>Taken from [Google support](https://support.google.com/mail/answer/7436150?hl=en)</center>
+<center>Taken from <a href="https://support.google.com/mail/answer/7436150?hl=en">Google support</a></center>
 
 ## How Email Aliases Can Create an Attack Vector
 

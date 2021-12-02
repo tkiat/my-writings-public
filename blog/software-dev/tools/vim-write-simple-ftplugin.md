@@ -8,7 +8,7 @@ So why do I still want to write my own plugin? Of course, I want to do it for th
 - Plugin for a less popular tool that no one has written it before.
 - Organize my related scripts to a single plugin. This can be more organized than having many abbreviations, many templates, and many more in the same .vimrc file.
 
-I will focus on a ftplugin in this post. An ftplugin, unlike a global plugin, is only applied when the file type match. You can set one single Haskell plugin at `~/.vim/ftplugin/haskell.vim` or create a haskell folder and put plugin(s) inside it like `~/.vim/ftplugin/haskell/brittany.vim`. An ftplugin will be executed whenever you open a Haskell (\*.hs) file. To check if Vim supports a particular language, type this
+I will focus on a ftplugin in this post. Unlike a global plugin, it is only applied when the file type match. You can set one single Haskell plugin at `~/.vim/ftplugin/haskell.vim` or create a haskell folder and put plugin(s) inside it like `~/.vim/ftplugin/haskell/brittany.vim`. An ftplugin will be executed whenever you open a Haskell (\*.hs) file. To check if Vim supports a particular language, type this
 
 ```vim
 :setfiletype
