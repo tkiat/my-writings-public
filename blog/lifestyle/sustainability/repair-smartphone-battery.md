@@ -1,6 +1,6 @@
-# On Modern Smartphone Battery Replacement: My Experience With iPhone 6 Plus And HTC One M7
+# On Modern Smartphone Battery Replacement: My Experience With iPhone 6 Plus and HTC One M7
 
-The leaner shape of modern-day smartphones comes at a cost: harder-to-replace batteries. The manufacturers have increasingly made their products harder to repair for whatever reason. Of course, they have the right to produce whatever they want but we should let users repair their products as well since they are the owners. I don't agree with restricting the repair to use only authorized parts because the user should have basic freedom to repair their phones.
+The leaner shape of modern-day smartphones comes at a cost: harder-to-replace batteries. The manufacturers have increasingly made their products harder to repair for whatever reason. Of course, they have the right to produce whatever they want but we should let users repair their products as well since they are the owners. I don't agree with restricting the repair to use only authorized parts because users should have basic freedom to choose any part for their phones.
 
 Some including the [right-to-repair](https://www.repair.org/) movements discourage these restrictions. One way they can do this is by pushing the laws that forbid such restrictions. Another way is, for us consumers, to research the repairability before buying a product. iFixit is an excellent website full of guides on how to repair phones and [Smartphone Repairability Scores](https://www.ifixit.com/smartphone-repairability?sort=score) of each (popular) phone. I just realized its existence when my HTC battery got swollen in 2020.
 

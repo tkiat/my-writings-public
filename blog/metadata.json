@@ -167,7 +167,7 @@
           },
           {
             "date": "2020-12-23",
-            "title": "CLI vs Web Based RSS Feed Readers And the Introduction to Newsboat",
+            "title": "CLI vs Web Based RSS Feed Readers and the Introduction to Newsboat",
             "slug": "newsboat-intro"
           }
         ]
@@ -247,6 +247,11 @@
           },
           {
             "date": "2021-01-07",
+            "title": "The Importance of Passphrase and Password Manager: Introduction to pass",
+            "slug": "pwd-mgr-pass"
+          },
+          {
+            "date": "2021-01-07",
             "title": "Password Manager: Why I Switched from Bitwarden to Pass",
             "slug": "pwd-mgr-bitwarden-to-pass"
           },
@@ -267,7 +272,7 @@
         "children": [
           {
             "date": "2021-07-28",
-            "title": "On Modern Smartphone Battery Replacement: My Experience With iPhone 6 Plus And HTC One M7",
+            "title": "On Modern Smartphone Battery Replacement: My Experience With iPhone 6 Plus and HTC One M7",
             "slug": "repair-smartphone-battery"
           },
           {

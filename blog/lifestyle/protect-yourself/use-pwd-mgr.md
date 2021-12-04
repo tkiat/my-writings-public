@@ -1,4 +1,4 @@
-# Use Passphrase and Password Manager
+# Use Passphrase And Password Manager
 
 Humans are usually terrible at making passwords. Something like "password", "password123", "firstname" are not secure because they are guessable.
 

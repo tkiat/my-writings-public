@@ -1,4 +1,4 @@
-# CLI vs Web Based RSS Feed Readers And the Introduction to Newsboat
+# CLI vs Web Based RSS Feed Readers and the Introduction to Newsboat
 
 RSS feed is an aggregator of news, articles, etc. from many websites to a single place so that a user doesn't have to browse on a gazillion of websites. Inoreader was the best I had used on the web. It offered a compact UI, flexible feed grouping, read-anywhere with an account, and many more. On the other end, there are free and open-source terminal-based RSS readers. They have some pros and cons compared with web-based ones.
 
