@@ -1,4 +1,4 @@
-# How I Decoupled Articles from My Blog
+# How Do I Decouple Articles from My Blog
 
 ## Why?
 

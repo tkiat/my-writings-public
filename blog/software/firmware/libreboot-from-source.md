@@ -13,19 +13,19 @@ $ sudo make install-dependencies-ubuntu
 Don't worry about the word Ubuntu here, it also worked on Debian. As for the build, unless you open Thinkpad shop (in which case, just type `make`) you should build only the model you need, something like
 
 ```
-./build boot roms x200_8mb
+$ ./build boot roms x200_8mb
 ```
 
 After finishing the build, you will get a lot of keymap and payloads. Read the [doc](https://libreboot.org/docs/install/#about-rom-image-file-names) for their difference.
 
 ```
-sudo flashrom -p internal:boardmismatch=force,laptop=force_I_want_a_brick -c MX25L6405D -w my_x200.rom
+$ sudo flashrom -p internal:boardmismatch=force,laptop=force_I_want_a_brick -c MX25L6405D -w my_x200.rom
 ```
 
 You can switch out from tag and then clean everything.
 
 ```
-git switch -
-make clean
-make crossgcc-clean
+$ git switch -
+$ make clean
+$ make crossgcc-clean
 ```

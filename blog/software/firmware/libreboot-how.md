@@ -41,7 +41,7 @@ You generally need an external flasher that connected directly to the BIOS chip 
 6. Use flashrom utility to flash it.
 
 ```
-sudo flashrom --programmer ch341a_spi -w x200_8mb_usqwerty_vesafb.rom -c MX25L6405
+$ sudo flashrom --programmer ch341a_spi -w x200_8mb_usqwerty_vesafb.rom -c MX25L6405
 flashrom v1.2 on Linux 5.9.13-gnu (x86_64)
 flashrom is free software, get the source code at https://flashrom.org
 

@@ -28,12 +28,12 @@ Just read the guide on the Guix website.
 Just like a mall where they provide only an upward escalator, Guix doesn't seem to include the uninstallation procedure in their guide. Assume systemd init,
 
 ```bash
-sudo systemctl stop guix-daemon.service
-sudo systemctl stop gnu-store.mount
-sudo rm -rf /gnu
-sudo rm -rf /var/guix
-sudo rm -rf ~/.profile/guix
-sudo rm -rf /etc/guix
+$ sudo systemctl stop guix-daemon.service
+$ sudo systemctl stop gnu-store.mount
+$ sudo rm -rf /gnu
+$ sudo rm -rf /var/guix
+$ sudo rm -rf ~/.profile/guix
+$ sudo rm -rf /etc/guix
 ```
 
 Make sure you also remove all `guixbuilder` related users and groups.

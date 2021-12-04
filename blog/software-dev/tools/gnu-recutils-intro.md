@@ -32,7 +32,7 @@ As you can see, Recutils just list all the data in a flat hierarchy. It is very 
 
 Recfiles (database files for Recutils) are not suitable to manage files with hierarchies. You will find a lot of duplicate fields when converting hierarchical data structure into a recfiles format. For that, you should prefer something like YAML. See this collection of my 1-dollar Humble Bundle receipt,
 
-```
+```yaml
 humble bundle:
   - 2021-06-05 "Web Development & Design by O'Reilly":
       - 2018: 'Designing Web Apis'

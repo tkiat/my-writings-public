@@ -1,4 +1,4 @@
-# Why is Philosophy Very Important in Life?
+# Why Is Philosophy Very Important in Life?
 
 A today robot is not a sentient being so they don't have problems doing whatsoever assigned to it. They don't need a philosophy or else you just waste its RAM and storage.
 

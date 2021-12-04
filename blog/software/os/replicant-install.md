@@ -15,7 +15,7 @@ I inspected the default operating system of my devices, all are Samsung flavor o
 The official manual was clear enough for me. First, you download (and verify) Replicant recovery image and then the operating system of the same version. The latest version might not be better than the previous one (they list the issues clearly so check that out). On Linux, you need a Heimdall package to flash ROM and also ADB to install the OS. I used this command when ADB complained about insufficient privilege.
 
 ```bash
-adb kill-server && sudo adb start-server
+$ adb kill-server && sudo adb start-server
 ```
 
 Don't forget to backup EFS (modem data including IMEI). One thing also worth noting is software renderers in Replicant: libagl vs llvmpipe. libagl was much faster but also lacks many functionalities (night light included in my case), llvmpipe was extremely slow (around 5 seconds delay for each click which was unusable to me). For details of how to switch them visit [https://redmine.replicant.us/projects/replicant/wiki/Graphics](https://redmine.replicant.us/projects/replicant/wiki/Graphics).

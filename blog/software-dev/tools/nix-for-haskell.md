@@ -4,7 +4,7 @@ Nix is a reproducible package manager. It can manage any dependencies, unlike St
 
 ## Run GHCi Against Compiled Packages
 
-Nix helps you include packages in GHCi given that it is available with Nix. To find a Haskell package in Nixpkgs, you can query all the results and save them to a file. You can then search for a package in that file.
+Nix helps you include Haskell packages in GHCi. I find it long to query a Haskell package from the Nix repository so I recommend you to save all the query results to a file.
 
 ```bash
 $ nix-env -f '<nixpkgs>' -qaP -A haskellPackages > temp

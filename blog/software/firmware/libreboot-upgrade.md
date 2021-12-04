@@ -3,7 +3,7 @@
 I upgraded my Libreboot to a new release: 20210522. Once installed, it is easy to upgrade Libreboot. Use this to test if your system is ready
 
 ```bash
-flashrom -p internal
+$ flashrom -p internal
 ```
 
 ## If Not Yet Ready
@@ -40,16 +40,16 @@ So you can try a non-invasive solution first. For a more invasive solution,
 
 Many tutorials recommend reading two times and checking their diff, so I do the same
 
-```
-sudo flashrom -p internal:laptop=force_I_want_a_brick,boardmismatch=force -r dump1.bin -c "your chip name from step before"
-echo "Do the same but this time dump2.bin"
-diff dump1.bin dump2.bin
+```bash
+$ sudo flashrom -p internal:laptop=force_I_want_a_brick,boardmismatch=force -r dump1.bin -c "your chip name from step before"
+$ echo "Do the same but this time dump2.bin"
+$ diff dump1.bin dump2.bin
 ```
 
 Now flash
 
-```
-sudo flashrom -p internal:laptop=force_I_want_a_brick,boardmismatch=force --ifd -i bios -c "your chip name on mainboard" -w "rom of your choice"
+```bash
+$ sudo flashrom -p internal:laptop=force_I_want_a_brick,boardmismatch=force --ifd -i bios -c "your chip name on mainboard" -w "rom of your choice"
 ```
 
 It should say `VERIFIED` if it succeeds. This Libreboot version `20210522` has no background image. This is an expected behavior.

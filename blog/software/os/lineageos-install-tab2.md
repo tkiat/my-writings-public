@@ -1,4 +1,4 @@
-# Lineageos: Installation on Tab 2 P3100 And P5100 and My Take on It
+# Lineageos: Installation on Tab 2 P3100 and P5100 and My Take on It
 
 Replicant 6.0 installed on both Tab 2 devices was very inconvenient to use because of disabled wireless firmware. I could connect the device with an OTG cable and my AR9271 wireless adapter but the connection and the ergonomic weren't that nice. So I kept them offline most of the time.
 

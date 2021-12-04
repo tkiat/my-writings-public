@@ -1,4 +1,4 @@
-# An Effective and Easy Way to Remove Tea Stains
+# An Effective and Easy Way To Remove Tea Stains
 
 **Just Baking soda + Vinegar**
 

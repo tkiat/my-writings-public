@@ -9,9 +9,9 @@ I create my channel because I have some packages that I forked from suckless. I 
 A signature grants a downloader the ability to verify the source. It is optional but once you do, you need to sign a Git commit every time after a certain commit you choose. Here is how you set up Git signing in a repository (in your case the last line might be `gpg.program gpg2` if your package manager names it as such).
 
 ```bash
-git config commit.gpgsign true
-git config user.signingkey <your PGP fingerprint>
-git config --global gpg.program gpg
+$ git config commit.gpgsign true
+$ git config user.signingkey <your PGP fingerprint>
+$ git config --global gpg.program gpg
 ```
 
 After that always sign Git commit by typing `git commit -S -m "my commit details"`
@@ -58,9 +58,9 @@ if [ "$ans" = "y" ]; then
   guix_hash=$(guix hash --hash=sha256 --format=nix-base32 -rx .)
 
   echo "New Git hash: $git_hash. Substituting ..."
-  sed -i "s/(commit \"[0-9a-f]\{40\}\")/(commit \"$git_hash\")/g" $file
+  sed -i "s/(commit \"[0-9a-f]\{40\}\")/(commit \"$git_hash\")/g" "$file"
   echo "New Guix hash: $guix_hash. Substituting ..."
-  sed -i "s/(base32 \".\+\")/(base32 \"$guix_hash\")/g" $file
+  sed -i "s/(base32 \".\+\")/(base32 \"$guix_hash\")/g" "$file"
 
   branch_name=$(git -C "$guix_repo" rev-parse --abbrev-ref HEAD)
   echo "Now at your guix channel ..."
@@ -69,7 +69,7 @@ if [ "$ans" = "y" ]; then
   echo "git signed commit"
   git -C "$guix_repo" commit -S -m "UPDATE: $(basename "$(pwd)").scm"
   echo "git push"
-  git -C "$guix_repo" push origin $branch_name
+  git -C "$guix_repo" push origin "$branch_name"
 fi
 ```
 

@@ -3,7 +3,7 @@
 You can install an npm package globally
 
 ```bash
-npm -g purescript spago
+$ npm -g purescript spago
 ```
 
 However, this can be troublesome because a globally installed package in your machine might not be the same as another when you hand over the project to him as it might not be compatible with the project dependencies.
@@ -13,7 +13,7 @@ It is therefore advisable to install all packages locally in the project. This w
 so we need to install locally to the project
 
 ```bash
-npm install --save-dev purescript spago
+$ npm install --save-dev purescript spago
 ```
 
 Executing the command will still give you an error.

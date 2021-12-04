@@ -12,33 +12,8 @@ This guide is based on Linux.
 
 ### Chromium
 
-Just backup /home/tkiat/.config/chromium/Default/Bookmarks somewhere, it is in a JSON format. I store it in my (private?) Git repository. Here is my script
-
-```sh
-#!/usr/bin/env dash
-bookmark_filename="bookmark-Chromium-$(date +'%Y_%m_%d').json"
-cd $MY_PRIVATE_DIR
-rm -f bookmark-Chromium-*
-cp ~/.config/chromium/Default/Bookmarks $bookmark_filename
-```
-
-The script is already considered "automation" but it is even better to automate this "automation" by using any [cron utility](https://en.wikipedia.org/wiki/Cron).
+Just backup /home/tkiat/.config/chromium/Default/Bookmarks somewhere, it is in a JSON format. The [cron utility](https://en.wikipedia.org/wiki/Cron) can help make you worry-free.
 
 ### Firefox
 
-Your bookmark is stored in `~/.mozilla/firefox/xxxxxx/bookmarkbackups/*.jsonlz4`. It is hard to know exactly what the aforementioned `xxxxxx` is so I hardcode the exact path in my script and let it immediately exit if not found. Note that the Firefox bookmark is stored in the `*.jsonlz4` format, which can be decoded by using a utility like `dejsonlz4` (I installed it using nix). You can use the JSON equivalent to restore your bookmarks on the settings menu.
-
-```sh
-#!/usr/bin/env dash
-bookmark_old=~/.mozilla/firefox/1lyg6uc1.default-default/bookmarkbackups/*.jsonlz4
-if ! [ -f $bookmark_old ]; then
-  echo "Cannot find Firefox bookmark file. Exiting..."
-  exit 1
-fi
-
-# can use e.g. dejsonlz4 later to convert jsonlz4 to json
-bookmark_filename="bookmark-Firefox-$(date +'%Y_%m_%d').jsonlz4"
-cd $MY_PRIVATE_DIR
-rm -f bookmark-Firefox-*
-cp $bookmark_old $bookmark_filename
-```
+Your bookmark is stored in `~/.mozilla/firefox/xxxxxx/bookmarkbackups/*.jsonlz4`. It is hard to know exactly what the aforementioned `xxxxxx` is so I hardcode the exact path in my script and let it immediately exit if not found. Note that the Firefox bookmark is stored in the `*.jsonlz4` format, which can be decoded by using a utility like `dejsonlz4` (I installed it using nix). You can also visit somewhere in the Firefox settings menu and select JSON format to back it up. This method is not automated of course.

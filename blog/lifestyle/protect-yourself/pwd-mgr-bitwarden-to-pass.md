@@ -1,4 +1,4 @@
-# Password Manager: Why I Switch from Bitwarden to Pass
+# Password Manager: Why I Switched from Bitwarden to Pass
 
 ## Bitwarden: Introduction
 

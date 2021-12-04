@@ -1,4 +1,4 @@
-# Newsboat: A Terminal-Based Feed Reader
+# CLI vs Web Based RSS Feed Readers And the Introduction to Newsboat
 
 RSS feed is an aggregator of news, articles, etc. from many websites to a single place so that a user doesn't have to browse on a gazillion of websites. Inoreader was the best I had used on the web. It offered a compact UI, flexible feed grouping, read-anywhere with an account, and many more. On the other end, there are free and open-source terminal-based RSS readers. They have some pros and cons compared with web-based ones.
 
@@ -11,7 +11,7 @@ RSS feed is an aggregator of news, articles, etc. from many websites to a single
 ## Cons
 
 - Be typically more tedious to set it up at first.
-- Not available as an Mobile app.
+- Not available as a Mobile app. Even if it does, I see no point of using it that way.
 
 ## Introduce Newsboat
 
@@ -19,7 +19,7 @@ Newsboat is a fork of the Newsbeuter, another feed reader. You can write a list 
 
 You can add your feeds directly by putting all websites to `~/.newsboat/urls` separated by newlines. Your can add a custom title by putting the text like ` "~Opensource.com"` after a url.
 
-## My ~/.newsboat/config
+## My Little ~/.newsboat/config
 
 ```text
 unbind-key C

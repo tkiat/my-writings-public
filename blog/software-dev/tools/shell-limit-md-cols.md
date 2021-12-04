@@ -1,4 +1,4 @@
-# Shell: Command to Limit Number of Markdown Paragraph Columns
+# Command That Limits Markdown Paragraph Length
 
 In addition to line-height, font size, the content itself, and so on, paragraph length is one of the most important factors for a readable and engaging blog post. Too long paragraph length makes it boring for the reader and also harder to skim through the content. Too short paragraph length will make the reader's eyeballs roll too quickly like [this guy](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 

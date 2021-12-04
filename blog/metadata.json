@@ -17,12 +17,12 @@
           },
           {
             "date": "2021-07-15",
-            "title": "Shell: Command to Limit Number of Markdown Paragraph Columns",
+            "title": "Shell: Command That Limits Markdown Paragraph Length",
             "slug": "shell-limit-md-cols"
           },
           {
             "date": "2021-01-31",
-            "title": "Shell: Demystify du command",
+            "title": "Shell: Demystify du Command",
             "slug": "shell-du-intro"
           },
           {
@@ -52,7 +52,7 @@
           },
           {
             "date": "2021-07-12",
-            "title": "How I Decoupled Articles from My Blog",
+            "title": "How I Decouple Articles from My Blog",
             "slug": "decouple-articles-from-blog"
           },
           {
@@ -62,7 +62,7 @@
           },
           {
             "date": "2021-01-26",
-            "title": "How to Use CDN With Local JS And CSS Fallbacks",
+            "title": "How to Use CDN With Local JS and CSS Fallbacks",
             "slug": "cdn-with-fallback"
           }
         ]
@@ -77,7 +77,7 @@
         "children": [
           {
             "date": "2021-09-01",
-            "title": "NixOS: Make It Free (as in Freedom)",
+            "title": "NixOS: Make It Free (As in Freedom)",
             "slug": "nixos-make-it-free"
           },
           {
@@ -92,7 +92,7 @@
           },
           {
             "date": "2021-08-05",
-            "title": "LineageOS: Installation on Tab 2 P3100 And P5100 and My Take on It",
+            "title": "LineageOS: Installation on Tab 2 P3100 and P5100 and My Take on It",
             "slug": "lineageos-install-tab2"
           },
           {
@@ -102,7 +102,7 @@
           },
           {
             "date": "2021-06-24",
-            "title": "Debian: Minimal Installation (With and Without Full Disk Encryption)",
+            "title": "Debian: Minimal Installation (With or Without Full Disk Encryption)",
             "slug": "debian-minimal-installation"
           },
           {
@@ -167,7 +167,7 @@
           },
           {
             "date": "2020-12-23",
-            "title": "Newsboat: A Terminal-Based Feed Reader",
+            "title": "CLI vs Web Based RSS Feed Readers And the Introduction to Newsboat",
             "slug": "newsboat-intro"
           }
         ]
@@ -247,7 +247,7 @@
           },
           {
             "date": "2021-01-07",
-            "title": "Password Manager: Why I Switch from Bitwarden to Pass",
+            "title": "Password Manager: Why I Switched from Bitwarden to Pass",
             "slug": "pwd-mgr-bitwarden-to-pass"
           },
           {
@@ -272,7 +272,7 @@
           },
           {
             "date": "2021-02-12",
-            "title": "Repair: An Effective and Easy Way to Remove Tea Stains",
+            "title": "Repair: An Effective and Easy Way To Remove Tea Stains",
             "slug": "remove-teastain"
           },
           {
@@ -286,24 +286,19 @@
             "slug": "better-alt-cartridge-razor"
           }
         ]
-      },
-      {
-        "subcategory": "Respect Others",
-        "children": [
-        ]
       }
     ]
   },
   {
     "category": "Rational Worldview",
-    "description": "want to close to phislophy not opnion",
+    "description": "TODO want to close to phislophy not opnion",
     "children": [
       {
         "subcategory": "Philosophy",
         "children": [
           {
             "date": "2021-07-13",
-            "title": "Why is Philosophy Very Important in Life?",
+            "title": "Why Is Philosophy Very Important in Life?",
             "slug": "why-philosophy-important"
           },
           {
@@ -318,7 +313,7 @@
         "children": [
           {
             "date": "2020-09-22",
-            "title": "Not All DRMs are Bad for Users' Freedom. We Need Them for a Better Society",
+            "title": "Not All DRMs Are Bad for Users' Freedom. We Need Them for a Better Society",
             "slug": "better-society-need-drm"
           }
         ]

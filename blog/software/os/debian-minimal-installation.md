@@ -1,4 +1,4 @@
-# Debian: Minimal Installation (With and Without Full Disk Encryption)
+# Debian: Minimal Installation (With or Without Full Disk Encryption)
 
 I found myself with the prompt beyond my grasp when I was a total Linux noob who tried to install it the first time, something like "nonfree firmware needed". I swore off Debian that time. Anyway, Linus also said Debian is hard to install so I didn't feel very stupid back then (haha, we are in the same league!). A year later, I considerably upgraded my Linux suit and my penguin-shaped spectacles found the installation guide easy to read!
 
@@ -42,13 +42,9 @@ deb cdrom:[Debian GNU/Linux 7.0.0 _Wheezy_ - Official amd64 CD Binary-1 20130$
 ### Add a User to Sudo Group
 
 ```
-usermod -aG sudo <user>
-apt install sudo
+$ usermod -aG sudo <user>
+$ apt install sudo
 ```
-
-### (Optional) Install nix
-
-Install `curl` and `rsync` using apt first before installing nix otherwise nix will complain and you have to start again.
 
 ### Once you have the internet, the rest is easy.
 
@@ -57,8 +53,8 @@ Install `curl` and `rsync` using apt first before installing nix otherwise nix w
 I noticed a new Libreboot release (20210522) so I did a fresh Debian install to find out if LUKS2 now works (up to that time only LUKS1 worked). I just followed this [guide](https://libreboot.org/docs/gnulinux/encrypted_debian.html). **But LUKS2 was still not working**. The Libreboot doc said this new version (20210522) supports LUKS2 but it didn't seem to be the case to me. `cryptsetup luksDump /dev/sdX` revealed that the resulting Debian installation uses LUKS2 so I needed to downgrade to LUKS1.
 
 ```bash
-cryptsetup luksConvertKey --pbkdf pbkdf2 /dev/sdX
-cryptsetup convert --type luks1 /dev/sdX
+$ cryptsetup luksConvertKey --pbkdf pbkdf2 /dev/sdX
+$ cryptsetup convert --type luks1 /dev/sdX
 ```
 
 After getting your barebone OS worked, the rest is the same as installing without full-disk encryption above.

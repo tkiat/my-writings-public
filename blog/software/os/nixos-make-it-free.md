@@ -1,4 +1,4 @@
-# NixOS: Make it Free (as in Freedom)
+# NixOS: Make It Free (As in Freedom)
 
 The default NixOS installation with a vanilla kernel includes a lot of non-free firmware, you can inspect these using `ls /run/current-system/firmware`. Fortunately, with some configurations, it can be made libre similar to [those](https://www.gnu.org/distros/free-distros.html).
 

@@ -15,8 +15,8 @@ The server net-install has server defaults by default… so xfs filesystem is us
 
 You should select the `Everything` variant and flash it.
 
-```
-sudo dd if=Fedora-everything.iso of=/dev/sdb status=progress && sync
+```bash
+$ sudo dd if=Fedora-everything.iso of=/dev/sdb status=progress && sync
 ```
 
 In the installation GUI, select the minimal installation probably with the additional NetworkManager submodule and then proceed to the end. Fedora has NetworkManager installed by default but it lacks `nmtui` command from `NetworkManager-tui` package. You might not be able to connect to the internet the first time, either connect to the ethernet or download WiFi firmware. Once you get the internet, I recommend you to install `NetworkManager-tui` immediately.

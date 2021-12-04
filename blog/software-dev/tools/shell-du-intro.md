@@ -1,4 +1,4 @@
-# Shell: Demystify du command
+# Demystify du Command
 
 `du` command in Linux estimates file and directory space usage. I used it lately and was confused about the format of the outputs (why it is different than using `ls -l`) so I did some research and hence this post.
 

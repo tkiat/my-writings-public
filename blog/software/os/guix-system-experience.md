@@ -17,13 +17,13 @@ Guix system has a different approach to install the system. Unlike many distros,
 After I librebooted Thinkpad X200, I followed a guide of how to install Guix with full disk encryption at [https://libreboot.org/docs/gnulinux/guix_system.html](https://libreboot.org/docs/gnulinux/guix_system.html). The guide worked well except for the btrfs part where it requires a NOCOW (No Copy-On-Write) attribute for a swap partition [(see btrfs wiki FAQ)](https://btrfs.wiki.kernel.org/index.php/FAQ).
 
 ```bash
-touch /swapfile
-chattr +C /swapfile
-btrfs property set /swapfile compression none
-dd if=/dev/zero of=/swapfile bs=1MiB count=4096
-chmod 0600 /swapfile
-mkswap /swapfile
-swapon /swapfile
+$ touch /swapfile
+$ chattr +C /swapfile
+$ btrfs property set /swapfile compression none
+$ dd if=/dev/zero of=/swapfile bs=1MiB count=4096
+$ chmod 0600 /swapfile
+$ mkswap /swapfile
+$ swapon /swapfile
 ```
 
 ## Things I Like
