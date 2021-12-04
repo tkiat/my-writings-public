@@ -251,19 +251,9 @@
             "slug": "pwd-mgr-pass"
           },
           {
-            "date": "2021-01-07",
-            "title": "Password Manager: Why I Switched from Bitwarden to Pass",
-            "slug": "pwd-mgr-bitwarden-to-pass"
-          },
-          {
             "date": "2020-12-31",
             "title": "Email Aliases and Scam Potential",
             "slug": "email-alias-and-scam"
-          },
-          {
-            "date": "2020-09-22",
-            "title": "Use Passphrase and Password Manager",
-            "slug": "use-pwd-mgr"
           }
         ]
       },

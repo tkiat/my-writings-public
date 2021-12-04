@@ -2,7 +2,7 @@
 
 ## Why Passphrase and Password Manager?
 
-Humans are usually terrible at making passwords. Something like "password", "password123", "firstname" are not secure because they are guessable. On the other hand, a passphrase, a combination of words such as "correct horse battery staple", is considered to be much more secure because of the very high amount of entropy (randomness). Even the phrase "Tr0ub4dor&3" is not as secure as the previously mentioned passphrase, see xkcd's [password strength](https://xkcd.com/936/).
+Humans are usually terrible at making passwords, something like "password123" and "firstname" are not secure because they are guessable. On the other hand, a passphrase, a combination of words such as "correct horse battery staple", is considered to be much more secure because of the very high amount of entropy (randomness). Even the phrase "Tr0ub4dor&3" is not as secure as the previously mentioned passphrase, see xkcd's [password strength](https://xkcd.com/936/).
 
 Imagine you use the same passphrase on every website, including banking websites. The security of well-known brands is usually top-notch but what about another random shady website you are logging using the same passphrase? If the passphrase is leaked on that website, a cracker (a.k.a an unethical hacker) can use the same credential to log in to your bank account.
 
@@ -24,7 +24,7 @@ That is your work to do research yourself about each password manager. Or you ma
 
 Bitwarden is considered a very awesome open-source password manager available in all popular platforms: Windows, Mac, Linux, Android, F-Droid, iOS, etc. Its free option features unlimited entries, unlike Lastpass and Dashlane counterparts. It is open-source with a self-hosting option.
 
-I would like to tell you how I stored passwords in Bitwarden. Since everything is stored on their server, I don't 100% trust them (paranoia?) and I add salt to each of my password. For example, I store `abcde` to Bitwarden but the actual password is abcde123noob, '123noob' is an additional character that I add to every password. That gives me even more peace of mind against a hacked server or malicious updates.
+I would like to tell you how I stored passwords in Bitwarden. Since everything is stored on their server, I don't 100% trust them (paranoia?) and I add salt to each of my password. For example, I store `abcde` to Bitwarden but the actual password is `abcde123noob`, `123noob` is additional characters I add to every password. That gives me even more peace of mind against a hacked server or a malicious update.
 
 ### pass: Introduction
 
@@ -35,4 +35,4 @@ It has excellent support on Linux with nice integration with dmenu that I am usi
 ### Why do I Prefer pass Over Bitwarden
 
 - pass has a code size (using cloc utility on 2021-01-07) of about 3000 lines of code (mostly Bash script) while Bitwarden browser extension has more than 10000 lines of code (Typescript + HTML + JS). I am more familiar with Typescript than Bash but I prefer something more minimal.
-- pass gives me more control to choose the server while Bitwarden uses its own server. The self-hosted option from Bitwarden exists which can be an excellent choice for some but it costs some time and money to do so. This is not the case for pass where I can host files for free on e.g. GitLab.
+- pass gives me more control to choose the server while Bitwarden uses its own server. The self-hosted option from Bitwarden exists which can be an excellent choice for some but it costs some time and money to do so. This is not the case for pass where I can host files for free of cost on e.g. GitLab.
