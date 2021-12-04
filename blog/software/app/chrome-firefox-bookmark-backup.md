@@ -16,4 +16,6 @@ Just backup /home/tkiat/.config/chromium/Default/Bookmarks somewhere, it is in a
 
 ### Firefox
 
-Your bookmark is stored in `~/.mozilla/firefox/xxxxxx/bookmarkbackups/*.jsonlz4`. It is hard to know exactly what the aforementioned `xxxxxx` is so I hardcode the exact path in my script and let it immediately exit if not found. Note that the Firefox bookmark is stored in the `*.jsonlz4` format, which can be decoded by using a utility like `dejsonlz4` (I installed it using nix). You can also visit somewhere in the Firefox settings menu and select JSON format to back it up. This method is not automated of course.
+Your bookmark is stored in `~/.mozilla/firefox/xxxxxx/bookmarkbackups/*.jsonlz4`. It is hard to know exactly what the aforementioned `xxxxxx` is so I decode and test it one by one. I then hardcode the exact path in my script and let it immediately exit if not found.
+
+Note that the Firefox bookmark is stored in the `*.jsonlz4` format, which can be decoded by using a utility like `dejsonlz4` (I installed it using nix). You can also visit somewhere in the Firefox settings menu and select JSON format to back it up. This method is not automated of course.

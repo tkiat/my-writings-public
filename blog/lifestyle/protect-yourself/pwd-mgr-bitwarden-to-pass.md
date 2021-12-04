@@ -8,7 +8,7 @@ I would like to tell you some background of how I stored passwords in Bitwarden.
 
 ## Pass: Introduction
 
-pass is a very simple password manager that follows the UNIX philosophy: do one thing and do it well. It is actually a simple wrapper around PGP encryption. Being Git compatible, I can store his passwords on any Git hosting platform (I choose GitLab private repository). It has many clients available on common platforms just like Bitwarden but you need to be extra careful since independent developers develop them. You can try to look at issues opening/closed if there are obvious red flags or not.
+pass is a very simple password manager that follows the UNIX philosophy: do one thing and do it well. It is actually a simple wrapper around PGP encryption. Being Git compatible, I can store passwords on any (private) Git repository. It has many clients available on common platforms just like Bitwarden but you need to be extra careful since independent developers develop them. You can try to look at issues opening/closed if there are obvious red flags or not.
 
 It has excellent support on Linux with nice integration with dmenu that I am using. As for how to set it up you can look at the [website](https://www.passwordstore.org/) for details. You only need PGP-compliant private key (I am using GPG), a Git repository on a server, and in some cases, SSH keys as well.
 
