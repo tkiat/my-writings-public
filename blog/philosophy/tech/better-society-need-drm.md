@@ -24,8 +24,8 @@ This sounds logical because users would download everything they want in the fir
 
 It might sound counter-intuitive because the subscription is subjected to mass surveillance and dependency on the proprietary platform/product. User has to log in with his/her credentials to watch a Netflix movie and the company can record all user activities. However, this is more of a first-world problem and is not applicable to people from underdeveloped countries. All they want is the ability to access the media.
 
-This can be compared to the most bottom section of Maslow's hierarchy of needs (having food). The subscription-based media is cheaper than the DRM-free counterpart when users consume a lot of data in a month. In this case, it can satisfy low-income users the need. This need is at the bottom of the aforementioned hierarchy but at least it is a midway towards better user freedom.
+This can be compared to the most bottom section of Maslow's hierarchy of needs (having food). The subscription-based media is cheaper than the DRM-free counterpart when users consume a lot of data in a month. In this case, it can satisfy low-income users the need. This need is not perfect as it is at the bottom of the aforementioned hierarchy but at least it is a midway towards better user freedom.
 
 ## The Ideal World
 
-The ideal world has both subscriptions with DRM and equivalent DRM-free products. This is simply because having two choices is better than having only one choice, given that users are well aware of all options. Some users prefer paying cheaper at the cost of some of his freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.
+The ideal world has both subscriptions with DRM and equivalent DRM-free products. This is simply because having two choices is better than having only one choice, given that users are well aware of all options. Some users may prefer to pay cheaper at the cost of some of their freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.
