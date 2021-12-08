@@ -280,11 +280,10 @@
     ]
   },
   {
-    "category": "Rational Worldview",
-    "description": "TODO want to close to phislophy not opnion",
+    "category": "Philosophy",
     "children": [
       {
-        "subcategory": "Philosophy",
+        "subcategory": "Lifestyle",
         "children": [
           {
             "date": "2021-07-13",
@@ -299,11 +298,11 @@
         ]
       },
       {
-        "subcategory": "General",
+        "subcategory": "Tech",
         "children": [
           {
             "date": "2020-09-22",
-            "title": "Not All DRMs Are Bad for Users' Freedom. We Need Them for a Better Society",
+            "title": "Not All DRMs Are Bad for Users' Freedom. Our Society Can Benefit From It.",
             "slug": "better-society-need-drm"
           }
         ]

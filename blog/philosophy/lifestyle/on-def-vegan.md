@@ -15,7 +15,7 @@ I find the first action sensible but not the second one. Let's say a wild pig fe
 
 This doesn't make sense from the ethical perspective as a dead animal is, just like plants, not anymore a sentient being, and eating it, in this case, doesn't promote the meat industry. Eating the meat, while not unethical, is even more ethical than wasting it away because that is a more efficient use of resources.
 
-Another example here is that it is not unethical to use animal parts that may cause harm to them. I also find it not unethical to wear a second-hand leather suit and keep it secretly with you without advertising.
+Another example here is that it is not unethical to use abandoned animal parts. I also cannot find how wearing a second-hand leather suit while keeping it secretly with you without advertising can be unethical.
 
 ## A Proper Definition Should Have a Clear Link to Its Basis
 Many vegans just follow rules and abstain from using animal products no matter what and this is an excellent practice. But, I fail to find the supported basis here of why we should do that. The elimination of animal exploitation is certainly not a basis for not eating meat as seen in the earlier wild pig example.
@@ -35,7 +35,7 @@ This statement sounds logical as there is no reason at all not to eat a dead wil
 ### Statement 2
 > It is still vegan to eat plants with a pesticide used in the process.
 
-This statement is valid in most cases. Typically, a person doesn't grow his food and relies on a food supplier. There is no way he can know what happened in the process. All he can do is to exclude as much as possible animal exploitation. Even if he knows that there is a pesticide used, he is still a vegan as long as he has no other better choices.
+This statement is valid in most cases. Typically, a person doesn't grow his food and relies on a food supplier. There is no way he can know what happened in the process. Even if he does, sometimes he needs to eat it if there are no other convenient choices.
 
 But, this doesn't conform to my definition of veganism. I should change it to
 
