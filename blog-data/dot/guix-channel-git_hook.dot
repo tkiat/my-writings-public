@@ -1,7 +1,7 @@
 digraph G {
   bgcolor = transparent;
   class = "graphviz";
-  rankdir="TB";
+  rankdir = "TB";
 
   push [class = "graphviz__text"; label = "git push"; shape = rect;]
   hook [class = "graphviz__text"; label = "Update?"; shape = diamond;]
