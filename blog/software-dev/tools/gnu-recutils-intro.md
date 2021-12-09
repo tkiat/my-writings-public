@@ -1,6 +1,6 @@
 # GNU Recutils: A Short Introduction
 
-Some applications, like a personal collection of books, don't need complex databases like MySQL. A lighter alternative like SQLite though it is very simple, it is not human-readable. I would like to introduce GNU Recutils, a lightweight human-readable alternative. This gives you the ability to edit it on the fly without an external application. Like a typical database, it supports command-line commands to add, remove, or update an entry but you require the Recutils package for that.
+Some applications, like a personal collection of books, don't need complex databases like MySQL. A lighter alternative like SQLite is not human-readable though it is very simple. I would like to introduce GNU Recutils: a lightweight human-readable alternative. It gives you the ability to edit your data on the fly without an external application. Like a typical database, it supports command-line commands to add, remove, or update an entry but you require the Recutils package for that.
 
 One project that uses Recutils is GNU Guix System. It stores all packages' definitions in recfile(s) so that a user can make a simple or complex query for packages.
 

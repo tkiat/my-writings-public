@@ -23,7 +23,7 @@ This has a reusability issue. What if I want to publish this Markdown also on an
 
 ## How?
 
-My front-end code first performs asynchronous requests to get metadata.json from my server. It will generate navigation bars and article menus with texts and links that correspond to metadata.json. The link is simply in the format `category/subcategory/articleSlug`, and it is valid because this matches the file structure on the server.
+My front-end code first performs asynchronous requests to get `metadata.json` from my server. It will generate navigation bars and article menus with texts and links that correspond to `metadata.json`. The link is simply in the format `category/subcategory/articleSlug`, which matches the file structure on the server.
 
 ### Metadata File
 
@@ -46,14 +46,13 @@ My front-end code first performs asynchronous requests to get metadata.json from
   }
 ]
 ```
-
 <center>metadata.json</center>
 
 metadata.json contains an array of category objects. A category object contains an array of subcategory objects. A subcategory object contains an array of metadata for an article. Your structure may be different but I find this structure self-containing and extensible.
 
 ### File Structure
 
-On the server, I name an article file according to `articleSlug` field in metadata.json and put that article inside its subcategory folder, which is inside its category folder. The file structure is laid out in a way that information in metadata.json is enough to refer to any article.
+On the server, I name an article file according to `articleSlug` field in metadata.json and put that article inside its subcategory folder, which is inside its category folder.
 
 ```text
 blog/
@@ -68,5 +67,4 @@ blog/
 .
 .
 ```
-
 <center>File Structure on the Server</center>

@@ -2,11 +2,11 @@
 
 Being one of the most popular editors among software developers, there are a plethora of [Vim plugins](https://vimawesome.com/) available. Nevertheless, I prefer to use only as much as I need. I need NERDTree because netrw had too many bugs and the keymaps are not intuitive, coc.nvim because I need an all-in-one solution for linting and completion supports, and emmet.vim because closing the HTML tag manually is a pain. I also have some more syntax highlighting plugins like TOML and Dhall.
 
-So why do I still want to write my own plugin? Of course, I want to do it for the sake of self-development (insert another BS here ...) but frankly, there are many real cases I need to write my own plugins.
+So why do I still want to write my own plugin? Of course, I want to do it for the sake of self-development (insert another BS here ...), but frankly there are indeed some real cases.
 
 - Customize a plugin to my need. Some plugins are based on a CLI tool and they generally don't put all the options available for that tool.
 - Plugin for a less popular tool that no one has written it before.
-- Organize my related scripts to a single plugin. This can be more organized than having many abbreviations, many templates, and many more in the same .vimrc file.
+- Organize some of my scripts to a single plugin for the sake of the organization.
 
 I will focus on a ftplugin in this post. Unlike a global plugin, it is only applied when the file type match. You can set one single Haskell plugin at `~/.vim/ftplugin/haskell.vim` or create a haskell folder and put plugin(s) inside it like `~/.vim/ftplugin/haskell/brittany.vim`. An ftplugin will be executed whenever you open a Haskell (\*.hs) file. To check if Vim supports a particular language, type this
 
@@ -14,11 +14,11 @@ I will focus on a ftplugin in this post. Unlike a global plugin, it is only appl
 :setfiletype
 ```
 
-then type space and finally CTRL+D.
+After that, type `space` and then `CTRL+D`.
 
 ## ftplugin Basics
 
-First, I recommend you to learn the official introduction.
+At first, I recommend you to learn the official guide.
 
 ```vim
 :help write-plugin
@@ -141,4 +141,4 @@ endfunction
 
 ## Final Words
 
-The next ftplugin I write has exactly the same format as this one. This means it is very easy for me to understand all plugins of this kind I write myself. Note that this kind of plugin is one of the easiest to write because it depends on an already polished 3rd-party tool (brittany in this case). I still have a lot to learn to write a more complex plugin.
+The next ftplugin I wrote has exactly the same format as this one so I wrote a Python app using Jinja template to generate all the plugins. Note that this kind of plugin is one of the easiest to write because it depends on an already polished 3rd-party tool.

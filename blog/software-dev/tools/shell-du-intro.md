@@ -44,7 +44,7 @@ $ du -a --block-size=1 | awk -F' ' '{ if ($2 != ".") {print} }'
 123457536 ./testfile
 ```
 
-8. This is quite closer to 123456789 bytes. What is still missing? By default, `du` displays disk size, not the apparent size. The apparent size is the number of bytes in the file while the disk size is how much space it actually uses on the disk (they are not equal, think of a fat person whose width is 1.5 chair but occupies two chairs). To print the apparent size, do
+8. This is quite closer to 123456789 bytes. What is still missing? By default, `du` displays disk size, not the apparent size. The apparent size is the number of bytes in the file while the disk size is how much space it actually uses on the disk — think of a fat person whose width is 1.5 chair (apparent size) but occupies two chairs (disk size). To print the apparent size, do
 
 ```bash
 $ du -a --apparent-size --block-size=1 | awk -F' ' '{ if ($2 != ".") {print} }'

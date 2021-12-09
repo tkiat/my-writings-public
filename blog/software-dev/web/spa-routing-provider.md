@@ -1,6 +1,6 @@
 # SPA Routing on Netlify, Vercel, and GitHub
 
-The problem with SPA (Single Page Application) is there is only one file served (usually `index.html`) and the subsequent routings happen from that file. This means if the URL `https://johndoe.github.io` serves index.html, entering `https://johndoe.github.io/category/post` will result in the 404 error because it cannot find `index.html` from that path.
+The problem with SPA (Single Page Application) is that there is only one file served (usually `index.html`) and the subsequent routings happen from that file. This means if the URL `https://johndoe.github.io` serves `index.html`, entering `https://johndoe.github.io/category/post` will result in the 404 error because it cannot find `index.html` from that path.
 
 Unless we spin up our own servers, we don't have permission to alter the routing decision. Luckily, some providers provide a way to communicate your routing decision to the server.
 
@@ -31,4 +31,4 @@ Vercel also has the SPA re-routing [guide](https://vercel.com/docs/configuration
 
 ## GitHub Pages
 
-GitHub Pages is not SPA friendly as the previous twos and the 404 response seems to be unavoidable. However, this [hack](https://github.com/rafgraph/spa-github-pages) inserts a script into a 404 response that will redirect the browser to the desired location. This looks much more complex than the previous twos. Have fun!
+GitHub Pages is not as SPA-friendly as the previous twos so it is less straightforward. This [hack](https://github.com/rafgraph/spa-github-pages) inserts a script into a 404 response that will redirect the browser to the desired location. Have fun!

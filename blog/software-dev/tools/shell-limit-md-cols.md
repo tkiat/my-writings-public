@@ -24,7 +24,7 @@ Nowadays, Markdown is a very common format and in there we usually have a lot of
 Please visit this [link](https://github.com/BurntSushi/ripgrep). You <a href="noob">link</a>.
 ```
 
-And the thing is, a user doesn't see the URL and HTML tags right? We should exclude the link from the result like this.
+And the thing is, a user doesn't see the URL and HTML tags right? We should filter out all HTML tags and Markdown images into something like this.
 
 ```
 Please visit this link. You noob.
@@ -44,8 +44,8 @@ The fallback value is 500 columns. The three `sed` substitutions are to filter m
 
 This is a pretty contrived example but it can happen nevertheless. Anyway, people usually don't write a complex HTML tag in a simple markdown post so this solution should be generally good enough.
 
-The -r option at the end is to reformat the output so we get only what is important: file name and line number, without the file content.
+The -r option at the end is to reformat the output so we get only what is important: file name and line number without the file content.
 
 ## What are Still Missing?
 
-Markdown has many other syntaxes like bold, italic, etc. and it is best to filter those out also. But those are more trivial compared to Markdown links and HTML tags that are already filtered out. Our script is therefore not perfect but at least it never outputs false negatives.
+Markdown has many other syntaxes like bold, italic, etc., and it is best to filter those out also. They are relatively trivial to links and tags so I don't think there will be a big problem. Our script, though not perfect, never outputs false negatives.

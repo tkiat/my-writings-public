@@ -1,3 +1,4 @@
+// dot -Tsvg guix-channel-git_hook.dot
 digraph G {
   bgcolor = transparent;
   class = "graphviz";

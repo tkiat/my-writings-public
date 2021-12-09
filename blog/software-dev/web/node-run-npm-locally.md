@@ -6,11 +6,9 @@ You can install an npm package globally
 $ npm -g purescript spago
 ```
 
-However, this can be troublesome because a globally installed package in your machine might not be the same as another when you hand over the project to him as it might not be compatible with the project dependencies.
+However, this can be troublesome because a globally installed package in your machine might not be the same as another developer. The mismatch can impede the development process.
 
-It is therefore advisable to install all packages locally in the project. This will update package.json and another person who clones your project can install compatible versions from that package.json. To install locally, fun
-
-so we need to install locally to the project
+It is therefore advisable to install all packages locally in the project for the reproducible sake. To install locally, execute
 
 ```bash
 $ npm install --save-dev purescript spago
@@ -23,7 +21,7 @@ $ spago
 bash: spago: command not found
 ```
 
-That is because, as with other programs, spago is not found in $PATH so it cannot execute it. You need to tun this instead.
+That is because, as with other programs, spago is not found in $PATH so it cannot execute it. You need to add the executable in the `node_modules` folder in $PATH or run this instead.
 
 ```bash
 $(npm bin)/spago
@@ -47,4 +45,4 @@ We can simply modify `package.json`
 }
 ```
 
-`npm run` will take everything in the context of the local packages. This means `npm run spago init` will refer to both `spago` and `purs` commands from the local dependencies, not your machine.
+`npm run` will take everything in the context of the local packages. This means `npm run spago init` will refer to both `spago` and `purs` commands from the local dependencies.
