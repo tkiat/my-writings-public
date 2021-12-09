@@ -1,6 +1,6 @@
 # Why I Use DuckDuckGo as a Default Search Engine
 
-DuckDuckGo is a privacy-oriented search engine that started in 2008 (FYI: Google launched in 1997). Unlike Google whose business is built around surveillance capitalism, DuckDuckGo relies on non-targeted ads that match the search keyword and affiliations. It is therefore a search engine of choice for many privacy advocates.
+DuckDuckGo is a privacy-oriented search engine that started in 2008 (FYI: Google was launched in 1997). Unlike Google whose business is built around surveillance capitalism, DuckDuckGo relies on non-targeted ads that match the search keyword and affiliations. It is therefore a search engine of choice for many privacy advocates.
 
 ## Pros of DuckDuckGo
 

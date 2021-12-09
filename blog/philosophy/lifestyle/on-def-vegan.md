@@ -1,5 +1,7 @@
 # On the Proper Definition of Veganism
 
+I write this article because I disagree with some vegan definitions, and I want to create my own.
+
 ## Something Doesn't Make Sense from the Ethical Perspective
 
 [The Vegan Society](https://www.vegansociety.com/go-vegan/definition-veganismhttps://www.vegansociety.com/go-vegan/definition-veganism) defines veganism as
@@ -11,7 +13,7 @@ In shorter terms, vegan does **two actions**.
 - exclude all forms of animal exploitation as much as possible
 - promote animal-free alternatives
 
-I find the first action sensible but not the second one. Let's say a wild pig fell off the cliff to death because it was very windy. A person found that pig and shared the meat with his neighbors, saying he just saw it fall off the cliff. How does it apply to the definitions above? The meat is an animal product yet it fits the first action as there is no animal exploitation from humans here. According to the second action, that person shouldn't distribute his meat.
+I find the first action sensible but not the second one. Let's say a wild pig fell off the cliff to death because it was very windy. A person found that pig and shared the meat with his neighbors, saying he just saw it fall off the cliff. How does it apply to the definitions above? The meat is an animal product yet it fits the first action as there is no animal exploitation from others here. According to the second action, that person shouldn't distribute his meat.
 
 This doesn't make sense from the ethical perspective as a dead animal is, just like plants, not anymore a sentient being, and eating it, in this case, doesn't promote the meat industry. Eating the meat, while not unethical, is even more ethical than wasting it away because that is a more efficient use of resources.
 
@@ -21,7 +23,7 @@ Another example here is that it is not unethical to use abandoned animal parts. 
 Many vegans just follow rules and abstain from using animal products no matter what and this is an excellent practice. But, I fail to find the supported basis here of why we should do that. The elimination of animal exploitation is certainly not a basis for not eating meat as seen in the earlier wild pig example.
 
 ## My Definition of Veganism
-We all know that vegans are concerned about animal welfare. But, what is the basis that supports animal welfare? Is it a good home, good food, no human intervention, or organic? The most fundamental prerequisite for vegan I can think of is "no animal exploitation". It is therefore reasonable to use this most fundamental value as the initial definition.
+We all know that vegans are concerned about animal. But, what does that even mean? We know that good home, good food, and safety contribute to animal welfare, but they are the visible results - the outer bark of a tree. The thing that should be included in the definition of vegan should be something most fundamental. The best one I can think of is "no animal exploitation". Therefore, I am going to include this within the initial definition.
 
 > **Veganism is a way of living without animal exploitation.**
 
@@ -44,7 +46,7 @@ But, this doesn't conform to my definition of veganism. I should change it to
 ### Statement 3
 > It is still vegan to kill and eat a pig on the islands, given that you will starve to death otherwise.
 
-If we treat humans as animals (I do), then the definition of veganism extends to humans as well and there is no clear winner here. If I were in that situation, I would have prioritized myself because the fundamental selfishness resonates with me: any being wants to survive. The "as much as possible" in my definition is still pretty vague here, I now have to adjust it a bit.
+If we treat humans as animals (I do), then the definition of veganism extends to humans as well and there is no clear winner here. If I were in that situation, I would have prioritized myself because the fundamental selfishness resonates with me: any being wants to survive. The "as much as possible" in my definition is still pretty vague here so I now have to adjust it a bit.
 
 > **Veganism is a way to keep living excluding as much as possible animal exploitation.**
 

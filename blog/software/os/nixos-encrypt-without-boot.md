@@ -78,13 +78,13 @@ I came across an excellent [guide](https://ethulhu.co.uk/nixos) that you can app
     $ swapon /dev/vg/swap
     ```
 
-1. Install NixOS. Flash ISO and once you open the installer, generate /mnt/etc/nixos/configuration.nix
+1. Install NixOS. Once you boot the installer, generate `/mnt/etc/nixos/configuration.nix`
 
     ```bash
     $ nixos-generate-config --root /mnt
     ```
 
-1. The UUIDs in /mnt/etc/nixos/hardware-configuration.nix should match your physical /dev/sda1 and logical /dev/vg/root and /dev/vg/swap. Check those then specify UUID of /dev/sda2 from this command `ls -l /dev/disk/by-uuid` in your configuration.nix
+1. The UUIDs in `/mnt/etc/nixos/hardware-configuration.nix` should match your physical `/dev/sda1` and logical `/dev/vg/root` and `/dev/vg/swap`. Check those then specify UUID of `/dev/sda2` from this command `ls -l /dev/disk/by-uuid` in your `configuration.nix`
 
     ```nix
     boot.loader.grub.device = "/dev/sda";
@@ -94,7 +94,7 @@ I came across an excellent [guide](https://ethulhu.co.uk/nixos) that you can app
     };
     ```
 
-1. Complete your other configs in configuration.nix then install and reboot
+1. Complete your other configs in `configuration.nix` then install and reboot
 
     ```
     $ nixos-install

@@ -27,11 +27,11 @@ Some disadvantages
 
 ### My Failed Attempt to Build from Source
 
-The LineageOS project doesn't maintain Samsung Tab 2 anymore but they still leave some [manuals](https://wiki!lineageos.org/devices/espresso3g) including the build instruction. I, a Debian user, could follow it quite easily. Unfortunately, I got the error saying that I couldn't find some `espresso3g` folders and, even worse, they were not in my project. I was lazy enough to ask somebody so I decided to download the custom ROM.
+The LineageOS project doesn't maintain Samsung Tab 2 anymore but they still leave some [manuals](https://wiki!lineageos.org/devices/espresso3g) including the build instruction. I, a Debian user, could follow it quite easily. Unfortunately, I got the error saying that I couldn't find some `espresso3g` folders, and, even worse, they were not in my project. I was lazy enough to ask somebody so I decided to download the custom ROM.
 
 ### Custom ROMs, Too Many Choices!
 
-I first tried the custom ROM (nightly build 2018-01-21) from [lineageosroms](https://lineageosroms.com/espresso3g/). For bootloader, I downloaded the latest [TWRP](https://dl.twrp.me/espresso3g/). Unfortunately, the ROM flashing was usually not successful (with the error code 7). I searched online and it looked like I had to disable the device check (with assert and getprop commands) somewhere in `META-INF/com/google/android/updater-script`. That didn't work.
+I first tried the custom ROM (nightly build 2018-01-21) from [lineageosroms](https://lineageosroms.com/espresso3g/). For the bootloader, I downloaded the latest [TWRP](https://dl.twrp.me/espresso3g/). Unfortunately, the ROM flashing was usually not successful (with the error code 7). I searched online and it looked like I had to disable the device check (with assert and getprop commands) somewhere in `META-INF/com/google/android/updater-script`. That didn't work.
 
 I didn't know what to do then. Luckily, it turned out I flashed it successfully (with the same method after some attempts). It could be launched perfectly. But I wanted to install GApps on top of it so I first downloaded the [Open GApps](https://opengapps.org/). I reflashed both the ROM and GApps after that before the first boot but it stuck at "Preparing Google...". Another attempt proved futile.
 

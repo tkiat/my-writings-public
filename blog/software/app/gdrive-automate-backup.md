@@ -1,8 +1,8 @@
 # Google Drive: Let's Automate (Encrypted) Cloud Backup to It
 
-I strongly discourage anyone from storing data on someone else's server as they can exploit your (private) data. The situation is different if you encrypt your data before uploading e.g. with the widely used [gpg](https://gnupg.org/) enryption. However, if you write a script, you should put the check that forces exit in the case of the encryption error.
+I strongly discourage anyone from storing data on someone else's server as they can exploit your (private) data. The situation is different if you encrypt your data before uploading e.g. with the widely used [gpg](https://gnupg.org/) enryption. However, if you write a script, you should put the check that forces exit in the case of the encryption error. This is very important because only one encryption mistake can ruin your privacy forever.
 
-Google Drive is generous enough to give free 15GB storage for free of charge. There is an open-source utility to interact with Google Drive called [gdrive](https://github.com/prasmussen/gdrive) which I installed using nix. On the first start, it will output a URL from which you can paste it into the browser to authenticate your identity. Then, type this to find what is in your drive
+Google Drive is generous enough to give a user 15GB storage free of charge. There is an open-source utility to interact with Google Drive called [gdrive](https://github.com/prasmussen/gdrive) which I installed using nix. At the first start, it will output a URL from which you can paste it into the browser to authenticate your identity. Then, type this to find what is in your drive
 
 ```bash
 $ gdrive list

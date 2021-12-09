@@ -11,7 +11,7 @@ dwm also makes me doubt the need for the pointing device like a mouse at all. Th
 - The main config file is config.h. This is hidden until you compile the program the first time so compile it first then configure values
 - dmenu is a very nice utility originally built for dwm. With a combination of keystrokes, the search bar appears and you can run your application from there easily
 - You can find plenty of extensions on suckless's website. They are simply diff files that you can apply on your forked project
-- You can assign each application to be opened by default on a specific tab in config.h but to do that you need to find a name recognized by dwm first. You install xprop package, run it, then click on the window of the opening app. xprop will output a bunch of strings, the second value in the field `WM_CLASS(STRING)` is the name you want
+- You can assign each application to be opened by default on a specific tab in config.h but to do that you need to find a name recognized by dwm first. You install `xprop` package, run it, then click on the window of the opening app. `xprop` will output a bunch of strings, the second value in the field `WM_CLASS(STRING)` is the name you want
 - If the st terminal doesn't fit the screen, just set `static const int resizehints = 0;`
 - It also works in FreeBSD but you need to change the location of `X11INC`, `X11LIB`, and `FREETYPEINC` variables in config.mk. Here is my config
 
@@ -27,16 +27,7 @@ FREETYPEINC = /usr/include/freetype2
 endif
 ```
 
-- You can change the top-right text using xsetroot. Some common choice are the battery level, current RAM usage, and the current time. At first, I did something like this
-
-```bash
-while true; do
-  xsetroot -name " $(date +'%a, %d %b %I:%M:%S%p') | This is my dwm "
-  sleep 1
-done &
-```
-
-The problem is that the loop still keeps running after I log out, this can lead to performance issues and display inconsistency. The code below exits while loop at the end of an xorg session.
+- You can change the top-right text using xsetroot. Some common choice are the battery level, current RAM usage, and the current time. The code below exits while loop at the end of an xorg session.
 
 ```bash
 while xsetroot -name " $(date +'%a, %d %b %I:%M:%S%p') | This is my dwm "; do

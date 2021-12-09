@@ -4,7 +4,7 @@ xmonad is a dynamic window manager for X window system inspired by dwm but it is
 
 ## Do You Need to Know Haskell to Use xmonad?
 
-No. You can simply browse someone else's config like the one from [Derek](https://gitlab.com/dwt1/dotfiles/) and copy-paste from it. Though I did use some basic Haskell knowledge (and a Haskell linter) to help set the order of status bar items like `concat` command below. Without any Haskell knowledge, I would have had a hard time doing this.
+No. You can simply browse someone else's config like the one from [Derek](https://gitlab.com/dwt1/dotfiles/) and copy-paste from it. Though I did use some basic Haskell knowledge (and a Haskell linter hint) to help set the order of status bar items like `concat` command below.
 
 ```haskell
 DLog.ppOrder = \(ws : l : t : ex) -> ws : concat ex : [t]
@@ -24,7 +24,7 @@ xmonad is compatible with dmenu out of the box but it lacks a status bar. xmobar
 
 ## Haskell Formatter and Linter
 
-You might want to beautify your xmonad.hs file. I have Brittany (Haskell source code formatter) installed and I also wrote my own VIM plugin to format it on save. You can search plugins for the editor of your choice. For the linter, I simply installed haskell-language-server and configured it in my coc.nvim config. A linter can significantly reduce the recompilation error which helps me a lot.
+A Haskell formatter like `brittany` can automatically beautify your xmonad.hs file. A linter can significantly reduce the recompilation error which helps me a lot.
 
 ## My (Mostly Copied) xmonad.hs Config
 

@@ -4,7 +4,7 @@ Bookmark is a collection of your saved web pages that can make your life more co
 
 ## Option 1: Use Chrome & Firefox Accounts
 
-All bookmarks will be synced with your accounts automatically as long as you have access to the internet. It is very simple but the downside is that you hand over control of your data to somebody else. All of your browsing activities will be linked to your accounts, this can cause privacy issues.
+All bookmarks will be synced with your accounts automatically as long as you have access to the internet. It is very simple but the downside is that you hand over control of your data to somebody else. All of your browsing activities will be linked to your accounts; this can cause privacy issues.
 
 ## Option 2: Write Scripts
 
@@ -12,7 +12,7 @@ This guide is based on Linux.
 
 ### Chromium
 
-Just backup /home/tkiat/.config/chromium/Default/Bookmarks somewhere, it is in a JSON format. The [cron utility](https://en.wikipedia.org/wiki/Cron) can help make you worry-free.
+Just backup `/home/tkiat/.config/chromium/Default/Bookmarks` somewhere. The [cron utility](https://en.wikipedia.org/wiki/Cron) can help make you worry-free. You can later move this file back to the same place to restore your bookmarks.
 
 ### Firefox
 

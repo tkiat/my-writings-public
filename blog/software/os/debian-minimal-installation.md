@@ -1,6 +1,6 @@
 # Debian: Minimal Installation (With or Without Full Disk Encryption)
 
-I found myself with the prompt beyond my grasp when I was a total Linux noob who tried to install it the first time, something like "nonfree firmware needed". I swore off Debian that time. Anyway, Linus also said Debian is hard to install so I didn't feel very stupid back then (haha, we are in the same league!). A year later, I considerably upgraded my Linux suit and my penguin-shaped spectacles found the installation guide easy to read!
+I found myself with the prompt beyond my grasp when I was a total Linux noob who tried to install Debian first time: "nonfree firmware needed". I swore off Debian that time. Anyway, Linus also said Debian is hard to install so I didn't feel very stupid back then (haha, we are in the same league!). A year later, I considerably upgraded my Linux suit and my penguin-shaped spectacles found the installation guide easy to read!
 
 I went with the KDE installation the first time but I reinstalled with the base minimum quickly because I never used a desktop environment anyway. I had unsuccessful attempts to load my open-source Atheros firmware during the installation, since then I have always download an unofficial Debian image with non-free firmware. I will remove the non-free firmware later with the help of the vmrs package.
 
@@ -35,9 +35,8 @@ deb cdrom:[Debian GNU/Linux 7.0.0 _Wheezy_ - Official amd64 CD Binary-1 20130$
 7. **dhclient -v $i**. To resolve IP address. Try to toggle wireless on and off in the case of an error.
 8. At this point, the status of your internet (using **ip a**) should include LOWER_UP. This means you can connect to the internet.
 9. **apt install network-manager**. To make your life easier. You can then use nmcli and nmtui to connect to the internet.
-10. **(Optional) Install open-source wireless driver like firmware-ath9k-htc and remove the proprietary iwlwifi, then reboot**. Reboot because the current firmware might still be in the memory.
 
-`nmcli` should show your wireless interface status as either connected or disconnected. If it shows `unmanaged`, try to remove your interface from /etc/network/interface. If the status is `unavailable`, try to check if you connect your wireless adapter/card well enough.
+`nmcli` should show your wireless interface status as either connected or disconnected. If it shows `unmanaged`, try to remove your interface from `/etc/network/interface`. If the status is `unavailable`, try to check if you connect your wireless adapter/card well enough.
 
 ### Add a User to Sudo Group
 

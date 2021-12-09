@@ -17,7 +17,7 @@ This extension is [mentioned](https://ungoogled-software.github.io/ungoogled-chr
 3. Find your Ungoogled Chromium version from chrome://settings/help
 4. Download crx by typing in URL `https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=[YOUR_UNGOOGLED_CHROMIUM_VERSION]&x=id%3D[EXTENSION_ID]%26installsource%3Dondemand%26uc`
 5. Prepare for the installation by setting flag `chrome://flags/#extension-mime-request-handling` to `Always prompt for install`
-6. Download file by typing `file://PATH_TO_CRX` in the address bar, alternatively just drag and drop .crx file in `chrome://extensions/`
+6. Download file by typing `file://PATH_TO_CRX` in the address bar. Alternatively, just drag and drop .crx file in `chrome://extensions/`
 
 Or read how-to from their Wiki: [https://ungoogled-software.github.io/ungoogled-chromium-wiki/](https://ungoogled-software.github.io/ungoogled-chromium-wiki/)
 

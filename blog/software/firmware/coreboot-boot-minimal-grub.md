@@ -20,7 +20,7 @@ grub> set root=(ahci0,msdos5)
 grub> linux /vmlinuz-<version> root=/dev/mapper/debian--vg-root iomem=relaxed
 grub> initrd /initramfs-<same version as above>
 ```
-The argument to `root` is your LVM root partition. If you don't know what it is, you can just omit that argument first and boot it. It will prompt BusyBox initramfs, from that type `vgchange -ay` to expose all volumes then type `/dev/mapper/`  then tab to get the root volume name. Then supply that argument with that name in the next boot.
+The argument to `root` is your LVM root partition. If you don't know what it is, you can just omit that argument first and boot it. It will prompt BusyBox initramfs. You can then type `vgchange -ay` to expose all volumes then type `/dev/mapper/` then tab to get the root volume name. Then supply that argument with that name in the next boot.
 
 1. Flash another ROM, this time you may add your own `grub.cfg` before building the new one. If you don't know any idea what it should be, you can copy from the one from the Libreboot project. The `iomem=relaxed` in the previous step allows you to flash another ROM (goodbye minimal GRUB!).
 

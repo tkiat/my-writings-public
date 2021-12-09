@@ -1,18 +1,18 @@
 # coreboot: How to Flash It on Top of Libreboot Thinkpad X200.
 
-coreboot and Libreboot are open-source replacements of BIOS and UEFI, a firmware to perform hardware initialization during the boot. They are not only generally faster than their closed-source counterparts, but also can mitigate or even remove some potential backdoors (like Intel ME) from the hardware.
+coreboot and Libreboot are open-source replacements of BIOS and UEFI: firmware to perform hardware initialization during the boot. They are not only generally faster than their closed-source counterparts but also less or not at all affected by some potential backdoors (like Intel ME).
 
-I had Libreboot installed on my two laptops and it worked fine for my use case (Debian system) but then I wanted to get my hand dirty with blob-free coreboot. I heard that Libreboot doesn't support Windows but coreboot does so it should give me more flexibility. coreboot also gives a selection of payload out of the box, unlike Libreboot.
+I had Libreboot installed on my two laptops and it worked fine for my use case (Debian system) but then I wanted to get my hand dirty with blob-free coreboot. I heard that Libreboot doesn't support Windows but coreboot does so it should give me more flexibility. coreboot also gives a selection of payloads out of the box, more than those of Libreboot.
 
 ## coreboot vs Libreboot
 
-- Libreboot is not a fork of coreboot, rather it is downstream of coreboot plus some other tools.
+- Libreboot is not a fork of coreboot. It is rather the downstream of coreboot plus some other tools.
 - coreboot supports more devices but mostly comes with some binary blobs whereas Libreboot strictly has no binary blob but supports fewer devices.
 - coreboot doesn't provide binary release which means you have to compile yourself (have fun!) whereas Libreboot supplies both binary and source releases. I would recommend Libreboot binary release for a first-time flasher as it reduces risks and you can always convert to coreboot later. Obviously, check yout laptop model to see if it is Libreboot-compatible.
 
 ## How Did I Flash It?
 
-On top of what I am going to write below, I found these resources useful.
+I found these resources useful on top of this article.
 
 - [https://operand.ca/2018/02/22/liberating-a-x200.html](https://operand.ca/2018/02/22/liberating-a-x200.html)
 - [https://www.coreboot.org/Board:lenovo/x200](https://www.coreboot.org/Board:lenovo/x200)
@@ -40,7 +40,7 @@ Note: the submodule update may fail if you fork from coreboot into your own repo
 
 ### Compilation
 
-You need to compile the cross compiler. The compilation might take long time so I strongly recommend you to perform this step first, then proceed to the next step while it is compiling. If you are on AMD64, do this
+You need to compile the cross compiler. The compilation might take long time so I strongly recommend you to perform this step first and then proceed to the next step while it is compiling. If you are on AMD64, do this
 
 ```bash
 $ make crossgcc-i386 CPUS=2
@@ -59,8 +59,8 @@ I don't have much to say here because I don't really know what I am doing. coreb
 
 - By default, coreboot comes with some blob but some machines like Thinkpad X200 support blob-free coreboot. You may need some tools like ich9gen to do so and change the size of the CBFS filesystem in ROM to 0x7fd000.
 - There are a lot of payloads to choose from and they usually don't work well in all operating systems. I would recommend sticking with GRUB2 for most Linux users. You need to insert your own `grub.cfg` in the payload menu using `make menuconfig` or else you will get the minimal GRUB on start (have fun!). You may copy `grub.cfg` from the Libreboot project if you are not that familiar to GRUB.
-- I had a permission issue with the internal flash. It turns out you need to boot with `iomem=relaxed` in the kernel command line. This can be done by appending this option to the `GRUB_CMDLINE_LINUX_DEFAULT` field in `/etc/default/grub` in my Debian system. Please don't forget to update grub before restarting, the command is generally `sudo update-grub`.
-- I got `python not found` during the compilation, it turned out `which python` doesn't return anything on my Debian system. I needed to symlink it to python3 executable or installed the python-is-python3 package.
+- I had a permission issue with the internal flash. It turns out you need to boot with `iomem=relaxed` in the kernel command line. This can be done by appending this option to the `GRUB_CMDLINE_LINUX_DEFAULT` field in `/etc/default/grub` in my Debian system. Please don't forget to update grub (usually `sudo update-grub`) before restarting.
+- I got `python not found` during the compilation. It turned out, `which python` didn't return anything on my Debian system. I needed to symlink it to python3 executable or installed the `python-is-python3` package.
 - You might want to read your current installed ROM two times and diff them (should have no difference) just for the simple check if things work correctly. I used `flashrom -p internal` command instead of `flashrom --programmer ch341a_spi` because I don't flash it externally.
 
 ### Check Your Chip
@@ -75,7 +75,7 @@ $ diff old.rom old2.rom
 
 By default, coreboot generates roms with the same MAC address. This will clash with another PC in the same Ethernet network with the same MAC address. To avoid the clash, you have to temporarily set the MAC address to something else which is not convenient.
 
-To avoid potential conflict, you can use `ich9gen` utility from the Libreboot project by searching "Libreboot ich9utils" on a search engine and following what they said. You should finally get the `ich9gen` executable. Select the generated binary for your model and add to ROM.
+To avoid the MAC address conflict, you can use `ich9gen` utility from the Libreboot project by searching "Libreboot ich9utils" on a search engine and following what they said. You should finally get the `ich9gen` executable. Select the generated binary for your model and add to ROM.
 
 ```bash
 $ ./ich9gen --macaddress XX:XX:XX:XX:XX:XX
@@ -87,7 +87,7 @@ You selected to change the MAC address in the Gbe section. This has been done.
 
 ### Wait Until the Compilation Finished
 
-After the compilation step above finishes, coreboot will generate the final ROM (I will rename it to x200.rom here). Combine the generated binary from the previous MAC address step with this ROM.
+When the compilation step above finishes, coreboot will generate the final ROM (I will rename it to x200.rom here). Combine the generated binary from the previous MAC address step with this ROM.
 
 ```bash
 $ dd if=ich9fdgbe_8m.bin of=x200.rom bs=12k count=1 conv=notrunc

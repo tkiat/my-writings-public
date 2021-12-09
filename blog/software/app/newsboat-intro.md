@@ -1,6 +1,6 @@
 # CLI vs Web Based RSS Feed Readers and the Introduction to Newsboat
 
-RSS feed is an aggregator of news, articles, etc. from many websites to a single place so that a user doesn't have to browse on a gazillion of websites. Inoreader was the best I had used on the web. It offered a compact UI, flexible feed grouping, read-anywhere with an account, and many more. On the other end, there are free and open-source terminal-based RSS readers. They have some pros and cons compared with web-based ones.
+RSS feed is an aggregator of news, articles, etc. from many websites to a single place so that a user doesn't have to browse on a gazillion of websites. Inoreader was the best I had used on the web. It offered a compact UI, flexible feed grouping, read-anywhere with an account, and many more. On the contrary, there are free and open-source terminal-based RSS readers. They have some pros and cons compared with web-based ones.
 
 ## Pros
 
@@ -15,7 +15,7 @@ RSS feed is an aggregator of news, articles, etc. from many websites to a single
 
 ## Introduce Newsboat
 
-Newsboat is a fork of the Newsbeuter, another feed reader. You can write a list of URLs and corresponding tags and Newsboat will automatically show them upon start. You can modify parameters like colors and keybindings. It supports a feed update via CLI command, this means you can use any cron job with it. The rest you can find in the doc. Lastly, you can use Newsboat as a client for the established RSS servers like Inoreader, NewsBlur, and NextCloud News.
+Newsboat is a fork of the Newsbeuter, another feed reader. You can write a list of URLs and corresponding tags and Newsboat will automatically show them upon start. You can modify parameters like colors and keybindings. It supports a feed update via CLI command; you can use any cron job with it. Lastly, you can use Newsboat as a client for the established RSS servers like Inoreader, NewsBlur, and NextCloud News. The rest you can find in the doc.
 
 You can add your feeds directly by putting all websites to `~/.newsboat/urls` separated by newlines. Your can add a custom title by putting the text like ` "~Opensource.com"` after a url.
 

@@ -1,6 +1,6 @@
 # Btrfs Filesystem: Recover My Files from the Unbootable Disk
 
-My Btrfs Guix System couldn't boot, and it happened the second time! I considered migrating to another hard disk but I would use a more boring filesystem like ext4 this time.
+My Btrfs Guix System couldn't boot and it happened the second time! I was not sure whether the cause is the lack of [microcode updates](https://libreboot.org/faq.html#microcode) from Libreboot project but anyway I considered migrating to another hard disk. I decided to use a more boring filesystem (ext4) this time.
 
 ## Recover My Files
 

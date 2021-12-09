@@ -4,14 +4,14 @@ Anyone can fork Linux to make their own distribution because Linux is equipped w
 
 ## My Journey
 
-I tried to install Ubuntu first time when I studied Master's degree but, being oblivious to the beauty of Linux, I kept using window. I installed it again when I learnt how to code. It crashed at times and I didn't know why so I hopped to Manjaro XFCE which worked really well. I later installed OpenSUSE and Arch Linux. The arch installation was broken and OpenSUSE was to me the same as Manjaro. I still had no ideas about how to choose the Linux distribution that time.
+I tried to install Ubuntu first time when I studied Master's degree. Being oblivious to the beauty of Linux, I kept using window after that. I installed it again when I learnt how to code. It crashed at times and I didn't know why so I hopped to Manjaro XFCE which worked really well. I later installed OpenSUSE and Arch Linux. The arch installation was broken and OpenSUSE was to me the same as Manjaro. I still had no ideas about how to choose the Linux distribution that time.
 
 I suddenly got a blessing from the tech god when I decided to install Void Linux on the 11-year old low-end Vaio laptop. I couldn't imagine before that I could do anything with it. I could code and watched Youtube! What more do you want? I decided to try FreeBSD and deleted it after unable to find reasons why it is better than Linux (for my use case). I installed Arch Linux and use it alongside Void Linux. I only noticed crashes from Arch, not Void.
 
 I got inspired by reading a [RMS](https://en.wikipedia.org/wiki/Richard_Stallman) post after spyware stuff to ditch my PCs and order two Thinkpad X200 to install Libreboot. I then try one of the FSF-endorsed distros: Guix System. The installation was successful with sweat and the help of the Atheros AR9271 WiFi adapter. I used that for around 8 months before deciding to settle with Debian. Reasons:
 
-- **I prefer Debian kernel over Linux libre**. They are essentially free software (as per FSF 4 freedoms) but the Debian one allows loading of non-free modules, which offers flexibility while still adhere to freedom. I don't use non-free modules of course but I still value flexibility.
-- **Guix System, a non-conventional distro, doesn't play well with some packages**. It is built around functional package managers, known as Guix. In my opinion, this is a superior way to handle packages such that no breakage can occur but that also makes AppImage and "make install" not working out of the box. Guix doesn't rely on Linux FHS and many packages that assume that simply doesn't work.
+- **I prefer Debian kernel over Linux libre**. It allows a user to load non-free modules, which offers flexibility while still adhere to freedom. I don't use non-free modules of course, but I still value flexibility.
+- **Guix System, a non-conventional distro, doesn't play well with some packages**. It is built around functional package managers, known as Guix. This is a superior way to handle packages such that no breakage can occur but that also makes AppImage and "make install" not working out of the box. Guix doesn't rely on Linux FHS and many packages that assume that simply doesn't work.
 - **Absence of some packages**. The distro has a lot of packages but still less in comparison to its brother (NixOS). I wanted to use yarn, VSCodium, and Firefox Developer Edition also.
 
 ## My Guides

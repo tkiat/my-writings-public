@@ -2,16 +2,18 @@
 
 I already have fully-free Debian without non-free firmware on top of my libreboot/blob-free coreboot machines. It aligns rightly with my philosophy: provide a fully free system out of the box and offer the way to use proprietary software if the user wants.
 
-The thing is, I also want to try Fedora as it is one of the most popular distros out there. It has relatively recent packages yet stable enough for many people. The default Fedora system, even with the minimal installation, contains firmware blobs in the kernel. In the post, I am going to take the challenge of removing all the blobs out of the system.
+The thing is, I also want to try Fedora as it is one of the most popular distros out there. It has relatively recent packages yet stable enough for many people. The default Fedora system, even with the minimal installation, contains firmware blobs in the kernel. I am going to take the challenge of removing all the blobs out of the system.
 
 ## Minimal Installation
 
-The two most noticeable Fedora installations are Workstation and Server editions but we want to go to the alternative download section. Both Fedora Server Netinstall and Everything have roughly the same size, but they differ ([reference](https://ask.Fedoraproject.org/t/Fedora-netinstall-or-everything/5703/6)).
+The two most noticeable Fedora installations are Workstation and Server editions but we want to go to the alternative download section. Both Fedora Server Netinstall and Everything have roughly the same size, but they differ.
 
 ```
 “They are in fact not the same.
 The server net-install has server defaults by default… so xfs filesystem is used, free space over 50g is not added to /home, but left as unpartitioned lvm space, etc.”
 ```
+<center>[From Fedora Forum](https://ask.Fedoraproject.org/t/Fedora-netinstall-or-everything/5703/6)</center>
+
 
 You should select the `Everything` variant and flash it.
 
@@ -19,9 +21,7 @@ You should select the `Everything` variant and flash it.
 $ sudo dd if=Fedora-everything.iso of=/dev/sdb status=progress && sync
 ```
 
-In the installation GUI, select the minimal installation probably with the additional NetworkManager submodule and then proceed to the end. Fedora has NetworkManager installed by default but it lacks `nmtui` command from `NetworkManager-tui` package. You might not be able to connect to the internet the first time, either connect to the ethernet or download WiFi firmware. Once you get the internet, I recommend you to install `NetworkManager-tui` immediately.
-
-Once you have an internet connection, the world is your oyster.
+In the installation GUI, select the minimal installation probably with the additional NetworkManager submodule and then proceed to the end. Fedora has NetworkManager installed by default but it lacks `nmtui` command from `NetworkManager-tui` package. You might not be able to connect to the internet the first time. If that is the case, either connect to the ethernet or download WiFi firmware. Once you have an internet connection, I recommend you to install `NetworkManager-tui` immediately.
 
 ## Detect Non-Free Software with vrms-rpm
 

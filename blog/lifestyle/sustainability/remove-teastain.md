@@ -2,7 +2,7 @@
 
 **Just Baking soda + Vinegar**
 
-I am a daily tea drinker and to nobody's surprise, my sink and my tea tasting set are full of tea stains. I was about to throw them away but luckily I found a good guide from [Mei Leaf](https://www.youtube.com/watch?v=nW3oMtdT8nU). Based on that guide, I simply do
+I am a daily tea drinker, and, to nobody's surprise, my sink and my tea tasting set are full of tea stains. I was about to throw them away but luckily I found a good guide from [Mei Leaf](https://www.youtube.com/watch?v=nW3oMtdT8nU). Based on that guide, I simply do
 
 ## Steps
 

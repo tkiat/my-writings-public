@@ -1,6 +1,6 @@
 # Libreboot: How Did I Liberate My Thinkpad X200
 
-Libreboot is a FOSS replacement for proprietary hardware initialization firmware like BIOS. It gets some code from coreboot, deblobs it and bundles it with GRUB, flashrom, and others. Being blob-free, it supports a very few devices, mostly old Thinkpad laptops.
+Libreboot is a FOSS replacement for proprietary hardware initialization firmware like BIOS. It gets some code from coreboot, then deblobs it and bundles it with GRUB, flashrom, and others. Being blob-free, it supports a very few devices, mostly old Thinkpad laptops.
 
 ## Why Libreboot?
 
@@ -18,9 +18,9 @@ You generally need an external flasher that connected directly to the BIOS chip 
 
 ## My Pre-Flashing Guide
 
-1. Find out if your laptop meets the requirements on the Libreboot website, some are model numbers, some are display types, etc. To determine your display manually using Linux, first, get the display property by typing `xrandr --props`, then save the value from EDID field to `<filename>`, then get the alphanumeric model number from `cat <filename> | edid-decode`. In my case it is LP121WX3-TLC1. Simple DuckDuckGo search shows that it utilizes TFT-LCD. Libreboot says LCD is compatible - voilà!
+1. Find out if your laptop meets the requirements on the Libreboot website. The requirements are model numbers, display types, etc. To determine your display manually using Linux, get the display property by typing `xrandr --props`, then save the value from EDID field to `<filename>`, finally get the alphanumeric model number from `cat <filename> | edid-decode`. In my case it is LP121WX3-TLC1. Simple DuckDuckGo search shows that it utilizes TFT-LCD. Libreboot says LCD is compatible - voilà!
 2. Update EC firmware. It handles tasks that OS is not responsible for such as battery handling. The easiest way is to use the Lenovo utility on Windows but you should make sure your computer has a secondary power source (battery or UPS) because if the power outage happens your laptop may not be booted again. There is currently no known way to update it from Libreboot.
-3. Order a free (as in freedom) wireless adapter. I had a USB adapter AR9271 at home but since USB ports in a laptop are very limited in number I might consider buying an internal adapter. If you are unsure about which model to buy I suggest that you take a look at a second-hand website, search for Libreboot offer for your model and look at the description.
+3. Order a free (as in freedom) wireless adapter. I had a USB adapter AR9271 at home but since USB ports in a laptop are very limited in number I might consider buying an internal adapter. If you are unsure about which model to buy, I suggest that you take a look at a second-hand website and then search for Libreboot offer for your model and look at the description.
 4. Order an external flashing device (if you need it). BeagleBone or Rasberry Pi is a better choice if you anyway want to do something else with it otherwise order just CH341A. Some CH341A has voltage mismatch (5 Volt instead of 3.3 Volt) so you might as well order a multimeter to check. I would recommend that you order two CH341A if you place an order from China due to long-distance shipping. Other options include Zerocat flashing but it is too expensive for me.
 5. Order SOIC IC test clip. Your BIOS on the motherboard might support SOIC8 or SOIC16 so order the one you need. Note that SOIC16 also supports SOIC8 if placed correctly. Wolfgang's Channel video recommends cutting the wire connecting to SOIC clip and replaces it with shorter jumper wires. In that case, you also need female to female jumper wires and probably soldering iron also because when you cut the wire the lead at the tip is still there and it might be too big for a jumper wire.
 

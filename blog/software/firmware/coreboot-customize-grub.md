@@ -10,7 +10,7 @@ People who find my laptop can then return the laptop to me correctly without con
 
 ## How to Do It?
 
-I am using Debian because the coreboot doc is based on that. You can fork GRUB repository and checkout at the same version as your coreboot config, in this case, 2.04.
+I am using Debian because the coreboot doc is based on that. You can fork GRUB repository and checkout at the same version as your coreboot config: 2.04 in my case.
 
 ```bash
 $ git clone git://git.savannah.gnu.org/grub.git grub

@@ -28,4 +28,4 @@ This can be compared to the most bottom section of Maslow's hierarchy of needs (
 
 ## The Ideal World
 
-The ideal world has both subscriptions with DRM and equivalent DRM-free products. This is simply because having two choices is better than having only one choice, given that users are well aware of all options. Some users may prefer to pay cheaper at the cost of some of their freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.
+The ideal world has both subscriptions with DRM and equivalent DRM-free products. This is simply because having two choices is better than having only one choice given that users are well aware of all options. Some users may prefer to pay cheaper at the cost of some of their freedoms and that is OK. It is all about the availability of good things, not the elimination of bad things.

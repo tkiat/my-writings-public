@@ -1,4 +1,6 @@
-# The Importance of Passphrase and Password Manager: Introduction to pass
+# The Importance of Passphrase and Password Manager: Introduction to pass and Bitwarden
+
+This article convinces you to use a password manager to manage your passwords.
 
 ## Why Passphrase and Password Manager?
 

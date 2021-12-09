@@ -1,6 +1,8 @@
 # Libreboot: How to Upgrade
 
-I upgraded my Libreboot to a new release: 20210522. Once installed, it is easy to upgrade Libreboot. Use this to test if your system is ready
+Once installed, it is easy to upgrade Libreboot. One day I saw the announcement of the new version, namely 20210522, so I decided to upgrade it.
+
+ Use this to test if your system is ready
 
 ```bash
 $ flashrom -p internal
@@ -8,7 +10,7 @@ $ flashrom -p internal
 
 ## If Not Yet Ready
 
-It should output something like this if your system is not ready.
+It should output something like this.
 
 ```
 flashrom v1.2 on Linux 5.10.0-7-amd64 (x86_64)
@@ -34,11 +36,11 @@ So you can try a non-invasive solution first. For a more invasive solution,
 1. Open this file `/etc/default/grub` in your favorite editor. This should apply to almost all Linux distributions.
 1. Change from something like GRUB_CMDLINE_LINUX_DEFAULT="quiet" to GRUB_CMDLINE_LINUX_DEFAULT="iomem=relaxed quiet"
 1. `sudo update grub && reboot`
-1. After reboot, you might check for `iomem=relaxed` in /proc/cmdline. This file shows kernel parameters on start.
+1. After reboot, `iomem=relaxed` should appear in /proc/cmdline. This file shows kernel parameters on start.
 
 ## If Ready
 
-Many tutorials recommend reading two times and checking their diff, so I do the same
+Many tutorials recommend reading two times and checking their diff so I do the same
 
 ```bash
 $ sudo flashrom -p internal:laptop=force_I_want_a_brick,boardmismatch=force -r dump1.bin -c "your chip name from step before"

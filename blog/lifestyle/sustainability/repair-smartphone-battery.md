@@ -1,6 +1,6 @@
 # On Modern Smartphone Battery Replacement: My Experience With iPhone 6 Plus and HTC One M7
 
-The leaner shape of modern-day smartphones comes at a cost: harder-to-replace batteries. The manufacturers have increasingly made their products harder to repair for whatever reason. Of course, they have the right to produce whatever they want but we should let users repair their products as well since they are the owners. I don't agree with restricting the repair to use only authorized parts because users should have basic freedom to choose any part for their phones.
+The leaner shape of modern-day smartphones comes at a cost: harder-to-replace batteries. The manufacturers have increasingly made their products harder to repair for whatever reason. Of course, they have the right to produce whatever they want but we should let users repair their products as well since they are the owners. I don't agree with restricting the repair to use only authorized parts because users should have the basic freedom to choose any part for their phones.
 
 Some including the [right-to-repair](https://www.repair.org/) movements discourage these restrictions. One way they can do this is by pushing the laws that forbid such restrictions. Another way is, for us consumers, to research the repairability before buying a product. iFixit is an excellent website full of guides on how to repair phones and [Smartphone Repairability Scores](https://www.ifixit.com/smartphone-repairability?sort=score) of each (popular) phone. I just realized its existence when my HTC battery got swollen in 2020.
 
@@ -16,7 +16,7 @@ I could go to the shop and let them repair it but that could cost more than 800 
 
 <center>Battery with Repair Kit</center>
 
-I follow this [guide](https://www.ifixit.com/Guide/HTC+One+Battery+Replacement/30984) on iFixit and after more than 1 hour it is fixed! So many tiny screws. The battery still functions perfectly after 8 months. Thanks! Shopee, and the seller.
+I follow this [guide](https://www.ifixit.com/Guide/HTC+One+Battery+Replacement/30984) on iFixit and after more than 1 hour it is fixed! So many tiny screws. The battery still functions perfectly after 8 months. Thanks! Shopee and the seller.
 
 ![HTC One M7 internal](https://raw.githubusercontent.com/tkiat/my-writings-public/main/blog-data/image/htc_m7-internal.jpg)
 
@@ -24,7 +24,7 @@ I follow this [guide](https://www.ifixit.com/Guide/HTC+One+Battery+Replacement/3
 
 ## iPhone 6 Plus
 
-My cousin wanted me to replace the battery for her 7-year old phone. The official repair was around 1600 THB while it cost only almost 300 THB including shipping if I do it myself so I suggested her the later. The battery itself was from China but it had good ratings so I ordered it. The model got the [repairability score](https://www.ifixit.com/Device/iPhone_6_Plus) of 7 from iFixit unlike HTC one (score 1) that I repaired before so I thought it would be much easier. Turned out, it was not the case.
+My cousin wanted me to replace the battery for her 7-year old phone. The official repair was around 1600 THB while it cost only almost 300 THB including shipping if I do it myself so I suggested her the later. The battery itself was from China but it had good ratings so I ordered it. The model got the [repairability score](https://www.ifixit.com/Device/iPhone_6_Plus) of 7 from iFixit unlike HTC one (score 1) that I repaired before so I thought it would be much easier. It turned out that was not the case.
 
 I followed this iFixit [guide](https://www.ifixit.com/Guide/iPhone+6+Plus+Battery+Replacement/29424). The (very cheap) tools came with the phone but I found my little screwdrivers more effective. The suction handle that came with the battery was good though.
 
