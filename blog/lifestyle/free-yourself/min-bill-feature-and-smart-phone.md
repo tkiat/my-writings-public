@@ -26,9 +26,9 @@ And so do you.
 
 My feature phones of choice are True Super Hero 4G Entertainment (black) and True Super Hero 4G Entertainment Plus (red). Owning these is an eye-opening experience for me for many reasons.
 
-- Both cost only 10 dollars each. Each even comes with an adapter, a USB cable, and an earphone! The quality of an earphone is not that bad!
+- Both cost only 10 dollars each, and each of them even comes with an adapter, a USB cable, and an earphone! The quality of an earphone is not that bad!
 - They are very repairable, a 5-year-old can easily remove the battery away and replace it.
-- They have back cameras, the plus model has a front camera as well. The quality is horrendous, but it just works. Just don't expect to backup any legal document with it.
+- They have back cameras; the Plus model has a front camera as well. The quality is horrendous, but it just works. Just don't expect to backup any legal document with it.
 - Both are capable of a 4G hotspot. The quality is good enough that I can play mobile games absolutely without lagging (most of the time).
 - The SIM card is tied to the True corporation (one of the top 3 largest service providers in Thailand). On the plus side, I am not worried too much about signal issues since it has a good infrastructure.
 
