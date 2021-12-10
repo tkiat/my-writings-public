@@ -1,8 +1,8 @@
 # An Effective and Easy Way To Remove Tea Stains
 
-**Just Baking soda + Vinegar**
+**TLDR: Just Baking soda + Vinegar**
 
-I am a daily tea drinker, and, to nobody's surprise, my sink and my tea tasting set are full of tea stains. I was about to throw them away but luckily I found a good guide from [Mei Leaf](https://www.youtube.com/watch?v=nW3oMtdT8nU). Based on that guide, I simply do
+I am a daily tea drinker, and, to nobody's surprise, my sink and my tea tasting set are full of tea stains — brown stain inside the cup. Tannin, a usually beneficial chemical compound, is the culprit here. I was about to throw them away but luckily I found a good guide from [Mei Leaf](https://www.youtube.com/watch?v=nW3oMtdT8nU). Based on that guide, I simply do
 
 ## Steps
 
