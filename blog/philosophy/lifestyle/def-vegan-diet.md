@@ -2,13 +2,12 @@
 
 This article first expresses my reasonings of why people shouldn't mistake vegan diets for animal-free diets. Finally, I am going to construct how the definition of reasonable vegan diets should look like.
 
-I write this article because I disagree with some vegan-related definitions, and I want to create my own.
-
 ## Something Doesn't Make Sense from the Ethical Perspective
 
 [The Vegan Society](https://www.vegansociety.com/go-vegan/definition-veganismhttps://www.vegansociety.com/go-vegan/definition-veganism) defines veganism as
 
-> Veganism is a philosophy and way of living which seeks to exclude—as far as is possible and practicable—all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose; and by extension, promotes the development and use of animal-free alternatives for the benefit of animals, humans and the environment. In dietary terms it denotes the practice of dispensing with all products derived wholly or partly from animals.
+> Veganism is a philosophy and way of living which seeks to **exclude**—as far as is possible and practicable—all forms of **exploitation** of, and cruelty to, animals for food, clothing or any other purpose; and by extension, **promotes** the development and use of **animal-free alternatives** for the benefit of animals, humans and the environment. In dietary terms it denotes the practice of dispensing with all products derived wholly or partly from animals.
+<center>I make some words bold</center>
 
 This definition, in an oversimplified term, suggests vegans should not support animal exploitation but promote animal-free alternatives. The `no-exploitation` part is obvious, and the word `promote` is quite a weak word since it doesn't explicitly state how much should be done. This makes the statement stay logical sound. However, all the vegan resources including [The Vegan Society](https://www.vegansociety.com/go-vegan/how-go-vegan) equate vegan diets as animal-free diets and I cannot agree with this.
 
