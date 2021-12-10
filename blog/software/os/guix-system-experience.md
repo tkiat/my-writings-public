@@ -4,13 +4,13 @@ Guix comes in two flavors: a standalone functional package manager and a full GN
 
 ## Prepare for the Installation
 
-I just followed the documentation which involved binary download, checksum verification, then flash to a USB stick. Guix System is a fully-free OS and it doesn't work with stock Intel WiFi. What I have is Atheros AR9271 WiFi USB adapter so I just plug it in and it works (Guix system by default has firmware for it). It's also worth mentioning that in the Guix documentation they mention how to create Guix Installation medium from minimal binary packages. Look at that chapter if you are interested.
+I just followed the documentation which involved binary download, checksum verification, then flash to a USB stick. Guix System is a fully-free OS and it doesn't work with stock Intel WiFi. What I have is Atheros AR9271 WiFi USB adapter so I just plug it in and it works (Guix system by default has firmware for it). It's also worth mentioning that in the Guix documentation they mention how to create Guix Installation medium from minimal binary packages for the sake of reproducibility.
 
 ## Installation - First Time
 
 My first attempt was using a graphical installation interface, but unfortunately it couldn't connect to WiFi even though the list of WiFi network devices was displayed correctly. A search on the web suggested that this is a bug so I resorted to manual installation only.
 
-Guix system has a different approach to install the system. Unlike many distros, Guix System uses only one configuration file written in Guile. This file contains everything from the filesystems, mapped devices, default packages, users, services, and many more. I was inexperienced so I simply copied the example configuration from the doc. `guix system init config.scm` had occasional network failure so I needed to rerun this command several times until everything was done. Later, I found that this was probably because of the loose AR9271 adapter.
+Guix system has a different approach to install the system. Unlike many distros, Guix System uses only one configuration file written in Guile. This file contains everything from the filesystems, mapped devices, default packages, users, services, and many more. I was inexperienced so I simply copied the example configuration from the doc.
 
 ## Installation - Second Time
 
