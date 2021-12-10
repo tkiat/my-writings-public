@@ -1,15 +1,15 @@
 # On the Proper Definition of a Vegan Diet
 
-This article first expresses my reasonings of why people shouldn't mistake vegan diets for animal-free diets. Finally, I am going to construct how the definition of reasonable vegan diets should look like.
+First, I am going to express reasonings of why people shouldn't mistake vegan diets for animal-free diets. Second, I am going to construct the definition of reasonable a vegan diet.
 
 ## Something Doesn't Make Sense from the Ethical Perspective
 
 [The Vegan Society](https://www.vegansociety.com/go-vegan/definition-veganismhttps://www.vegansociety.com/go-vegan/definition-veganism) defines veganism as
 
 > Veganism is a philosophy and way of living which seeks to **exclude**—as far as is possible and practicable—all forms of **exploitation** of, and cruelty to, animals for food, clothing or any other purpose; and by extension, **promotes** the development and use of **animal-free alternatives** for the benefit of animals, humans and the environment. In dietary terms it denotes the practice of dispensing with all products derived wholly or partly from animals.
-<center>I make some words bold</center>
+<center>Note: I make some words bold</center>
 
-This definition, in an oversimplified term, suggests vegans should not support animal exploitation but promote animal-free alternatives. The `no-exploitation` part is obvious, and the word `promote` is quite a weak word since it doesn't explicitly state how much should be done. This makes the statement stay logical sound. However, all the vegan resources including [The Vegan Society](https://www.vegansociety.com/go-vegan/how-go-vegan) equate vegan diets as animal-free diets and I cannot agree with this.
+This definition, in a slightly oversimplified term, suggests vegans should not support animal exploitation but promote animal-free alternatives. The `no-exploitation` part is obvious, and the word `promote` is quite a weak word since it doesn't explicitly state how much should be done. This makes the statement stay logical sound. However, all the vegan resources including [The Vegan Society](https://www.vegansociety.com/go-vegan/how-go-vegan) equate vegan diets as animal-free diets and I cannot agree with this.
 
 This is because excluding animal exploitation is not the same as not eating meat. Let's say a wild pig fell off the cliff to death because it was very windy. A person found that pig and shared the meat with his neighbors, saying he just saw it fall off the cliff. The meat is an animal product yet there is no animal exploitation from others here. The distribution of the meat shouldn't be considered as promoting animal exploitation as he explicitly says how he got it in the first place.
 
