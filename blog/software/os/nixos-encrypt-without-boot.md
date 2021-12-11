@@ -66,7 +66,7 @@ I came across an excellent [guide](https://ethulhu.co.uk/nixos) that you can app
 
     ```bash
     $ mkfs.ext4 -L root /dev/vg/root
-    $ mkswap -L swap /dev/vd/swap
+    $ mkswap -L swap /dev/vg/swap
     ```
 
 1. Mount everything
@@ -84,7 +84,7 @@ I came across an excellent [guide](https://ethulhu.co.uk/nixos) that you can app
     $ nixos-generate-config --root /mnt
     ```
 
-1. The UUIDs in `/mnt/etc/nixos/hardware-configuration.nix` should match your physical `/dev/sda1` and logical `/dev/vg/root` and `/dev/vg/swap`. Check those then specify UUID of `/dev/sda2` from this command `ls -l /dev/disk/by-uuid` in your `configuration.nix`
+1. The UUIDs in `/mnt/etc/nixos/hardware-configuration.nix` should match your physical `/dev/sda1` and logical `/dev/vg/root`, and `/dev/vg/swap`. Check those then specify UUID of `/dev/sda2` from this command `ls -l /dev/disk/by-uuid` in your `configuration.nix`
 
     ```nix
     boot.loader.grub.device = "/dev/sda";
