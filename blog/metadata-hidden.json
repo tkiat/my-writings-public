@@ -16,6 +16,16 @@
             "slug": "purescript-lift2-proof"
           }
         ]
+      },
+      {
+        "subcategory": "DevOps",
+        "children": [
+          {
+            "date": "2020-10-09",
+            "title": "Contribute to Open Source: My First Pull Request",
+            "slug": "my-first-pr"
+          }
+        ]
       }
     ]
   },
